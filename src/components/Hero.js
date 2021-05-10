@@ -1,7 +1,17 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import {Jumbotron, Container, Button, Col} from "react-bootstrap"
 function Hero() {
-    return (
+    function openTabGithub() {
+            window.open('https://github.com/Rey-commits');
+        }
+        function openTabLinkedIn() {
+            window.open('https://github.com/Rey-commits');
+        }
+        function openTabFacebook() {
+            window.open('https://github.com/Rey-commits');
+        }
+    return ( 
         <div>
             <Jumbotron fluid className="hero">
                 <Container className="hero-container">
@@ -12,9 +22,9 @@ function Hero() {
                         parent.
                     </p>
                     <Col>
-                        <a className="individual-button" href="https://github.com/Rey-commits"><Button variant="outline-light">Github</Button></a>
-                        <a className="individual-button" href="https://www.linkedin.com/in/reymondmesuga-421/"><Button variant="outline-light">LinkedIn</Button></a>
-                        <a className="individual-button" href="https://www.facebook.com/reymond.mesugah/"><Button variant="outline-light">Facebook</Button></a>                  
+                        <a className="individual-button" onClick={openTabGithub}><Button variant="outline-light">Github</Button></a>
+                        <a className="individual-button" onClick={openTabLinkedIn}><Button variant="outline-light">LinkedIn</Button></a>
+                        <a className="individual-button" onClick={openTabFacebook}><Button variant="outline-light">Facebook</Button></a>                  
                     </Col>
                 </Container>
             </Jumbotron>
