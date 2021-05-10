@@ -22,12 +22,12 @@ function Hero() {
                         parent.
                     </p>
                     <Col>
-                        <a className="individual-button" onClick={openTabGithub}><Button variant="outline-light">Github</Button></a>
+                        <a className="individual-button" onClick={openTabGithub}><Button variant="outline-light">GitHub</Button></a>
                         <a className="individual-button" onClick={openTabLinkedIn}><Button variant="outline-light">LinkedIn</Button></a>
                         <a className="individual-button" onClick={openTabFacebook}><Button variant="outline-light">Facebook</Button></a>                  
                     </Col>
                 </Container>
-            </Jumbotron>
+            </Jumbotron> 
         </div>
     )
 }
