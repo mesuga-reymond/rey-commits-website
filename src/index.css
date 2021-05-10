@@ -23,7 +23,7 @@
 
 /* CardList Component */
 .cardlist-container{
-  padding-top: 1.7rem;
+  padding: 1.7rem 0 2.3rem 0;
   justify-content: center;
   width: 100%;
 }
@@ -31,4 +31,10 @@
 /* IndividualCard Component */
 .individual-card{
   padding: 1.8rem 0;
+}
+
+/* Footer Component */
+.hero-footer{
+  background: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.371)), url('https://images.unsplash.com/flagged/photo-1553355150-aa46cd5ff57e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80') black center center scroll;
+  height: 310px;
 }
