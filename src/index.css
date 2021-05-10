@@ -1,5 +1,6 @@
+/* Hero/Header Component */
 .hero{
-  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.391)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.419)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
   height: 350px;
   object-fit: cover;
 }
@@ -8,6 +9,7 @@
   color: antiquewhite;
 }
 
+/* Navbar Component*/
 .navlinks{
   margin-left: auto;
   margin-right: 2rem;
@@ -15,3 +17,10 @@
 .navbar-brand{
   margin-left: 2rem;
 }
+
+/* CardList Component */
+.cardlist-container{
+  padding-top: 4rem;
+}
+
+
