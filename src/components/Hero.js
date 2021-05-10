@@ -5,7 +5,7 @@ function Hero() {
         <div>
             <Jumbotron fluid className="hero">
                 <Container className="hero-container">
-                    <h1>Data Analysis & Artificial Intelligence Collections</h1>
+                    <h1>Data Analysis & Artificial Intelligence Projects</h1>
                     <h4>by Reymond Mesuga</h4>
                     <p>
                         This is a modified jumbotron that occupies the entire horizontal space of its
