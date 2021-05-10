@@ -1,15 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from "./components/Navigation"
-import Demo from "./components/Demo"
 import Hero from './components/Hero';
+import CardsList from './components/CardsList';
 
 function App() {
     return (
         <div className="App">
             <Navigation />
             <Hero />
-            <Demo />
+            <CardsList />
             <h1>React</h1>
         </div>
     );
