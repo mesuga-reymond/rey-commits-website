@@ -21,6 +21,11 @@
 /* CardList Component */
 .cardlist-container{
   padding-top: 4rem;
+  justify-content: center;
+  width: 100%;
 }
 
-
+/* IndividualCard Component */
+.individual-card{
+  padding: 1.8rem 0;
+}
