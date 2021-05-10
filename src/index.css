@@ -1,12 +1,15 @@
 /* Hero/Header Component */
 .hero{
-  background: linear-gradient(rgba(0, 0, 0, 0.535), rgba(0, 0, 0, 0.419)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.583), rgba(0, 0, 0, 0.501)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
   height: 350px;
   object-fit: cover;
 }
 .hero-container{
   padding-top: 7rem;
   color: antiquewhite;
+}
+.individual-button{
+  padding: 0 0.4rem;
 }
 
 /* Navbar Component*/
@@ -20,7 +23,7 @@
 
 /* CardList Component */
 .cardlist-container{
-  padding-top: 4rem;
+  padding-top: 1.7rem;
   justify-content: center;
   width: 100%;
 }
