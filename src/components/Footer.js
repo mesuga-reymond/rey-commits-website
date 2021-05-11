@@ -1,17 +1,36 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Jumbotron, Container} from "react-bootstrap"
+import {Jumbotron, Container, Col} from "react-bootstrap"
 function Footer() {
+    function openTabGithub() {
+        window.open('https://github.com/Rey-commits');
+    }
+    function openTabLinkedIn() {
+        window.open('https://www.linkedin.com/in/reymondmesuga-421/');
+    }
+    function openTabFacebook() {
+        window.open('https://www.facebook.com/reymond.mesugah/');
+    }
     return (
         <div>
             <Jumbotron fluid className="hero-footer">
-                <Container className="hero-container">
-                    <h1>Data Analysis & Artificial Intelligence Projects</h1>
-                    <h4>by Reymond Mesuga</h4>
-                    <p>
-                        This is a modified jumbotron that occupies the entire horizontal space of its
-                        parent.
-                    </p>
-                    
+                <Container className="hero-container-footer">
+                    <p>Connect with me via:</p>
+                    <Col className="hero-buttons-column">
+                        <a onClick={openTabGithub} className="footer-social-links">
+                            
+                                <i class="fab fa-github-square social-icon"></i> GitHub
+                        </a>
+                        <a onClick={openTabLinkedIn} className="footer-social-links">
+                            
+                                <i class="fab fa-linkedin social-icon"></i> LinkedIn
+                        </a>
+                        <a onClick={openTabFacebook} className="footer-social-links">
+                            
+                                <i class="fab fa-facebook-square social-icon"></i> Facebook
+                        </a>
+                    </Col>
+                    <p className="copy-right" ><i class="fas fa-copyright"></i> Reymond Mesuga</p>
                 </Container>
             </Jumbotron>
         </div>
