@@ -18,7 +18,7 @@ function Hero() {
                     <h1>Data Analysis & Machine Learning Projects</h1>
                     <h4>by Reymond Mesuga</h4>
                     <p>
-                        A physics student, artificial intelligence and app development enthusiast.
+                        These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
                     </p>
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
