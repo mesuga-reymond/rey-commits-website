@@ -18,8 +18,7 @@ function Hero() {
                     <h1>Data Analysis & Machine Learning Projects</h1>
                     <h4>by Reymond Mesuga</h4>
                     <p>
-                        This is a modified jumbotron that occupies the entire horizontal space of its
-                        parent.
+                        A physics student, artificial intelligence and app development enthusiast.
                     </p>
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
