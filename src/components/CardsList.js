@@ -7,7 +7,7 @@ function CardsList() {
     
     return (
         <Container className="cardlist-container">
-            <Row md={2} sm={1} lg={3} >
+            <Row className="cardlist-row" md={2} sm={1} lg={3} >
             {studyData.map(study => (<IndividualCard title={study.title} info={study.info} img={study.img}/>))}
             </Row>            
         </Container>
