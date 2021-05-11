@@ -103,5 +103,17 @@
 /* Footer Component */
 .hero-footer{
   background: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.563)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80') black center center scroll;
-  height: 310px;
+  height: 360px;
+}
+.hero-container-footer{
+  padding: 7rem 0;
+  color: antiquewhite;
+}
+.copy-right{
+  padding-top: 1rem;
+}
+.footer-social-links{
+  padding: 0 1.1rem;
+  color: antiquewhite;
+  text-decoration: none;
 } 
