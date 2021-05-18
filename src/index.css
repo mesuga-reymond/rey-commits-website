@@ -182,7 +182,8 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 /* CarouselSlide */
 .carousel-body{
   height: 100%;
+  padding-bottom: 5rem;
 }
-/* .carousel-image{
- 
-} */
+.carousel-image{
+  filter: brightness(50%);
+}
