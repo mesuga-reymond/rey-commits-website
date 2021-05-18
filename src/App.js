@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import CardsList from './components/CardsList';
 import Footer from './components/Footer';
 import ContentTable from './components/ContentTable';
+import CarouselSlide from './components/CarouselSlide';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Hero />
             <ContentTable />
             <CardsList />
+            <CarouselSlide />
             <Footer />
         </div>
     );
