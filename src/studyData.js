@@ -19,25 +19,25 @@ export const studyData = [
       id: 3,
       title: "Covid-19 Chest X-Ray Image Classification Using Different CNN Architectures",
       img: "https://www.bronkhorst.com/getmedia/ee6c6ce7-8e23-47dd-8ef4-e7e00c23850b/BHT-COVID-19.png",
-      author: "Reymond Mesuga",
+      author: "Reymond R. Mesuga",
       info:
         "The goal of this project is to compare the accuracy of different state of the art models to predict the possible existence of Covid-19 using chest x-ray images."
     },
     {
       id: 4,
-      title: "Covid-19 Exploratory Data Analysis Using Python",
-      img: "https://news.stv.tv/wp-content/uploads/2020/05/GettyImages-1213578032.jpg",
-      author: "Reymond R. Mesuga",
-      info:
-        "This project is divided in two parts. First is about ranking analysis of countries and the second is about relationship between health indicators and total Covid-19 cases."
-    },
-    {
-      id: 5,
       title: "[Ongoing] Comparative Analysis on the Accuracy of Different CNN Architectures to Classify Glitches that Interupts the Gravitational Wave Detection in LIGO",
       img: "https://assets.weforum.org/article/image/large_eTaYzNWUEhMHG0CTdPe1y3WoahZDp-CUf40WxUh2EKk.jpg",
       author: "Reymond Mesuga and Brian James Bayanay",
       info:
         "This academic reseach aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits."
+    },
+    {
+      id: 5,
+      title: "Covid-19 Exploratory Data Analysis Using Python",
+      img: "https://news.stv.tv/wp-content/uploads/2020/05/GettyImages-1213578032.jpg",
+      author: "Reymond R. Mesuga",
+      info:
+        "This project is divided in two parts. First is about ranking analysis of countries and the second is about relationship between health indicators and total Covid-19 cases."
     },
     {
       id: 6,
