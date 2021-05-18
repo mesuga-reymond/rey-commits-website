@@ -16,7 +16,7 @@ function Hero() {
             <Jumbotron fluid className="hero">
                 <Container className="hero-container">
                     <h1>Data Analysis & Machine Learning Projects</h1>
-                    <h4>by Reymond Mesuga</h4>
+                    <h5>by Reymond Mesuga</h5>
                     <p>
                         These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
                     </p>
