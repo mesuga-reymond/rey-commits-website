@@ -1,28 +1,62 @@
 import React from 'react'
-import { Accordion, Card } from 'react-bootstrap'
+import {Accordion, Button, Card} from 'react-bootstrap'
+import {studyData} from "../studyData"
+
 function ContentTable() {
+    const [quotes,
+        setQuotes] = React.useState([]);
+    const [randomQuote,
+        setRandomQuote] = React.useState("")
+
+    React.useEffect(() => {
+        async function fetchData() {
+            const response = await fetch("https://type.fit/api/quotes")
+            const data = await response.json();
+
+            setQuotes(data);
+            let randIndex = Math.floor(Math.random() * data.length);
+            setRandomQuote(data[randIndex])
+        }
+        fetchData();
+    }, [])
+
+    const getNewQuote = () => {
+        let randIndex = Math.floor(Math.random() * quotes.length);
+        setRandomQuote(quotes[randIndex])
+    }
     return (
+
         <div>
             <Accordion className="content-table" defaultActiveKey="0">
+                <div>
+                    <Card>
+                        <Card.Header className="quote-header">Quotes</Card.Header>
+                        <Card.Body>
+                            <blockquote className="blockquote mb-0">
+                            <p className="card-text">&quot;{randomQuote.text}&quot;</p>
+                                <footer className="blockquote-footer">
+                                <h5 className="card-title">- {randomQuote.author  || "No author"}</h5>
+                                </footer>
+                            </blockquote>
+                            <Button onClick={getNewQuote} variant="outline-secondary">New Quote</Button>
+                        {/* <a href="" className="btn btn-warning" ></a>
+                        <a href=""></a> */}
+                        </Card.Body>
+                    </Card>
+                </div>
+                {/* <p className="instructions">Consider checking the list of content below to ease finding a project in your interest. Also, be patient while loading source code on GiHub because some of the files are large enough to load a few minutes.</p> */}
                 <Card>
                     <Accordion.Toggle className="content-toggle" as={Card.Header} eventKey="1">
-                        <h4>List of Contents</h4>
+                        <h5 className="content-header">List of Contents</h5>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className="content-table-body">
-                            
-                                <div className="content-item">1. Pneumonia Image Classification Using CNN</div>
-                                <hr/>
-                                <div className="content-item">2. Hotel Cancelation Prediction Using Simple Deep Learning Model</div>
-                                <hr/>
-                                <div className="content-item">3. Covid-19 Chest X-Ray Image Classification Using CNN</div>
-                                <hr/>
-                                <div className="content-item">4. Covid-19 Data Analysis Using Python</div>
-                                <hr/>
-                                <div className="content-item">5. [Ongoing] Comparison of Different Data Augmentation Techniques to Improve the Accuracy of CNN to Classify Glitches that Interupts the Gravitational Wave Detection</div>
-                                <hr/>
-                                <div className="content-item">6. [Ongoing] Investigation on the Effects of Image Quality Distortions on the Accuracy of CNN to Predict the Possible Existence of Covid-19 Using Chest X-ray Images</div>
-                            
+                            {studyData.map(study => (
+                                <div>
+                                    <div className="content-item">{study.id}. {study.title}</div>
+                                    <hr></hr>
+                                </div>
+                            ))}
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
