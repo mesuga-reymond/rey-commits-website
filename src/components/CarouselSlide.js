@@ -4,6 +4,7 @@ import {Carousel} from 'react-bootstrap'
 function CarouselSlide() {
     return (
         <div className="carousel-body">
+        <h3 className="header-text">Here is what i can bring to the table:</h3>
             <Carousel fade>
                 <Carousel.Item interval={5000}>
                     <img
@@ -33,7 +34,7 @@ function CarouselSlide() {
                         alt="Third slide"/>
                     <Carousel.Caption>
                         <h3>Wep App Development</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>I mainly use ReactJS and bootstrap as my main front-end framework to build web apps.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
