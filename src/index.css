@@ -108,8 +108,21 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 }
 
 /* ContentTable Component */
+.quote-header{
+  font-size: 1.3rem;
+}
+.instructions{
+  margin: 1.2rem;
+  padding: 2rem;
+  border: 1px solid ;
+}
+.content-header{
+  font-size: 1.3rem;
+  text-decoration: none;
+}
 .content-toggle:hover{
-  color: rgb(250, 75, 75);
+  color: brown;
+  cursor: pointer;
 }
 .content-table{
   margin-top: 2rem;
@@ -120,7 +133,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 }
 .content-item:hover{
   cursor: pointer;
-  color: rgb(248, 47, 47);
+  color: brown;
 }
 
 
@@ -165,3 +178,11 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
   padding: 0.7rem;
   cursor: pointer;
 } 
+
+/* CarouselSlide */
+.carousel-body{
+  height: 100%;
+}
+/* .carousel-image{
+ 
+} */
