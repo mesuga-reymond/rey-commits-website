@@ -108,6 +108,15 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 }
 
 /* ContentTable Component */
+.quote-card{
+  padding-top: 2rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.click-sign{
+  font-size: 0.7rem;
+}
 .quote-header{
   font-size: 1.3rem;
 }
