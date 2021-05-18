@@ -6,12 +6,14 @@ import CardsList from './components/CardsList';
 import Footer from './components/Footer';
 import ContentTable from './components/ContentTable';
 import CarouselSlide from './components/CarouselSlide';
+import RandomQuotes from './components/RandomQuotes';
 
 function App() {
     return (
         <div className="App">
             <Navigation />
             <Hero />
+            <RandomQuotes />
             <ContentTable />
             <CardsList />
             <CarouselSlide />
