@@ -17,11 +17,11 @@ export const studyData = [
     },
     {
       id: 3,
-      title: "Covid-19 Chest X-Ray Image Classification Using CNN",
+      title: "Covid-19 Chest X-Ray Image Classification Using Different CNN Architectures",
       img: "https://www.bronkhorst.com/getmedia/ee6c6ce7-8e23-47dd-8ef4-e7e00c23850b/BHT-COVID-19.png",
       author: "Reymond Mesuga",
       info:
-        "Kalanggaman Island one of the famous tourist spots in Leyte and it is being tagged as the most beautiful island in the province and in the entire Philippines. The long stretch of powdery white sandbars on both ends of the island is one of its amazing feature."
+        "The goal of this project is to compare the accuracy of different state of the art models to predict the possible existence of Covid-19 using chest x-ray images."
     },
     {
       id: 4,
