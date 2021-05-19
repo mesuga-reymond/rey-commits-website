@@ -18,7 +18,7 @@ function ContentTable() {
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className="content-table-body">
                             {studyData.map(study => (
-                                <div>
+                                <div key={study.id}>
                                     <div className="content-item">{study.id}. {study.title}</div>
                                     <hr></hr>
                                 </div>
