@@ -4,7 +4,7 @@ import {Carousel} from 'react-bootstrap'
 function CarouselSlide() {
     return (
         <div className="carousel-body">
-        <h3 className="header-text">Here is what i can bring to the table:</h3>
+        {/* <h3 className="header-text">Here is what i can bring to the table:</h3> */}
             <Carousel fade>
                 <Carousel.Item interval={5000}>
                     <img
