@@ -1,4 +1,4 @@
-export const studyData = [
+export const studyData = [ 
     {
       id: 1,
       title: "Pneumonia Image Classification Using CNN with ResNet9 Architecture",
@@ -11,7 +11,7 @@ export const studyData = [
     },
     {
       id: 2,
-      title: "Hotel Cancelation Prediction Using Simple Deep Learning Model in Keras",
+      title: "Hotel Cancellation Prediction Using Simple Deep Learning Model in Keras",
       img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/3a/4e/2c/exterior.jpg?w=900&h=-1&s=1",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
