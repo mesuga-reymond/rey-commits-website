@@ -36,8 +36,6 @@ function RandomQuotes() {
                                 </footer>
                             </blockquote>
                             <Button onClick={getNewQuote} variant="light">New Quote</Button>
-                        {/* <a href="" className="btn btn-warning" ></a>
-                        <a href=""></a> */}
                         </Card.Body>
                     </Card>
                 </div>
