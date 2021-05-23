@@ -1,36 +1,113 @@
 /* Hero/Header Component */
-.hero{
-  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.507)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
-  height: 350px;
-  object-fit: cover;
+body {
+  text-align: center;
 }
-.hero-container{
+
+@media only screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.507)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero-container {
   margin-top: 50px;
   padding-top: 7rem;
   color: antiquewhite;
+  width: 100%;
 }
-.individual-button{
+
+.individual-button {
   margin: 0 0.3rem;
   padding: 0.5rem;
 }
-.social-icon{
+
+.social-icon {
   font-size: 1.2rem;
 }
 
+.hero-container-AI {
+  margin-top: 50px;
+  padding-top: 7rem;
+  color: antiquewhite;
+  width: 100%;
+}
+
+.hero-container-applist {
+  margin-top: 50px;
+  padding-top: 7rem;
+  color: antiquewhite;
+  width: 100%;
+}
+
+/* small screens */
+/* @media only screen and (max-width: 700px) {
+  .hero-container-AI{
+    margin-top: 40px;
+    padding-top: 2rem;
+    color: antiquewhite;
+    width: 100%;
+  }
+} */
+
+@media only screen and (max-width: 400px) {
+  .hero-container-AI {
+    padding-top: 10rem;
+    padding-right: 0rem;
+    padding-bottom: 5px;
+    font-size: 1.2;
+  }
+
+  .hero-container-applist {
+    margin-top: 15px;
+    padding-top: 3.5rem;
+    color: antiquewhite;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-container-AI {
+    padding-top: 50px;
+    padding-right: 0rem;
+  }
+
+  .hero-container-applist {
+    margin-top: 20px;
+    padding-top: 6rem;
+    color: antiquewhite;
+    width: 100%;
+  }
+}
+
+/* medium screen/ipad size alike */
+/* @media only screen and (max-width: 800px) {
+  .hero-container-AI{
+    margin-top: 50px;
+    padding-top: 4rem;
+    color: antiquewhite;
+    width: 100%;
+  }
+} */
 /* iphone 5 */
 /* Only iPhone 5 (portrait mode) */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait)
-{
-   .hero{
-     height: 600px;
-   }
-   .hero-container{
-     margin-top: 2rem;
-     padding-top: 2rem;
-     font-size: small;
-   }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  .hero {
+    height: 600px;
+  }
+
+  .hero-container {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-size: small;
+  }
 }
 
 /* @media only screen 
@@ -64,208 +141,335 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
   }
 } */
 /* iphone X */
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
-      .hero-container{
-        padding-top: 4rem;
-      }
-    }
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  .hero-container {
+    padding-top: 4rem;
+  }
+}
+
 /* iphone 6/7/8 plus */
- @media only screen 
-    and (max-width : 414px) 
-    and (max-height : 736px){
-      .hero-container{
-        padding-top: 3.8rem;
-      } 
-      .hero{
-        height: 350px;
-      }
-      .individual-button{
-        margin: 0.1rem 0.2rem;
-      }
-    }
+@media only screen and (max-width : 414px) and (max-height : 736px) {
+  .hero-container {
+    padding-top: 3.8rem;
+  }
+
+  .hero {
+    height: 350px;
+  }
+
+  .individual-button {
+    margin: 0.1rem 0.2rem;
+  }
+}
 
 /* Galaxy note 3 */
-@media only screen 
-   and (max-width : 360px) 
-   and (max-height : 640px) {
-   .hero{
-     height: 380px;
-   }
-   .individual-button{
+@media only screen and (max-width : 360px) and (max-height : 640px) {
+  .hero {
+    height: 380px;
+  }
+
+  .individual-button {
     margin: 0.2rem 0.2rem;
   }
 }
+
 /* Navbar Component*/
-.navlinks{
-  margin-left: auto;
-  margin-right: 2rem;
+/* .navbar-toggle{
+  margin-right: rem;
+} */
+.navbar-copyright {
+  font-size: 0.5rem;
+  position: relative;
+  bottom: 0.6rem;
 }
-.navbar-brand{
-  margin-left: 2rem;
+
+.navlinks {
+  margin-left: auto;
+  margin-right: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  font-family: 'Pattaya', sans-serif;
+}
+
+.navlink-item {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .navlink-item {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+    /* margin-right: auto;
+    margin-left: 2rem; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navlink-item {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+  }
+}
+
+/* NavTab Component */
+.navtab-container {
+  margin-top: 1.3rem;
+}
+
+.nav-tab-link {
+  color: rgba(0, 0, 0, 0.782);
+  font-family: 'Raleway', sans-serif;
 }
 
 /* RandomQuotes */
-.quote-card-body{
-  background-image: linear-gradient(rgba(59, 59, 59, 0.96), rgba(65, 64, 64, 0.289)),url("https://www.adaptt.org/images/headers/authors-640x400.jpg");
+.quote-card-body {
+  background-image: linear-gradient(rgba(59, 59, 59, 0.96), rgba(65, 64, 64, 0.289)), url("https://www.adaptt.org/images/headers/authors-640x400.jpg");
 }
-.quote-card{
+
+.quote-card {
   padding-top: 2rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Raleway', sans-serif;
 }
-.quote-card-text{
+
+.quote-card-text {
   color: white;
 }
-.quote-card-title{
+
+.quote-card-title {
   color: white;
 }
+
 /* ContentTable Component */
 
-.click-sign{
+.click-sign {
   font-size: 0.7rem;
 }
-.quote-header{
+
+.quote-header {
   font-size: 1.3rem;
 }
 
-.content-header{
+.content-header {
   font-size: 1.3rem;
   text-decoration: none;
 }
-.content-toggle:hover{
-  color: brown;
+
+.content-toggle:hover {
   cursor: pointer;
 }
-.content-table{
+
+.content-table {
   margin-top: 2rem;
+  font-family: 'Raleway', sans-serif;
 }
-.content-item{
+
+.content-table:hover {
+  box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.082), 0 6px 20px 0 rgba(56, 56, 56, 0.097);
+}
+
+.content-item {
   list-style-type: none;
   margin-right: auto;
 }
-.content-item:hover{
+
+.content-item:hover {
   cursor: pointer;
   color: brown;
+}
+
+.content-table-Link-tag {
+  text-decoration: none;
+  color: rgb(22, 22, 22);
 }
 
 
 /* CardList Component */
-.cardlist-container{
+.cardlist-container {
   padding: 0rem 0 2.3rem 0;
   justify-content: center;
   width: 100%;
+  font-family: 'Raleway', sans-serif;
 }
-.cardlist-row{
+
+.cardlist-row {
   width: 100%;
   padding-left: 1.7rem;
 }
 
 /* IndividualCard Component */
-.individual-card{
-  padding: 1.8rem 1.2rem;
+.individual-card {
+  margin: 1.8rem 1.2rem;
+}
+
+.book-under-line {
+  padding: 0 3rem;
 }
 
 /* .modal-footer{
   margin-right: auto;
 } */
 /* Footer Component */
-.hero-footer{
+.hero-footer {
   background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.474)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80') black center center scroll;
   height: 100%;
 }
-.hero-container-footer{
+
+.hero-container-footer {
   padding: 3rem 0;
   color: antiquewhite;
   height: 100%;
 }
-.copy-right{
+
+.copy-right {
   padding-top: 1rem;
 }
-.footer-social-links{
-  padding: 0 1.1rem;
+
+.footer-social-links {
+  padding: 0 0.5rem;
   color: antiquewhite;
   text-decoration: none;
 }
-.footer-social-links:hover{
+
+.footer-social-links:hover {
   color: antiquewhite;
   border: 1px solid;
   border-radius: 6px;
   padding: 0.7rem;
   cursor: pointer;
-} 
+}
 
 /* CarouselSlide */
-.carousel-body{
+.carousel-body {
   height: 100%;
   padding-bottom: 5rem;
 }
-.carousel-image{
+
+.carousel-image {
   filter: brightness(50%);
 }
-.header-text{
+
+.header-text {
   padding-bottom: 1rem;
 }
 
 /* ABOUT */
-.about-container{
-  padding: 0.2rem 0 4rem 0;
+.about-container {
+  padding: 2.4rem 0 4rem 0;
+  font-family: 'Raleway', sans-serif;
 
 }
-.profile-image{
+
+.profile-image {
   padding: 4rem 0 1.5rem 0;
   margin-left: auto;
   margin-right: auto;
 }
-.about-info{
-  padding-top: 1rem;
+
+.profile-info {
+  margin: 0 1.8rem;
+  font-weight: normal;
+  font-size: 1rem;
 }
+
+.about-info {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.about-me-line {
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* large screen */
 @media only screen and (max-width: 4000px) {
   .profile-image {
     width: 20%;
   }
-  .about-info{
+
+  .about-info {
     margin: 0 12rem;
   }
 }
+
 /* medium screens/ipad-pro alike*/
 @media only screen and (max-width: 1024px) {
   .profile-image {
     width: 40%;
   }
-  .about-info{
+
+  .about-info {
     margin: 0 10rem;
     font-size: 25px;
   }
 }
+
 /* medium screen/ipad size alike */
 @media only screen and (max-width: 800px) {
   .profile-image {
     width: 40%;
   }
-  .about-info{
+
+  .about-info {
     margin: 0 5rem;
     font-size: 1.4rem;
   }
 }
+
 /* small screens */
 @media only screen and (max-width: 700px) {
   .profile-image {
     width: 50%;
   }
-  .about-info{
-    margin: 0;
+
+  .about-info {
+    margin: 0 1rem;
     font-size: inherit;
   }
 }
 
-/* Breadcrumb */
-.breadcrumb-container{
-  padding-top: 1rem;
-  font-size: 1.3rem;
+/* BookList */
+.booklist-container {
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
 }
 
+.media-books {
+  padding: 2rem 0 0 0;
+}
+
+.book-button {
+  margin: 1rem 0;
+}
+
+.booklist-intro {
+  padding: 2rem 0;
+}
+
+.booklist-underline {
+  margin: 0 4rem;
+}
+
+/* App list */
+
+.individual-app {
+  margin: 0 auto;
+}
+
+.app-list-container {
+  padding: 4rem 2rem;
+}
+
+.individual-app-div {
+  padding: 2rem 0;
+}
