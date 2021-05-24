@@ -1,20 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Jumbotron, Container, Button, Col} from "react-bootstrap"
+import {Jumbotron, Button, Col} from "react-bootstrap"
 function Hero() {
     function openTabGithub() {
         window.open('https://github.com/Rey-commits');
     }
     function openTabLinkedIn() {
-        window.open('https://www.linkedin.com/in/reymondmesuga-421/');
+        window.open('https://www.linkedin.com/in/reymondmesuga-421/'); 
     }
     function openTabFacebook() {
         window.open('https://www.facebook.com/reymond.mesugah/');
     }
     return (
         <div>
-            <Jumbotron fluid className="hero">
-                <Container className="hero-container">
+            <Jumbotron fluid className="hero"> 
+                <div className="hero-container-AI">
                     <h1>Data Analysis & Machine Learning Projects</h1>
                     <h5>by Reymond Mesuga</h5>
                     <p>
@@ -31,7 +31,7 @@ function Hero() {
                             <Button className="individual-button" variant="outline-light"><i class="fab fa-facebook-square social-icon"></i> Facebook</Button>
                         </a>
                     </Col>
-                </Container>
+                </div>
             </Jumbotron>
         </div>
     )
