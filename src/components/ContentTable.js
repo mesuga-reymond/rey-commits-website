@@ -1,12 +1,13 @@
 import React from 'react'
-import {Accordion, Card} from 'react-bootstrap'
+import {Accordion, Card, Container} from 'react-bootstrap'
+import { HashLink as Link } from 'react-router-hash-link';
 import {studyData} from "../studyData"
 
 function ContentTable() {
     
     return (
 
-        <div>
+        <Container>
                 
             <Accordion className="content-table" defaultActiveKey="0">
                 
@@ -18,8 +19,10 @@ function ContentTable() {
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className="content-table-body">
                             {studyData.map(study => (
-                                <div key={study.id}>
-                                    <div className="content-item">{study.id}. {study.title}</div>
+                                <div>
+                                    <Link className="content-table-Link-tag" to={`#${study.id}`}>
+                                        <div key={study.id} className="content-item">{study.id}. {study.title}</div>
+                                    </Link>
                                     <hr></hr>
                                 </div>
                             ))}
@@ -27,7 +30,7 @@ function ContentTable() {
                     </Accordion.Collapse>
                 </Card>
             </Accordion>
-        </div>
+        </Container>
     )
 }
 
