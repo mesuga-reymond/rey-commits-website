@@ -24,7 +24,7 @@ function IndividualBook({
     return (
         <div>
 
-            <Container className="media-books">
+            <Container fluid className="media-books">
             {/* <hr/> */}
                 <Row >
                     <Col xs={12} md={4} lg={4}>
