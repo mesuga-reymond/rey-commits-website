@@ -13,11 +13,17 @@ function Navigation() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="navlinks">
                         <LinkContainer to="/">
-                            <Nav.Link className="navlink-item">Projects</Nav.Link>
+                            <Nav.Link className="navlink-item">Machine Learning</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/app-projects">
+                            <Nav.Link className="navlink-item">Web Apps</Nav.Link> 
+                        </LinkContainer>
+                        <LinkContainer to="/books">
+                            <Nav.Link className="navlink-item">Library</Nav.Link> 
                         </LinkContainer>
                         <LinkContainer to="/about">
-                            <Nav.Link className="navlink-item">About</Nav.Link> 
-                        </LinkContainer>
+                            <Nav.Link className="navlink-item">About</Nav.Link>
+                        </LinkContainer>  
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
