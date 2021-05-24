@@ -2,6 +2,7 @@
 import React from 'react'
 import { Button, Col, Container, Jumbotron } from 'react-bootstrap';
 
+
 function HeroAbout() {
     function openTabGithub() {
         window.open('https://github.com/Rey-commits');
@@ -14,10 +15,10 @@ function HeroAbout() {
     }
     return (
         <div>
-            <Jumbotron fluid className="hero"> 
-                <Container className="hero-container">
+            <Jumbotron fluid className="hero">
+                <Container fluid className="hero-container">
                     <h1>About me & this website</h1>
-                    <h5>by Reymond R. Mesuga</h5>
+                    <h5>by Reymond Mesuga</h5>
                     <p>
                         These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
                     </p>
