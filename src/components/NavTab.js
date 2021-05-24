@@ -9,7 +9,7 @@ function NavTab() {
             <Nav variant="tabs" defaultActiveKey="/">
                 <Nav.Item>
                     <LinkContainer to="/">
-                        <Nav.Link eventKey="link-1"><span className="nav-tab-link">DA & AI Projects</span></Nav.Link>
+                        <Nav.Link eventKey="link-1"><span className="nav-tab-link">DA & ML Projects</span></Nav.Link>
                     </LinkContainer>
                 </Nav.Item>
                 <Nav.Item>
@@ -19,7 +19,7 @@ function NavTab() {
                 </Nav.Item>
                 <Nav.Item>
                     <LinkContainer to="/books">
-                        <Nav.Link eventKey="link-3"><span className="nav-tab-link">Books & Notes Library</span></Nav.Link>
+                        <Nav.Link eventKey="link-3"><span className="nav-tab-link">Books & Notes Library</span></Nav.Link> 
                     </LinkContainer>
                 </Nav.Item>
                 <Nav.Item>
