@@ -8,7 +8,7 @@ function IndividualCard({title, info, img, author, type, modalImage, topics}) {
     //     backgroundImage: img
     // }
     return (
-        <div className="individual-card">
+        <div className="individual-card"> 
             <Card md={3} style={{
                 width: '100%'
             }}>
@@ -23,6 +23,7 @@ function IndividualCard({title, info, img, author, type, modalImage, topics}) {
                     </Card.Text>
                     <Button onClick={() => setLgShow(true)} variant="dark">Read more</Button>
                     <Modal
+                        className="card-study-modal"
                         size="lg"
                         show={lgShow}
                         onHide={() => setLgShow(false)}
@@ -36,7 +37,7 @@ function IndividualCard({title, info, img, author, type, modalImage, topics}) {
                             <Jumbotron fluid>
                                 <Container style={{backgroundImage: `url(${modalImage})`}}>
                                     <div className="modal-jumbotron">
-                                    <h2>{title}</h2>
+                                    <h4>{title}</h4>
                                     <div><i>by {author}</i></div>
                                     </div>
                                     <hr></hr>
