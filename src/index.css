@@ -2,6 +2,9 @@
 body {
   text-align: center;
 }
+.website-title{
+  font-family: 'Pattaya', sans-serif;
+}
 
 @media only screen and (max-width: 400px) {
   body {
@@ -195,7 +198,7 @@ body {
 }
 
 .navlink-item {
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
   font-family: 'Raleway', sans-serif;
 }
 
@@ -312,6 +315,9 @@ body {
   padding: 0 3rem;
 }
 
+.card-study-modal{
+  font-family: 'Raleway', sans-serif;
+}
 /* .modal-footer{
   margin-right: auto;
 } */
