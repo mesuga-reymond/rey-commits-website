@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Jumbotron, Container, Button, Col} from "react-bootstrap"
+import {Jumbotron, Button, Col} from "react-bootstrap"
+
 
 function HeroAppList() {
     function openTabGithub() {
-        window.open('https://github.com/Rey-commits');
+        window.open('https://github.com/Rey-commits'); 
     }
     function openTabLinkedIn() {
         window.open('https://www.linkedin.com/in/reymondmesuga-421/'); 
@@ -13,11 +14,11 @@ function HeroAppList() {
         window.open('https://www.facebook.com/reymond.mesugah/');
     }
     return (
-        <div>
+        <div fluid>
             <Jumbotron fluid className="hero"> 
-                <Container className="hero-container">
+                <div fluid className="hero-container-applist">
                     <h1>Front-End Web Application Projects</h1>
-                    <h5>by Reymond R. Mesuga</h5>
+                    <h5>by Reymond Mesuga</h5>
                     <p>
                         These are the collections of projects in web development that i have done so far.
                     </p>
@@ -32,7 +33,7 @@ function HeroAppList() {
                             <Button className="individual-button" variant="outline-light"><i class="fab fa-facebook-square social-icon"></i> Facebook</Button>
                         </a>
                     </Col>
-                </Container>
+                </div>
             </Jumbotron>
         </div>
     )
