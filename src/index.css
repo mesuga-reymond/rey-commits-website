@@ -13,7 +13,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.507)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') black center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.507)), url('./images-src/hero-image.jpeg') black center center scroll;
   height: 400px;
   object-fit: cover;
   width: 100%;
@@ -230,7 +230,7 @@ body {
 
 /* RandomQuotes */
 .quote-card-body {
-  background-image: linear-gradient(rgba(59, 59, 59, 0.96), rgba(65, 64, 64, 0.289)), url("https://www.adaptt.org/images/headers/authors-640x400.jpg");
+  background-image: linear-gradient(rgba(59, 59, 59, 0.96), rgba(65, 64, 64, 0.289)), url("./images-src/famous-people.jpg");
 }
 
 .quote-card {
@@ -323,7 +323,7 @@ body {
 } */
 /* Footer Component */
 .hero-footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.474)), url('https://images.unsplash.com/photo-1555448225-75fa341981f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80') black center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.474)), url('./images-src/hero-image.jpeg') black center center scroll;
   height: 100%;
 }
 
