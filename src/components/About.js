@@ -21,7 +21,7 @@ function About() {
                 </Breadcrumb>
                 </Container> */}
 
-                    <Container className="about-container">
+                    <Container className="about-container"> 
                         <h1>About Me</h1>
                         <div className="about-me-line">
                             <hr></hr>
@@ -43,8 +43,8 @@ function About() {
                                         artificial intelligence. When it comes to app development, i use javascript 
                                         as my main languange and especially its framework called React JS. 
                                         In fact, i made this website using React JS and work on it for almost 
-                                        3 days before it looks decent. For more info, follow me on GitHub 
-                                        or connect with me via LinkedIn.
+                                        three days before it looks decent and still working on the improvement at the moment. 
+                                        For more info, follow me on GitHub or connect with me via LinkedIn.
                                         </i></p>
                         </Card.Text>
                 </Container>
