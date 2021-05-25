@@ -1,26 +1,27 @@
 import React from 'react'
-import {Container, Row } from 'react-bootstrap'
+import {Container, Row} from 'react-bootstrap'
 import {webAppData} from '../webAppData'
-import IndividualVideo from './IndividualVideo'
+import IndividualProject from './IndividualProject'
 function AppProjectList() {
     return (
-        <div>
-            <Container className="video-palylist-container">
-                <Row md={3} sm={1} xl={3} lg={3}>
+
+        <Container fluid className="app-list-container">
+            <div className="app-list-div">
+                <Row className="applist-row" md={2} sm={1} xl={3}>
                     {webAppData.map(video => (
                         <div>
-                            <IndividualVideo 
+                            <IndividualProject
                                 title={video.title}
                                 thumbnail={video.thumbnail}
                                 vlogger={video.vlogger}
                                 topics={video.topics}
-                                info={video.info}
-                            />
+                                info={video.info}/>
                         </div>
                     ))}
                 </Row>
-            </Container>
-        </div>
+            </div>
+        </Container>
+
     )
 }
 
