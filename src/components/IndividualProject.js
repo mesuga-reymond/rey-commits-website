@@ -15,7 +15,7 @@ function IndividualVideo({title, vlogger, thumbnail, info}) {
                     <Card.Body>
                         <Card.Title>{title}</Card.Title> 
                         <p>
-                            <i>by {vlogger}</i>
+                            {/* <i>by {vlogger}</i> */}
                         </p>
                         <Card.Text>
                             {info}
