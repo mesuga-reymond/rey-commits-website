@@ -10,19 +10,35 @@ import ContentTable from './components/ContentTable';
 import CarouselSlide from './components/CarouselSlide';
 import About from './components/About';
 import MainBody from './MainScreens/MainBody';
+import ScrollButton from './components/ScrollButton';
+import NavTab from './components/NavTab';
+import BooksList from './components/BooksList';
+import HeroAbout from './components/HeroAbout';
+import HeroBookLibrary from './components/HeroBookLibrary';
+import AppProjectList from './components/AppProjectList';
+import HeroAppList from './components/HeroAppList';
 
 function App() {
     return (
         <div className="App">
         <Router>
-            <Navigation />
-            <Hero />
-            
-                <Switch>
+        <Navigation />
+            <Switch>
+                <Route exact path="/" component={Hero} />
+                <Route path="/about" component={HeroAbout} />
+                <Route path="/books" component={HeroBookLibrary} />
+                <Route path="/app-projects" component={HeroAppList} />
+            </Switch> 
+            {/* <Hero /> */}
+            <NavTab />
+            <Switch>
                 <Route exact path="/" component={MainBody} />
                 <Route path='/about' component={About} />
-                </Switch>
-            <CarouselSlide />
+                <Route path='/books' component={BooksList} />
+                <Route path="/app-projects" component={AppProjectList} />
+            </Switch>
+            <ScrollButton />
+            {/* <CarouselSlide /> */}
             <Footer />
             {/* <RandomQuotes />
             <ContentTable />
