@@ -6,7 +6,7 @@ function NavTab() {
     return (
         <div className="navtab-container">
             <Container fluid>
-            <Nav variant="tabs" defaultActiveKey="/">
+            <Nav className="justify-content-center" variant="tabs" defaultActiveKey="/">
                 <Nav.Item>
                     <LinkContainer to="/">
                         <Nav.Link eventKey="link-1"><span className="nav-tab-link">DA & ML Projects</span></Nav.Link>
