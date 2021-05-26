@@ -18,7 +18,7 @@ function CarouselSlide() {
                             datasets</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={5000}>
+                <Carousel.Item interval={5000}> 
                     <img
                         className="carousel-image"
                         src="https://threatwarrior.com/wp-content/uploads/2019/01/tw-press-neural-1024x288.png"
