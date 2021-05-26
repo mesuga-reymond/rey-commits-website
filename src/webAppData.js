@@ -1,7 +1,7 @@
 export const webAppData = [
     {
         id: '1',
-        title: "JavaScript Documentation",
+        title: "JavaScript Documentation using Vanilla JavaScript",
         thumbnail: "https://marquesfernandes.com/wp-content/uploads/2020/01/1555172.jpg",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
@@ -9,7 +9,7 @@ export const webAppData = [
     },
     {
         id: "2",
-        title: "Random Quote Machine",
+        title: "Random Quote Machine using React JS",
         thumbnail: "./images/quote-machine.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
@@ -17,7 +17,7 @@ export const webAppData = [
     },
     {
         id: "3",
-        title: "Keeper App",
+        title: "Keeper App using React JS",
         thumbnail: "./images/keeper-app.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
@@ -25,7 +25,7 @@ export const webAppData = [
     },
     {
         id: "4",
-        title: "Old Porfolio Website",
+        title: "Former Porfolio Website Using Bootstrap",
         thumbnail: "./images/old-portfolio.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
@@ -33,7 +33,7 @@ export const webAppData = [
     },
     {
         id: "5",
-        title: "JavaScript Calculator",
+        title: "JavaScript Calculator Using React JS",
         thumbnail: "./images/javascript-calculator.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
@@ -41,7 +41,7 @@ export const webAppData = [
     },
     {
         id: "6",
-        title: "New Portfolio Website",
+        title: "New Portfolio Website Using React JS",
         thumbnail: "./images/new-portfolio.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
