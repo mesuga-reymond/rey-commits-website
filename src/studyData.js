@@ -2,7 +2,7 @@ export const studyData = [
     {
       id: 1,
       title: "Pneumonia Image Classification Using CNN with ResNet9 Architecture",
-      img: "./studyImages/pneumonia.svgz",
+      img: "./studyImages/pneumonia-xray.jpeg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
       topics: "Deep Learning, CNN, ResNet9, Pneumonia",
@@ -21,7 +21,7 @@ export const studyData = [
     },
     {
       id: 3,
-      title: "Covid-19 Chest X-Ray Image Classification Using Transfer Learning Model with ResNet50 Architecture",
+      title: "Covid-19 Chest X-Ray Image Classification Using Transfer Learning Model with ResNet50 Base Architecture",
       img: "./studyImages/covid-19.jpg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
