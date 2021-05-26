@@ -1,26 +1,34 @@
 import React from 'react'
 import {Container, Row} from 'react-bootstrap'
 import {webAppData} from '../webAppData'
+import AppContentTable from './AppContentTable'
 import IndividualProject from './IndividualProject'
+import RandomQuotes from './RandomQuotes'
 function AppProjectList() {
     return (
-
-        <Container fluid className="app-list-container">
-            <div className="app-list-div">
-                <Row className="applist-row" md={2} sm={1} xl={3}>
-                    {webAppData.map(video => (
-                        <div>
-                            <IndividualProject
-                                title={video.title}
-                                thumbnail={video.thumbnail}
-                                vlogger={video.vlogger}
-                                topics={video.topics}
-                                info={video.info}/>
-                        </div>
-                    ))}
-                </Row>
+        <div>
+        <RandomQuotes />
+            <Container>
+                <AppContentTable />
+                <div fluid className="app-list-container">
+                <div className="app-list-div">
+                    <Row className="applist-row" md={2} sm={1} xl={3}>
+                        {webAppData.map(app => (
+                            <div id={app.id} >
+                                <IndividualProject
+                                    id={app.id}
+                                    title={app.title}
+                                    thumbnail={app.thumbnail}
+                                    vlogger={app.vlogger}
+                                    topics={app.topics}
+                                    info={app.info}/>
+                            </div>
+                        ))}
+                    </Row>
+                </div>
             </div>
-        </Container>
+            </Container>
+        </div>
 
     )
 }
