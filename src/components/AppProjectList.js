@@ -21,7 +21,10 @@ function AppProjectList() {
                                     thumbnail={app.thumbnail}
                                     vlogger={app.vlogger}
                                     topics={app.topics}
-                                    info={app.info}/>
+                                    info={app.info}
+                                    source={app.source}
+                                    code={app.code}
+                                    />
                             </div>
                         ))}
                     </Row>
