@@ -479,3 +479,8 @@ body {
 .individual-app-div {
   padding: 2rem 0;
 }
+
+/* Individual App */
+.app-individual-button{
+  margin: 0 0.2rem;
+}
