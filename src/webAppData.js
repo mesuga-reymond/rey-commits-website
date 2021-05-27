@@ -46,6 +46,8 @@ export const webAppData = [
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
         info: "This is a simple JavaScript calculator that is part of the project in FreeCodeCamp and was made using React Js.",
+        source: "https://rey-commits.github.io/JavaScript-Calculator/",
+        code: "https://github.com/Rey-commits/JavaScript-Calculator",
     },
     {
         id: "6",
@@ -54,5 +56,17 @@ export const webAppData = [
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
         info: "This is the personal website that i am currently using. This was made using React JS and also the website that you are scrolling right now.",
+        source: "https://rey-commits.netlify.app/",
+        code: "https://github.com/Rey-commits/da-ml-portfolio-website"
+    },
+    {
+        id: "7",
+        title: "Color Generator App Using React JS",
+        thumbnail: "./images/color-generator.png",
+        vlogger: "Reymond R. Mesuga",
+        topics: "Deep Learning",
+        info: "This is a color generator web app i learned from John Smilga from Coding Addict. It uses React Js and a color library api.",
+        source: "https://rey-commits.netlify.app/",
+        code: "https://github.com/Rey-commits/da-ml-portfolio-website"
     },
 ]
