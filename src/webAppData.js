@@ -1,11 +1,13 @@
 export const webAppData = [
     {
         id: '1',
-        title: "JavaScript Documentation using Vanilla JavaScript",
+        title: "JavaScript Documentation using Vanilla JS",
         thumbnail: "https://marquesfernandes.com/wp-content/uploads/2020/01/1555172.jpg",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "Explains Neural Network very well",
+        info: "A JavaScript the documentation website that is part of the project in FreeCodeCamp.",
+        source: "https://rey-commits.github.io/Documentation-Website/",
+        code: "https://github.com/Rey-commits/Documentation-Website"
     },
     {
         id: "2",
@@ -13,7 +15,9 @@ export const webAppData = [
         thumbnail: "./images/quote-machine.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "Explains Neural Network very well",
+        info: "This is a Random Quote Machine that is part of the project in FreeCodeCamp. It uses a random quote api and was made using React Js.",
+        source: "https://rey-commits.netlify.app/app-projects",
+        code: "https://github.com/Rey-commits/da-ml-portfolio-website/blob/master/src/components/RandomQuotes.js",
     },
     {
         id: "3",
@@ -21,7 +25,9 @@ export const webAppData = [
         thumbnail: "./images/keeper-app.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "Explains Neural Network very well",
+        info: "This is a to-do-list app i learned from Angela Lee from Udemy and it was made using React Js.",
+        source: "https://keeper-app-reymond.netlify.app/",
+        code: "https://github.com/Rey-commits/Keeper-App-Finished",
     },
     {
         id: "4",
@@ -29,7 +35,9 @@ export const webAppData = [
         thumbnail: "./images/old-portfolio.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "Explains Neural Network very well",
+        info: "This is my former personal website and online resume made in Bootstrap.",
+        source: "https://rey-commits.github.io/Reymond-Portfolio/",
+        code: "https://github.com/Rey-commits/Reymond-Portfolio",
     },
     {
         id: "5",
@@ -37,7 +45,7 @@ export const webAppData = [
         thumbnail: "./images/javascript-calculator.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "Explains Neural Network very well",
+        info: "This is a simple JavaScript calculator that is part of the project in FreeCodeCamp and was made using React Js.",
     },
     {
         id: "6",
@@ -45,6 +53,6 @@ export const webAppData = [
         thumbnail: "./images/new-portfolio.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "Explains Neural Network very well",
+        info: "This is the personal website that i am currently using. This was made using React JS and also the website that you are scrolling right now.",
     },
 ]
