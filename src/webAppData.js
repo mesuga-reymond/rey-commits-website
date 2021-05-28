@@ -65,8 +65,8 @@ export const webAppData = [
         thumbnail: "./images/color-generator.png",
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
-        info: "This is a color generator web app i learned from John Smilga from Coding Addict. It uses React Js and a color library api.",
-        source: "https://rey-commits.netlify.app/",
-        code: "https://github.com/Rey-commits/da-ml-portfolio-website"
+        info: "This is a color generator web app i learned from John Smilga from Coding Addict. It uses React Js and Values JS to display colors.",
+        source: "https://colorgenerator-reycommits.netlify.app/",
+        code: "https://github.com/Rey-commits/color-generator"
     },
 ]
