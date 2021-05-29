@@ -17,11 +17,13 @@ function HeroAbout() {
         <div>
             <Jumbotron fluid className="hero">
                 <Container fluid className="hero-container">
+                    <div className="about-hero-head">
                     <h1>About me & this website</h1>
                     <h5>by Reymond Mesuga</h5>
                     <p>
-                        These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
+                        
                     </p>
+                    </div>
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
                             <Button className="individual-button" variant="outline-light"><i class="fab fa-github-square social-icon"></i> GitHub</Button>
