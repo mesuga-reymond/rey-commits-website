@@ -366,6 +366,9 @@ body {
 }
 
 /* ABOUT */
+.about-hero-head{
+  padding-top: 2rem;
+}
 .about-container {
   padding: 2.4rem 0 4rem 0;
   font-family: 'Raleway', sans-serif;
