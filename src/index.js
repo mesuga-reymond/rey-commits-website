@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/*eslint no-unused-vars: "error"*/
+/*global some_unused_var*/
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
