@@ -14,13 +14,13 @@ function HeroAppList() {
         window.open('https://www.facebook.com/reymond.mesugah/');
     }
     return (
-        <div fluid>
+        <div>
             <Jumbotron fluid className="hero"> 
-                <div fluid className="hero-container-applist">
-                    <h1>Front-End Web Application Projects</h1>
+                <div className="hero-container-AI">
+                    <h1>Web App Development Projects</h1>
                     <h5>by Reymond Mesuga</h5>
                     <p>
-                        These are the collections of projects in web development that i have done so far.
+                        These are the collections of projects in web app development that i have been doing on my spare time.
                     </p>
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
