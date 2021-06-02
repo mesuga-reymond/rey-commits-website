@@ -13,6 +13,9 @@ function Navigation() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="navlinks">
                         <LinkContainer to="/">
+                            <Nav.Link className="navlink-item">Home</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/AI">
                             <Nav.Link className="navlink-item">Machine Learning</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/app-projects">
