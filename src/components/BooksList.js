@@ -12,7 +12,7 @@ function BooksList() {
                 general.
             </p>
             <hr className="booklist-underline"></hr> 
-            <Row md={1} sm={1} xl={2}>
+            <Row lg={2} md={1} sm={1} xl={2}>
                 {booksData.map(book => (
                     <IndividualBook
                     key={book.id}
