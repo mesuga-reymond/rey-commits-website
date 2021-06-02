@@ -16,7 +16,7 @@ function AppProjectList() {
                         {webAppData.map(app => (
                             <div id={app.id} >
                                 <IndividualProject
-                                    id={app.id}
+                                    key={app.id}
                                     title={app.title}
                                     thumbnail={app.thumbnail}
                                     vlogger={app.vlogger}
