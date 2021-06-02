@@ -1,7 +1,9 @@
 /* Hero/Header Component */
 body {
   text-align: center;
+  scrollbar-color: blue orange;
 }
+
 .website-title{
   font-family: 'Pattaya', sans-serif;
 }
@@ -486,4 +488,51 @@ body {
 /* Individual App */
 .app-individual-button{
   margin: 0 0.2rem;
+}
+/* 
+Home Component */
+.info-text{
+  margin: 2rem 1rem;
+}
+.home-container{
+  padding: 3rem 0 0rem 0;
+}
+.home-individual-info{
+  padding: 3rem 0rem 0 0rem;
+}
+.home-upper-text{
+  color: rgb(87, 84, 84);
+}
+.individual-row{
+  margin: 0 auto;
+}
+.home-image{
+  width: 80%;
+}
+.individual-home-card{
+  width: 80%;
+  margin: 3rem auto;
+}
+.topic-collection{
+  margin: 0 2rem;
+}
+/* Home Hero */
+.home-hero{
+  padding: 1.5rem 0 0 0;
+}
+
+
+
+/* TechsLogoList */
+.individual-logo{
+  width: 50%;
+  margin: 1rem;
+}
+
+.techslogolist-title{
+  color: rgb(87, 84, 84);
+  margin: 0 0 2.5rem 0;
+}
+.techslogolist-container{
+  margin: 3rem auto;
 }
