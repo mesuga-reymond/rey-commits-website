@@ -493,6 +493,7 @@ body {
 Home Component */
 .info-text{
   margin: 2rem 1rem;
+  font-family: 'Raleway', sans-serif;
 }
 .home-container{
   padding: 3rem 0 0rem 0;
@@ -501,7 +502,7 @@ Home Component */
   padding: 3rem 0rem 0 0rem;
 }
 .home-upper-text{
-  color: rgb(87, 84, 84);
+  font-family: 'Raleway', sans-serif;
 }
 .individual-row{
   margin: 0 auto;
@@ -521,7 +522,9 @@ Home Component */
   padding: 1.5rem 0 0 0;
 }
 
-
+.home-info-title{
+  font-family: 'Raleway', sans-serif;
+}
 
 /* TechsLogoList */
 .individual-logo{
@@ -530,9 +533,12 @@ Home Component */
 }
 
 .techslogolist-title{
-  color: rgb(87, 84, 84);
+  font-family: 'Raleway', sans-serif;
   margin: 0 0 2.5rem 0;
 }
 .techslogolist-container{
   margin: 3rem auto;
+}
+.logo-name{
+  font-family: 'Raleway', sans-serif;
 }
