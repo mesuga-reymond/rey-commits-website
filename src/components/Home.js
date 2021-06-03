@@ -15,7 +15,7 @@ function Home() {
                     <Row fluid className="individual-row">
                         <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                             <Figure.Image className="home-image" alt="171x180" src={ML}/>
-                            <h3>Machine Learning</h3>
+                            <h3 className="home-info-title">Machine Learning</h3>
                             <p className="info-text">
                                 Machine learning is an application of artificial intelligence (AI) that provides
                                 systems the ability to automatically learn and improve from experience without
@@ -25,7 +25,7 @@ function Home() {
                         </Col>
                         <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                             <Figure.Image className="home-image" alt="171x180" src={AIimage}/>
-                            <h3>Deep Learning</h3>
+                            <h3 className="home-info-title">Deep Learning</h3>
                             <p className="info-text">
                                 Machine learning is an application of artificial intelligence (AI) that provides
                                 systems the ability to automatically learn and improve from experience without
@@ -35,7 +35,7 @@ function Home() {
                         </Col>
                         <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                             <Figure.Image className="home-image" alt="171x180" src={webdev}/>
-                            <h3>Web App Development</h3>
+                            <h3 className="home-info-title">Web App Development</h3>
                             <p className="info-text">
                                 Machine learning is an application of artificial intelligence (AI) that provides
                                 systems the ability to automatically learn and improve from experience without
