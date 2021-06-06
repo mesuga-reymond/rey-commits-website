@@ -18,11 +18,11 @@ import HeroBookLibrary from './components/HeroBookLibrary';
 import AppProjectList from './components/AppProjectList';
 import HeroAppList from './components/HeroAppList';
 import Home from './components/Home';
-import HeroHome from './components/HeroHome'
+import HeroHome from './components/HeroHome' 
 
 function App() {
     return (
-        <div className="App">
+        <div className="App"> 
         <Router>
         <Navigation />
             <Switch>
