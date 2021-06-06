@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Nav} from 'react-bootstrap'
-import {LinkContainer} from 'react-router-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap' 
 
 function NavTab() {
     return (
