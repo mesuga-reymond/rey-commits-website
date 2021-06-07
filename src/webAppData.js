@@ -69,4 +69,14 @@ export const webAppData = [
         source: "https://colorgenerator-reycommits.netlify.app/",
         code: "https://github.com/Rey-commits/color-generator"
     },
+    {
+        id: "8",
+        title: "[Ongoing] freeCodeCamp Dummy Website",
+        thumbnail: "./images/fcc-dummy.png",
+        vlogger: "Reymond R. Mesuga",
+        topics: "Deep Learning",
+        info: "This freeCodeCamp dummy website combines the courses and video tutorials of freeCodeCamp from their official website and on youtube.",
+        source: "https://fcc-dummy.netlify.app/curriculum",
+        code: "https://github.com/Rey-commits/freecodecamp-dummy-website"
+    },
 ]
