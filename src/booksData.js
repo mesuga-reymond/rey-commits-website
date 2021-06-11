@@ -21,32 +21,25 @@ export const booksData = [
     },
     {
         id: 3,
-        img: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518249961l/12053731._SX318_.jpg",
-        title: "Games People Play",
-        author: "Eric Berne",
-        source: "zlibrary.com",
+        img: "notes-images/ANN-for-beginners.png",
+        title: "Artificial Neural Networks for Beginners",
+        author: "Carlos Gershenson",
+        source: "https://www.uv.mx/mia/files/2012/10/Artificial-Neural-Networks-for-Beginners.pdf",
         topics: "Machine Learning, Deep Learning, Programming",
         category: "Machine Learning",
         info: "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque antesollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempusviverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Doneclacinia congue felis in faucibus."
     },
     {
         id: 4,
-        img: "https://images.springer.com/sgw/books/medium/9783319949888.jpg",
-        title: "Machine Learning",
-        author: "Andrew Ng",
-        source: "zlibrary.com",
+        img: "https://simg.nicepng.com/png/small/80-804192_smartlogic-explores-javascript-react-and-flux-tech.png",
+        title: "The React Cheatsheet for 2021‬ (+ Real-World Examples)",
+        author: "Reed Barger",
+        source: "https://www.freecodecamp.org/news/react-cheatsheet-with-real-world-examples/",
+        topics: "Machine Learning, Deep Learning, Programming",
         category: "Machine Learning",
         info: "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque antesollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempusviverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Doneclacinia congue felis in faucibus."
     },
-    {
-        id: 5,
-        img: "https://images.springer.com/sgw/books/medium/9783319949888.jpg",
-        title: "Machine Learning",
-        author: "Andrew Ng",
-        source: "zlibrary.com",
-        category: "Machine Learning",
-        info: "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque antesollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempusviverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Doneclacinia congue felis in faucibus."
-    }
+    
 
    
 ];
