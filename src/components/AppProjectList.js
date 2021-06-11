@@ -3,12 +3,11 @@ import {Container, Row} from 'react-bootstrap'
 import {webAppData} from '../webAppData'
 import AppContentTable from './AppContentTable'
 import IndividualProject from './IndividualProject'
-import RandomQuotes from './RandomQuotes'
+// import RandomQuotes from './RandomQuotes'
 function AppProjectList() {
     return (
         <div>
-            <RandomQuotes/>
-            <Container>
+            <Container> 
                 <AppContentTable/>
                 <div fluid className="app-list-container">
                     <div className="app-list-div">
