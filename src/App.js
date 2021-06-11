@@ -19,6 +19,7 @@ import AppProjectList from './components/AppProjectList';
 import HeroAppList from './components/HeroAppList';
 import Home from './components/Home';
 import HeroHome from './components/HeroHome' 
+import RandomQuotes from './components/RandomQuotes';
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
             </Switch> 
             {/* <Hero /> */}
             <NavTab />
+            <RandomQuotes/>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/AI" component={MainBody} />
