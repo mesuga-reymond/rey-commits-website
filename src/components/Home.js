@@ -5,12 +5,11 @@ import AIimage from "./comp-images/AI.svg";
 import webdev from "./comp-images/webdev.svg"
 import ML from "./comp-images/ML.svg"
 import TechsLogoList from './TechsLogoList';
-import RandomQuotes from './RandomQuotes';
+// import RandomQuotes from './RandomQuotes';
 
 function Home() {
     return (
         <div>
-            <RandomQuotes/>
             <Container fluid>
                 <div fluid className="home-container">
                     <h3 className="home-upper-text">Topics & Services</h3>
