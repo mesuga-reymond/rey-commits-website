@@ -41,7 +41,7 @@ export const studyData = [
     },
     {
       id: 5,
-      title: "[Ongoing] Comparative Analysis on the Accuracy of Different Convolutional Neural Network Architectures to Classify Glitches that Interupts the Gravitational Wave Detection in LIGO",
+      title: "[Ongoing] On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
       img: "./studyImages/gwaves.jpeg",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
