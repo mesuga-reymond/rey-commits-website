@@ -5,7 +5,7 @@ import {techsData} from "../techsData"
 function TechsLogoList() {
     return (
         <Container className="techslogolist-container">
-            <h3 className="techslogolist-title">Featured Technology Stacks</h3>
+            <h3 className="techslogolist-title">Technology Stacks & Skills</h3>
             <Row lg={8} md={6} sm={3} xs={3}>
                 {
                     techsData.map(logo => (
