@@ -1,7 +1,7 @@
 import React from 'react'
 import {Accordion, Card, Container} from 'react-bootstrap'
 import { HashLink as Link } from 'react-router-hash-link';
-import {webAppData} from "../webAppData.js"
+import {webAppData} from "../Data/webAppData.js"
 
 function AppContentTable() {
     return (
