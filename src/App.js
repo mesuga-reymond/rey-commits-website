@@ -3,22 +3,21 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from "./components/Navigation"
-import HeroAI from './components/HeroAI';
-import CardsList from './components/CardsList';
+import HeroAI from './components/heroComponents/HeroAI';
+import CardsList from './components/bodyComponents/CardsList';
 import Footer from './components/Footer';
 import ContentTable from './components/ContentTable';
 import CarouselSlide from './components/CarouselSlide';
-import About from './components/About';
-import MainBody from './MainScreens/MainBody';
+import About from './components/bodyComponents/About';
 import ScrollButton from './components/ScrollButton';
 import NavTab from './components/NavTab';
-import BooksList from './components/BooksList';
-import HeroAbout from './components/HeroAbout';
-import HeroBookLibrary from './components/HeroBookLibrary';
-import AppProjectList from './components/AppProjectList';
-import HeroAppList from './components/HeroAppList';
-import Home from './components/Home';
-import HeroHome from './components/HeroHome' 
+import BooksList from './components/bodyComponents/BooksList';
+import HeroAbout from './components/heroComponents/HeroAbout';
+import HeroBookLibrary from './components/heroComponents/HeroBookLibrary';
+import AppProjectList from './components/bodyComponents/AppProjectList';
+import HeroAppList from './components/heroComponents/HeroAppList';
+import Home from './components/bodyComponents/Home';
+import HeroHome from './components/heroComponents/HeroHome' 
 import RandomQuotes from './components/RandomQuotes';
 
 function App() {
@@ -38,7 +37,7 @@ function App() {
             <RandomQuotes/>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/AI" component={MainBody} />
+                <Route path="/AI" component={CardsList} />
                 <Route path='/about' component={About} />
                 <Route path='/books' component={BooksList} />
                 <Route path="/app-projects" component={AppProjectList} />
