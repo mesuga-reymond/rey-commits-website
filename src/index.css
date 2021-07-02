@@ -519,7 +519,9 @@ Home Component */
 }
 /* Home Hero */
 .home-hero{
-  padding: 1.5rem 0 0 0;
+  padding: 0rem 0 0 0;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 3rem;
 }
 
 .home-info-title{
