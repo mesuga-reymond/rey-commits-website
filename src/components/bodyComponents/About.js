@@ -5,7 +5,7 @@ import {Button, Card, Container, Image} from 'react-bootstrap'
 
 function About() {
     function openTabCode() {
-        window.open("https://github.com/Rey-commits?tab=repositories");
+        window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bodyComponents/Mesuga_Reymond_Resume.pdf");
     }
     return (
         <div>
