@@ -21,7 +21,7 @@ function IndividualCard({title, info, img, author, code}) {
                         {info}
                     </Card.Text>
                     <a className="app-individual-button" onClick={openTabCode}>
-                        <Button variant="secondary">Code</Button>
+                        <Button variant="dark">Source Code</Button>
                     </a>
                 </Card.Body>
             </Card>
