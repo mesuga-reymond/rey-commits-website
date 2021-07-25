@@ -79,7 +79,7 @@ export const studyData = [
       type: "Personal Project",
       topics: "Data Analysis, Covid-19, Python",
       info:
-        "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
+        "This is a deep transfer learning project that focuses creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
     },
     
     
