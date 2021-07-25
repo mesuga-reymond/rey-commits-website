@@ -20,7 +20,7 @@ function IndividualVideo({title, vlogger, thumbnail, info, source, code}) {
                 }}>
                     <Card.Img variant="top" src={thumbnail}/>
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
+                        <Card.Title>{title}</Card.Title> 
                         <p>
                             {/* <i>by {vlogger}</i> */}
                         </p>
