@@ -5,7 +5,7 @@ export const studyData = [
       img: "./studyImages/pneumonia-xray.jpeg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      topics: "Deep Learning, CNN, ResNet9, Pneumonia",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/1_Pneumonia_Image_Classification_Using_CNN/Course_Project_DeepLearning%20(1).ipynb",
       info:
         "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch."
     },
@@ -15,7 +15,7 @@ export const studyData = [
       img: "./studyImages/oldHotel.jpg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      topics: "Deep Learning, Prediction, Keras Model",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier/Hotel_Cancellation_Using_Binary_Classifier.ipynb",
       info:
         "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
     },
@@ -25,7 +25,7 @@ export const studyData = [
       img: "./studyImages/covid-19.jpg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      topics: "Deep Learning, Classification, Transfer Learning, CNN, Covid-19",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/4_Covid-19_Image_Classification/Successful_Resnet50_Covid19_(5_17_21).ipynb",
       info:
         "The goal of this project is to compare the accuracy of different state of the art models to predict the possible existence of Covid-19 using chest x-ray images."
     },
@@ -35,7 +35,7 @@ export const studyData = [
       img: "./studyImages/brain_mri.jpg",
       author: "Reymond Mesuga",
       type: "Personal Project",
-      topics: "Deep Learning, Multi-Classification, CNN, Transfer Learning, Alzheimer's Desease, Algorithms",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/3_Alzheimers_Detection",
       info:
         "This project aims to evaluate the performance of different state of the start transfer learning model to detect different stages of Alzheimer's Desease using MRI brain scans."
     },
@@ -45,7 +45,7 @@ export const studyData = [
       img: "./studyImages/gwaves.jpeg",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
-      topics: "Deep Learning, CNN, Transfer Learning, Gravitational Waves, Modern Physics, LIGO",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
       info:
         "This academic research aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits of LIGO."
     },
@@ -56,7 +56,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      topics: "Data Analysis, Covid-19, Python",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/6_Histopathologic-Cancer-Detection/Histopathologic_Cancer_Detection_Using_InceptionV3_Transfer_Learning.ipynb",
       info:
         "This is a deep transfer learning project that focuses creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
     },
@@ -66,7 +66,7 @@ export const studyData = [
       img: "./studyImages/covid-xray-manipulation.jpg",
       author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
       type: "Academic Research",
-      topics: "Deep Learning, Classification, CNN, Transfer Learning, Covid-19, Image Quality, Image Manipulation, Algorithms",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/4_Covid-19_Image_Classification",
       info:
         "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
     },
@@ -77,7 +77,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      topics: "Data Analysis, Covid-19, Python",
+      code: "https://github.com/Rey-commits/Data_Analysis_Projects/tree/master/Covid_19_Data_Analysis",
       info:
         "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
     },
