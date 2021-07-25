@@ -41,7 +41,7 @@ export const studyData = [
     },
     {
       id: 5,
-      title: "[Ongoing] On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
+      title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
       img: "./studyImages/gwaves.jpeg",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
