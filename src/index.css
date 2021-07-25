@@ -1,7 +1,7 @@
 /* Hero/Header Component */
 body {
   text-align: center;
-  scrollbar-color: blue orange;
+  scrollbar-color: blue orange; 
 }
 
 .website-title{
@@ -509,6 +509,7 @@ Home Component */
 }
 .home-image{
   width: 80%;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 .individual-home-card{
   width: 80%;
