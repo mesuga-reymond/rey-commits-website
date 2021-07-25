@@ -51,13 +51,14 @@ export const studyData = [
     },
     {
       id: 6,
-      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
-      img: "./studyImages/covid-xray-manipulation.jpg",
-      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
-      type: "Academic Research",
-      topics: "Deep Learning, Classification, CNN, Transfer Learning, Covid-19, Image Quality, Image Manipulation, Algorithms",
+      title: "Histopathologic Cancer Detection Using Transfer Learning with InceptionV3 Base Architecture",
+      img: "./studyImages/histopathologic.jpg",
+      modalImage:"",
+      author: "Reymond R. Mesuga",
+      type: "Personal Project",
+      topics: "Data Analysis, Covid-19, Python",
       info:
-        "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
+        "This is a deep transfer learning project that focuses creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
     },
     {
       id: 7,
@@ -72,14 +73,13 @@ export const studyData = [
     },
     {
       id: 8,
-      title: "Histopathologic Cancer Detection Using Transfer Learning with InceptionV3 Base Architecture",
-      img: "./studyImages/histopathologic.jpg",
-      modalImage:"",
-      author: "Reymond R. Mesuga",
-      type: "Personal Project",
-      topics: "Data Analysis, Covid-19, Python",
+      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
+      img: "./studyImages/covid-xray-manipulation.jpg",
+      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
+      type: "Academic Research",
+      topics: "Deep Learning, Classification, CNN, Transfer Learning, Covid-19, Image Quality, Image Manipulation, Algorithms",
       info:
-        "This is a deep transfer learning project that focuses creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
+        "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
     },
     
     
