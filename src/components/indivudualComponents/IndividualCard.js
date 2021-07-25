@@ -1,12 +1,11 @@
-import React, {useState} from 'react'
-import {Card, Button, Modal, Jumbotron, Container} from "react-bootstrap"
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react'
+import {Card, Button} from "react-bootstrap"
 
-function IndividualCard({title, info, img, author, type, modalImage, topics}) {
-    const [lgShow,
-        setLgShow] = useState(false);
-    // const BackgroundImageModal = {
-    //     backgroundImage: img
-    // }
+function IndividualCard({title, info, img, author, code}) {
+    function openTabCode() {
+        window.open(code);
+    }
     return (
         <div className="individual-card"> 
             <Card md={3} style={{
@@ -21,32 +20,9 @@ function IndividualCard({title, info, img, author, type, modalImage, topics}) {
                     <Card.Text>
                         {info}
                     </Card.Text>
-                    <Button onClick={() => setLgShow(true)} variant="dark">Read more</Button>
-                    <Modal
-                        className="card-study-modal"
-                        size="lg"
-                        show={lgShow}
-                        onHide={() => setLgShow(false)}
-                        aria-labelledby="example-modal-sizes-title-lg">
-                        <Modal.Header closeButton>
-                            <Modal.Title id="example-modal-sizes-title-lg">
-                                {type}
-                            </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                            <Jumbotron fluid>
-                                <Container style={{backgroundImage: `url(${modalImage})`}}>
-                                    <div className="modal-jumbotron">
-                                    <h4>{title}</h4>
-                                    <div><i>by {author}</i></div>
-                                    </div>
-                                    <hr></hr>
-                                </Container>
-                            </Jumbotron>
-                            <p>{info}</p>
-                        </Modal.Body>
-                        <div className="modal-footer">Topics: {topics}</div>
-                    </Modal>
+                    <a className="app-individual-button" onClick={openTabCode}>
+                        <Button variant="secondary">Code</Button>
+                    </a>
                 </Card.Body>
             </Card>
         </div>
