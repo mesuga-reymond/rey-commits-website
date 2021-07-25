@@ -62,6 +62,16 @@ export const studyData = [
     },
     {
       id: 7,
+      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
+      img: "./studyImages/covid-xray-manipulation.jpg",
+      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
+      type: "Academic Research",
+      topics: "Deep Learning, Classification, CNN, Transfer Learning, Covid-19, Image Quality, Image Manipulation, Algorithms",
+      info:
+        "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
+    },
+    {
+      id: 8,
       title: "Covid-19 Exploratory Data Analysis Using Python",
       img: "./studyImages/covid-19-data.jpg",
       modalImage:"",
@@ -70,16 +80,6 @@ export const studyData = [
       topics: "Data Analysis, Covid-19, Python",
       info:
         "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
-    },
-    {
-      id: 8,
-      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
-      img: "./studyImages/covid-xray-manipulation.jpg",
-      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
-      type: "Academic Research",
-      topics: "Deep Learning, Classification, CNN, Transfer Learning, Covid-19, Image Quality, Image Manipulation, Algorithms",
-      info:
-        "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
     },
     
     
