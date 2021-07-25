@@ -15,7 +15,7 @@ function HeroAI() {
         <div>
             <Jumbotron fluid className="hero"> 
                 <div className="hero-container-AI">
-                    <h1>Data Analysis & Machine Learning Projects</h1>
+                    <h1>Artificial Intelligence Projects</h1>
                     <h5>by Reymond Mesuga</h5>
                     <p>
                         These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
