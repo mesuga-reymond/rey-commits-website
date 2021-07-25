@@ -22,7 +22,7 @@ function CardsList() {
                                 img={study.img}
                                 type={study.type}
                                 modalImage={study.modalImage}
-                                topics={study.topics}/>
+                                code={study.code}/>
                         </div>
                     ))}
                 </Row>
