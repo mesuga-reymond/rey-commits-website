@@ -1,8 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Navbar, Nav} from 'react-bootstrap';
+import {Navbar, Nav, Button} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap'
 
 function Navigation() {
+    function openTabResume() {
+        window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bodyComponents/Mesuga_Reymond_Resume.pdf");
+    }
     return (
         
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
@@ -30,6 +34,9 @@ function Navigation() {
                         <LinkContainer to="/about">
                             <Nav.Link className="navlink-item">About</Nav.Link>
                         </LinkContainer>  
+                        <a className="app-individual-button" onClick={openTabResume}>
+                        <Button variant="outline-light">Download Resume</Button>
+                        </a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
