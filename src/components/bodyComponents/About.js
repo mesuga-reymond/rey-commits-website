@@ -4,7 +4,7 @@ import {Button, Card, Container, Image} from 'react-bootstrap'
 // import {LinkContainer} from 'react-router-bootstrap'
 
 function About() {
-    function openTabCode() {
+    function openTabResume() {
         window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bodyComponents/Mesuga_Reymond_Resume.pdf");
     }
     return (
@@ -16,10 +16,10 @@ function About() {
                         </div>
                         <Image className="profile-image" src="reymond2.jpg" roundedCircle/>
                         <h3>Reymond R. Mesuga</h3>
-                        <a className="app-individual-button" onClick={openTabCode}>
-                            <Button variant="outline-secondary">Download Resume</Button>
+                        <a className="app-individual-button" onClick={openTabResume}>
+                            <Button variant="secondary">Download Resume</Button>
                         </a>
-                        {/* <h3 className="profile-info">Artificial Intelligence and React App Development Enthusiast</h3> */}
+                        
                         <Card.Text className="about-info">
                                         <p>React App Development and Artificial Intelligence Enthusiast</p>
                                         <p><i>
