@@ -7,7 +7,7 @@ export const studyData = [
       type: "Personal Project",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/1_Pneumonia_Image_Classification_Using_CNN/Course_Project_DeepLearning%20(1).ipynb",
       info:
-        "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch."
+        "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch. The CNN model here was built and trained from the ground that has an accuracy of approximately 85%."
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ export const studyData = [
     {
       id: 5,
       title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
-      img: "./studyImages/gwaves.jpeg",
+      img: "./studyImages/black-holes-colliding-1.jpeg",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
@@ -73,7 +73,7 @@ export const studyData = [
     {
       id: 8,
       title: "Covid-19 Exploratory Data Analysis Using Python",
-      img: "./studyImages/covid-19-data.jpg",
+      img: "./studyImages/Coronavirus-economy-news.jpg",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
