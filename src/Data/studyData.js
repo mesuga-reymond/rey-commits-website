@@ -41,16 +41,6 @@ export const studyData = [
     },
     {
       id: 5,
-      title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
-      img: "./studyImages/black-holes-colliding-1.jpeg",
-      author: "Reymond Mesuga and Brian James Bayanay",
-      type: "Academic Research",
-      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
-      info:
-        "This academic research aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits of LIGO."
-    },
-    {
-      id: 6,
       title: "Histopathologic Cancer Detection Using Transfer Learning with InceptionV3 Base Architecture",
       img: "./studyImages/histopathologic.jpg",
       modalImage:"",
@@ -61,17 +51,7 @@ export const studyData = [
         "This is a deep transfer learning project that focuses creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
     },
     {
-      id: 7,
-      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
-      img: "./studyImages/covid-xray-manipulation.jpg",
-      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
-      type: "Academic Research",
-      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/4_Covid-19_Image_Classification",
-      info:
-        "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
-    },
-    {
-      id: 8,
+      id: 6,
       title: "Covid-19 Exploratory Data Analysis Using Python",
       img: "./studyImages/Coronavirus-economy-news.jpg",
       modalImage:"",
@@ -81,7 +61,28 @@ export const studyData = [
       info:
         "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
     },
-    
-    
   ];
+
+  export const studyDataForLarge = [
+    {
+      id: 1,
+      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
+      img: "./studyImages/covid-xray-manipulation.jpg",
+      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
+      type: "Academic Research",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/4_Covid-19_Image_Classification",
+      info:
+        "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
+    },
+    {
+      id: 2,
+      title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
+      img: "https://www.sciencealert.com/images/2019-05/black-hole-smush_600.gif",
+      author: "Reymond Mesuga and Brian James Bayanay",
+      type: "Academic Research",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
+      info:
+        "This academic research aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits of LIGO."
+    },
+  ]
   
