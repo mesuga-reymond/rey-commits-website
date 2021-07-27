@@ -14,7 +14,7 @@ function NavTab() {
                 </Nav.Item>
                 <Nav.Item>
                     <LinkContainer to="/AI">
-                        <Nav.Link eventKey="link-2"><span className="nav-tab-link">A.I. Projects</span></Nav.Link>
+                        <Nav.Link eventKey="link-2"><span className="nav-tab-link">Computer Vision</span></Nav.Link>
                     </LinkContainer>
                 </Nav.Item>
                 <Nav.Item>
