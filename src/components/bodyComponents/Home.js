@@ -28,12 +28,11 @@ function Home() {
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={AIimage}/>
-                                <h3 className="home-info-title">Artificial Intelligence</h3>
+                                <h3 className="home-info-title">Computer Vision</h3>
                                 <p className="info-text">
-                                Artificial intelligence is the simulation of human intelligence processes 
-                                by machines, especially computer systems.
-                                The subset of Artificial Intellgence includes in my projects are 
-                                Machine Learning and Deep Learning. Most of these projects are focusing on detecting or 
+                                Computer vision is a field of artificial intelligence (AI) that enables computers 
+                                and systems to derive meaningful information from digital images, videos and other 
+                                visual inputs. Most of my projects in computer vision are focusing on detecting or 
                                 predicting diseases in medical images. I mainly use TensorFlow, Keras, and
                                 PyTorch for most of my projects.
                                 </p>
