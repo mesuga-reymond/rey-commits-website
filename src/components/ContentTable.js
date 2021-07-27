@@ -19,7 +19,7 @@ function ContentTable() {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className="content-table-body">
-                            {studyDataForLarge.map(study => (
+                            {studyData.map(study => (
                                 <div>
                                     <Link className="content-table-Link-tag" to={`#${study.id}`}>
                                         <div key={study.id} className="content-item">{study.id}. {study.title}</div>
@@ -27,10 +27,10 @@ function ContentTable() {
                                     <hr></hr>
                                 </div>
                             ))}
-                            {studyData.map(study => (
+                            {studyDataForLarge.map(study => (
                                 <div>
                                     <Link className="content-table-Link-tag" to={`#${study.id}`}>
-                                        <div key={study.id} className="content-item">{study.id + 2}. {study.title}</div>
+                                        <div key={study.id} className="content-item">{study.id}. {study.title}</div>
                                     </Link>
                                     <hr></hr>
                                 </div>
