@@ -32,7 +32,7 @@ export const studyData = [
     {
       id: 4,
       title: "Alzheimer's Desease Detection Using Different State of the Art CNN Transfer Learning Model",
-      img: "https://images-cdn.newscred.com/Zz01MTkxMmUwOGZmMGU3OGRiZGE1Y2UwODc2NDdhOGRkOA==",
+      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/MIRScanGIF.gif?raw=true",
       author: "Reymond Mesuga",
       type: "Personal Project",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/3_Alzheimers_Detection",
@@ -53,7 +53,7 @@ export const studyData = [
     {
       id: 6,
       title: "Covid-19 Exploratory Data Analysis Using Python",
-      img: "./studyImages/Coronavirus-economy-news.jpg",
+      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/covidGIF.gif?raw=true",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
