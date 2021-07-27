@@ -23,7 +23,7 @@ function Navigation() {
                             <Nav.Link className="navlink-item">Home</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/AI">
-                            <Nav.Link className="navlink-item">A.I. Projects</Nav.Link>
+                            <Nav.Link className="navlink-item">Computer Vision</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/app-projects">
                             <Nav.Link className="navlink-item">Web Apps</Nav.Link> 
