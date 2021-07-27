@@ -2,6 +2,7 @@ import React from 'react'
 import {Accordion, Card, Container} from 'react-bootstrap'
 import { HashLink as Link } from 'react-router-hash-link';
 import {studyData} from "../Data/studyData"
+import {studyDataForLarge} from "../Data/studyData"
 
 function ContentTable() {
     
@@ -18,10 +19,18 @@ function ContentTable() {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className="content-table-body">
-                            {studyData.map(study => (
+                            {studyDataForLarge.map(study => (
                                 <div>
                                     <Link className="content-table-Link-tag" to={`#${study.id}`}>
                                         <div key={study.id} className="content-item">{study.id}. {study.title}</div>
+                                    </Link>
+                                    <hr></hr>
+                                </div>
+                            ))}
+                            {studyData.map(study => (
+                                <div>
+                                    <Link className="content-table-Link-tag" to={`#${study.id}`}>
+                                        <div key={study.id} className="content-item">{study.id + 2}. {study.title}</div>
                                     </Link>
                                     <hr></hr>
                                 </div>
