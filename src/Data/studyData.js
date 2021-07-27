@@ -32,7 +32,7 @@ export const studyData = [
     {
       id: 4,
       title: "Alzheimer's Desease Detection Using Different State of the Art CNN Transfer Learning Model",
-      img: "./studyImages/brain_mri.jpg",
+      img: "https://images-cdn.newscred.com/Zz01MTkxMmUwOGZmMGU3OGRiZGE1Y2UwODc2NDdhOGRkOA==",
       author: "Reymond Mesuga",
       type: "Personal Project",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/3_Alzheimers_Detection",
@@ -65,7 +65,7 @@ export const studyData = [
 
   export const studyDataForLarge = [
     {
-      id: 1,
+      id: 7,
       title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
       img: "./studyImages/covid-xray-manipulation.jpg",
       author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
@@ -75,9 +75,9 @@ export const studyData = [
         "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
     },
     {
-      id: 2,
+      id: 8,
       title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
-      img: "https://www.sciencealert.com/images/2019-05/black-hole-smush_600.gif",
+      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/black-hole-smush_600.gif?raw=true",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
