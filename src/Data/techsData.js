@@ -131,8 +131,8 @@ export const techsData = [
     },
     {
         id: 27,
-        image: "./techs-images/UbuntuCoF.svg",
-        name: "Ubuntu"
+        image: "./techs-images/Scikit_learn_logo_small.svg",
+        name: "Scikit-Learn"
     },
     {
         id: 28,
