@@ -21,15 +21,14 @@ function About() {
                         </a>
                         
                         <Card.Text className="about-info">
-                                        <p>React App Development and Computer Vision Enthusiast</p>
+                                        <p>React App Development and Artificial Intelligence Enthusiast</p>
                                         <p><i>
                                         I'm a programmer and a physics student at PUP Manila. I enjoy doing data
-                                        analysis, computer vision and app development on my spare time. 
+                                        analysis, artificial intelligence and app development on my spare time. 
                                         I made this website mainly to showcase the projects
                                         that i have done so far including personal projects and academic research
-                                        contributions that is related to data analysis and computer vision. 
-                                        I use python as my main programming language when it comes to data analysis and
-                                        computer vision. When it comes to app development, i use javascript 
+                                        contributions that is related to data analysis and artificial intelligence 
+                                        where i use Python librarires. When it comes to app development, i use javascript 
                                         as my main languange and especially its framework called React JS. 
                                         In fact, i made this website using React JS and work on it for almost 
                                         three days before it looks decent and still working on the improvement at the moment. 
