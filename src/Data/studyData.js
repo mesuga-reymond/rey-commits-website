@@ -11,13 +11,13 @@ export const studyData = [
     },
     {
       id: 2,
-      title: "Hotel Cancellation Prediction Using Simple Deep Learning Model in Keras",
-      img: "./studyImages/oldHotel.jpg",
-      author: "Reymond R. Mesuga",
-      type: "Personal Project",
-      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier/Hotel_Cancellation_Using_Binary_Classifier.ipynb",
+      title: "Electron Invariant Mass Prediction in CERN Electron Collision Data Using Machine Learning Algorithms",
+      img: "./studyImages/particle_collision.gif",
+      author: "Reymond Mesuga",
+      type: "Academic Research",
+      code: "https://jovian.ai/mesugareymondrobin/invariant-mass-prediction-in-cern-electron-collision-data-using-machine-learning",
       info:
-        "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
+        "This personal project aims to predict the invariant mass of electron using CERN Electron Collision Data. The machine learning algorithms to be used are Random Forest Regressor and XGBoost Regressor."
     },
     {
       id: 3,
@@ -84,5 +84,18 @@ export const studyData = [
       info:
         "This academic research aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits of LIGO."
     },
-  ]
+  ] 
+
+  export const studyData1 = [
+    {
+      id: 9,
+      title: "Hotel Cancellation Prediction Using Simple Deep Learning Model in Keras",
+      img: "./studyImages/oldHotel.jpg",
+      author: "Reymond R. Mesuga",
+      type: "Personal Project",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier/Hotel_Cancellation_Using_Binary_Classifier.ipynb",
+      info:
+        "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
+    },
+  ] 
   
