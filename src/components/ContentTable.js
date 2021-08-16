@@ -3,6 +3,7 @@ import {Accordion, Card, Container} from 'react-bootstrap'
 import { HashLink as Link } from 'react-router-hash-link';
 import {studyData} from "../Data/studyData"
 import {studyDataForLarge} from "../Data/studyData"
+import {studyData1} from "../Data/studyData"
 
 function ContentTable() {
     
@@ -28,6 +29,14 @@ function ContentTable() {
                                 </div>
                             ))}
                             {studyDataForLarge.map(study => (
+                                <div>
+                                    <Link className="content-table-Link-tag" to={`#${study.id}`}>
+                                        <div key={study.id} className="content-item">{study.id}. {study.title}</div>
+                                    </Link>
+                                    <hr></hr>
+                                </div>
+                            ))}
+                            {studyData1.map(study => (
                                 <div>
                                     <Link className="content-table-Link-tag" to={`#${study.id}`}>
                                         <div key={study.id} className="content-item">{study.id}. {study.title}</div>
