@@ -31,7 +31,7 @@ export const studyData = [
     },
     {
       id: 4,
-      title: "Alzheimer's Desease Detection Using Different State of the Art CNN Transfer Learning Model",
+      title: "Alzheimer's Desease Detection Using Different CNN Transfer Learning Model Algorithms",
       img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/MIRScanGIF.gif?raw=true",
       author: "Reymond Mesuga",
       type: "Personal Project",
@@ -52,14 +52,14 @@ export const studyData = [
     },
     {
       id: 6,
-      title: "Covid-19 Exploratory Data Analysis Using Python",
-      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/covidGIF.gif?raw=true",
+      title: "Exoplanet Prediction Using Kepler Labelled Time Series Data With Machine Learning Algorithms",
+      img: "https://i.gifer.com/76PX.gif",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/Rey-commits/Data_Analysis_Projects/tree/master/Covid_19_Data_Analysis",
+      code: "https://github.com/Rey-commits/AI_DeepLearning_MachineLearning_Projects/tree/master/8_Searching_for_the_Exo_Planets_Using_Machine_Learning_Algorithms",
       info:
-        "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
+        "This project is about the prediction of the next possible earth using the light intensity time series data gathered by Kepler space telescope. The models used in this project are Random Forest, XGBoost, and Support Vector Machine Classifier."
     },
   ];
 
@@ -96,6 +96,28 @@ export const studyData = [
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier/Hotel_Cancellation_Using_Binary_Classifier.ipynb",
       info:
         "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
+    },
+    {
+      id: 10,
+      title: "Covid-19 Exploratory Data Analysis Using Python",
+      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/covidGIF.gif?raw=true",
+      modalImage:"",
+      author: "Reymond R. Mesuga",
+      type: "Personal Project",
+      code: "https://github.com/Rey-commits/Data_Analysis_Projects/tree/master/Covid_19_Data_Analysis",
+      info:
+        "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
+    },
+    {
+      id: 11,
+      title: "Water Potability Classification Using Machine Learning Algorithms",
+      img: "https://wa-netofficial.org/wp-content/uploads/2020/06/maxresdefault.jpg",
+      modalImage:"",
+      author: "Reymond R. Mesuga",
+      type: "Personal Project",
+      code: "https://github.com/Rey-commits/AI_DeepLearning_MachineLearning_Projects/blob/master/9_Water_Quality_Potability_Prediction/Water_Potability_Prediction_Using_Machine_Learning_Algorithms.ipynb",
+      info:
+        "This is a machine learning project aims to predict water potality of the water. Water potality indicates if the water quality is safe for human consumption or not. The models used are Random Forest, XGBoost, and Support Vector Machine."
     },
   ] 
   
