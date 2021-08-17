@@ -32,7 +32,7 @@ export const studyData = [
     {
       id: 4,
       title: "Alzheimer's Desease Detection Using Different CNN Transfer Learning Model Algorithms",
-      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/MIRScanGIF.gif?raw=true",
+      img: "./studyImages/MIRScanGIF.gif",
       author: "Reymond Mesuga",
       type: "Personal Project",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/3_Alzheimers_Detection",
@@ -53,7 +53,7 @@ export const studyData = [
     {
       id: 6,
       title: "Exoplanet Prediction Using Kepler Labelled Time Series Data With Machine Learning Algorithms",
-      img: "https://i.gifer.com/76PX.gif",
+      img: "./studyImages/exoplanet.gif",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
@@ -77,7 +77,7 @@ export const studyData = [
     {
       id: 8,
       title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
-      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/black-hole-smush_600.gif?raw=true",
+      img: "./studyImages/black-hole-smush_600.gif",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
@@ -100,7 +100,7 @@ export const studyData = [
     {
       id: 10,
       title: "Covid-19 Exploratory Data Analysis Using Python",
-      img: "https://github.com/Rey-commits/rey-commits-website/blob/master/public/studyImages/covidGIF.gif?raw=true",
+      img: "./studyImages/covidGIF.gif",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
@@ -111,7 +111,7 @@ export const studyData = [
     {
       id: 11,
       title: "Water Potability Classification Using Machine Learning Algorithms",
-      img: "https://wa-netofficial.org/wp-content/uploads/2020/06/maxresdefault.jpg",
+      img: "./studyImages/water_potability.jpg",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
