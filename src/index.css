@@ -266,6 +266,23 @@ body {
   text-decoration: none;
 }
 
+.content-toggle, .collapse, .content-toggle:hover, .content-table{
+  border-radius: 16px !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.quote-header, .card-header{
+  border-radius: 16px 16px 0 0 !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+.quote-card-body, .card-body{
+  border-radius: 0 0 16px 16px !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
 .content-toggle:hover {
   cursor: pointer;
 }
@@ -310,13 +327,25 @@ body {
 }
 
 /* IndividualCard Component */
+.card{
+  border-radius: 16px !important;
+  border-top: none !important;
+}
+.card-img-top{
+  border-radius: 16px !important;
+  border-bottom: none !important;
+  border-top: none !important;
 
+}
 .individual-card {
   margin: 1.8rem 1.2rem;
+  border-radius: 16px !important;
+  border-top: none !important;
 }
 .individual-card:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   transform: translate(0, -10px);
+  border-radius: 16px !important;
 }
 
 .book-under-line {
