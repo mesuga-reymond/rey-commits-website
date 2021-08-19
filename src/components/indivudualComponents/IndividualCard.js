@@ -8,7 +8,7 @@ function IndividualCard({title, info, img, author, code}) {
     }
     return (
         <div className="individual-card"> 
-            <Card md={3} style={{
+            <Card className="the-card" md={3} style={{
                 width: '100%'
             }}>
                 <Card.Img variant="top" src={img}/>
