@@ -119,5 +119,27 @@ export const studyData = [
       info:
         "This is a machine learning project aims to predict water potality of the water. Water potality indicates if the water quality is safe for human consumption or not. The models used are Random Forest, XGBoost, and Support Vector Machine."
     },
+    {
+      id: 12,
+      title: "Pulsar Star Classification Using High Time Resolution Universe Survey Data with Machine Learning Algorithms",
+      img: "./studyImages/pulsar_magnetosphere_model_web.gif",
+      modalImage:"",
+      author: "Reymond R. Mesuga",
+      type: "Personal Project",
+      code: "https://github.com/Rey-commits/AI_DeepLearning_MachineLearning_Projects/tree/master/11_Pulsar_Star_Prediction",
+      info:
+        "This is a machine learning binary classification project that aims to classify whether an input indicates a pulsar star or not. The machine learning algorithms to be used are Random Forest, XGBoost and Support Vector Machine."
+    },
+    {
+      id: 13,
+      title: "Ship Classification in Satellite Images Using Deep Transfer Learning Model with Resnet50 Base Architecture",
+      img: "./studyImages/1_Suez-Canal_WV2_EUSI.jpg",
+      modalImage:"",
+      author: "Reymond R. Mesuga",
+      type: "Personal Project",
+      code: "https://github.com/Rey-commits/AI_DeepLearning_MachineLearning_Projects/tree/master/10_Ship_Classification_Using_Satellite_Images",
+      info:
+        "This is a binary classification machine learning project aims to classify whether there is a ship on a satellite image or not. The dataset to be used was gathered from the recorded satellite images of ships in San Francisco. "
+    },
   ] 
   
