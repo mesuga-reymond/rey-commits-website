@@ -48,7 +48,7 @@ export const studyData = [
       type: "Personal Project",
       code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/6_Histopathologic-Cancer-Detection/Histopathologic_Cancer_Detection_Using_InceptionV3_Transfer_Learning.ipynb",
       info:
-        "This is a deep transfer learning project that focuses creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
+        "This is a deep transfer learning project that focuses on creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
     },
     {
       id: 6,
