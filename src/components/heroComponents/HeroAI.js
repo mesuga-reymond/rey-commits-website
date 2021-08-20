@@ -15,7 +15,8 @@ function HeroAI() {
         <div>
             <Jumbotron fluid className="hero-AI"> 
                 <div className="hero-container-AI">
-                    <h1>Artificial Intelligence Projects</h1>
+                    <h1>Artificial Intelligence</h1>
+                    <h1>Projects</h1>
                     <h5>by Reymond Mesuga</h5>
                     
                     <Col className="hero-buttons-column">
