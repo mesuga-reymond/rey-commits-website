@@ -5,6 +5,9 @@ import AIimage from "../comp-images/AI.svg";
 import webdev from "../comp-images/webdev.svg"
 import ML from "../comp-images/ML.svg"
 import TechsLogoList from './TechsLogoList';
+import AIimage_black from "../comp-images/AI_black.svg";
+import webdev_black from "../comp-images/webdev_black.svg"
+import ML_black from "../comp-images/ML_black.svg"
 // import RandomQuotes from './RandomQuotes';
 
 function Home() {
@@ -17,6 +20,7 @@ function Home() {
                         <Row fluid className="individual-row">
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={ML}/>
+                                <Figure.Image className="home-image-black" alt="171x180" src={ML_black}/>
                                 <h3 className="home-info-title">Data Analysis</h3>
                                 <p className="info-text">
                                 Data analysis is a process of inspecting, cleansing, transforming, and modeling 
@@ -28,6 +32,7 @@ function Home() {
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={AIimage}/>
+                                <Figure.Image className="home-image-black" alt="171x180" src={AIimage_black}/>
                                 <h3 className="home-info-title">Artificial Intelligence</h3>
                                 <p className="info-text">
                                 Artificial intelligence (AI) refers to the simulation of human intelligence 
@@ -40,6 +45,7 @@ function Home() {
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={webdev}/>
+                                <Figure.Image className="home-image-black" alt="171x180" src={webdev_black}/>
                                 <h3 className="home-info-title">Web App Development</h3>
                                 <p className="info-text">
                                 Web development is the building and maintenance of websites; it’s the work that 
