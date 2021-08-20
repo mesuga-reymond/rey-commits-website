@@ -9,8 +9,7 @@ function ContentTable() {
     
     return (
 
-        <Container>
-                
+        <Container>     
             <Accordion className="content-table" defaultActiveKey="0">
                 
                 {/* <p className="instructions">Consider checking the list of content below to ease finding a project in your interest. Also, be patient while loading source code on GiHub because some of the files are large enough to load a few minutes.</p> */}
