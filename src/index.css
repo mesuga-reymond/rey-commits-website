@@ -402,8 +402,8 @@ body {
 .individual-card:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   transform: translate(0, -13px);
-  border-radius: 16px !important;
   transition: transform 0.35s ease-in-out;
+  border-radius: 16px !important;
 }
 
 .book-under-line {
@@ -620,6 +620,11 @@ Home Component */
 .home-image{
   width: 80%;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  transition: transform 0.35s ease-in-out;
+}
+.home-image:hover{
+  transform: translate(0, -13px);
+  transition: transform 0.35s ease-in-out;
 }
 .individual-home-card{
   width: 80%;
