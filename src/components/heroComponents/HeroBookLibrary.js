@@ -15,13 +15,11 @@ function HeroBookLibrary() {
     }
     return (
         <div>
-            <Jumbotron fluid className="hero">
+            <Jumbotron fluid className="hero-library">
                 <Container fluid className="hero-container">
                     <h1>Books & Notes Library</h1>
                     <h5>by Reymond Mesuga</h5>
-                    <p>
-                        These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
-                    </p>
+                    
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
                             <Button className="individual-button" variant="outline-light"><i class="fab fa-github-square social-icon"></i> GitHub</Button>

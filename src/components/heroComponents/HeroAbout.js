@@ -15,7 +15,7 @@ function HeroAbout() {
     }
     return (
         <div>
-            <Jumbotron fluid className="hero">
+            <Jumbotron fluid className="hero-about">
                 <Container fluid className="hero-container">
                     <div className="about-hero-head">
                     <h1>About Me & this Website</h1>

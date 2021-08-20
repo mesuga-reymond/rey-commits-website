@@ -13,13 +13,11 @@ function HeroAI() {
     }
     return (
         <div>
-            <Jumbotron fluid className="hero"> 
+            <Jumbotron fluid className="hero-AI"> 
                 <div className="hero-container-AI">
                     <h1>Artificial Intelligence Projects</h1>
                     <h5>by Reymond Mesuga</h5>
-                    <p>
-                        These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
-                    </p>
+                    
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
                             <Button className="individual-button" variant="outline-light"><i class="fab fa-github-square social-icon"></i> GitHub</Button>

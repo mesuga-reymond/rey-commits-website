@@ -14,7 +14,7 @@ function HeroHome() {
     }
     return (
         <div fluid>
-            <Jumbotron fluid className="hero"> 
+            <Jumbotron fluid className="hero-home"> 
                 <div className="hero-container-AI">
                 <div>Welcome to</div>
                     <h1 className="home-hero-title home-hero">Rey-commits</h1>

@@ -14,13 +14,36 @@ body {
   }
 }
 
-.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.507)), url('./images-src/hero-image.jpeg') black center center scroll;
+.hero-home{
+  background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('https://i.gifer.com/7n5P.gif') black center center scroll;
   height: 400px;
   object-fit: cover;
   width: 100%;
 }
-
+.hero-AI{
+  background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.486)), url('https://i.pinimg.com/originals/c3/89/e6/c389e6a9a7e8afe62edcdd19d66efeec.gif') black center center scroll;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.hero-app{
+  background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.295)), url('https://i.pinimg.com/originals/16/b6/10/16b61003878c979a05540663abe67664.gif') black center center scroll;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.hero-library{
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.315)), url("https://i.pinimg.com/originals/65/52/87/65528721423ba711d2967e7597b7dc86.gif") black center center scroll;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.hero-about{
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.507)), url('https://i.pinimg.com/originals/08/b6/c6/08b6c607a9354766094c2c33d7d27a29.gif') black center center scroll;
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
 .hero-container {
   margin-top: 50px;
   padding-top: 7rem;
@@ -79,7 +102,7 @@ body {
 
 @media only screen and (max-width: 500px) {
   .hero-container-AI {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-right: 0rem;
   }
 
@@ -154,9 +177,9 @@ body {
 
 /* iphone 6/7/8 plus */
 @media only screen and (max-width : 414px) and (max-height : 736px) {
-  .hero-container {
+  /* .hero-container {
     padding-top: 3.8rem;
-  }
+  } */
 
   .hero {
     height: 350px;
@@ -405,9 +428,9 @@ body {
 }
 
 /* ABOUT */
-.about-hero-head{
+/* .about-hero-head{
   padding-top: 2rem;
-}
+} */
 .about-container {
   padding: 2.4rem 0 4rem 0;
   font-family: 'Raleway', sans-serif;
@@ -605,3 +628,4 @@ Home Component */
 .logo-name{
   font-family: 'Raleway', sans-serif;
 }
+
