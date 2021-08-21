@@ -17,9 +17,9 @@ function HeroAppList() {
         <div>
             <Jumbotron fluid className="hero-app"> 
                 <div className="hero-container-AI">
-                    <h1>Web App Development</h1>
-                    <h1>Projects</h1>
-                    <h5>by Reymond Mesuga</h5>
+                    <h1 className="hero-text">Web App Development</h1>
+                    <h1 className="hero-text">Projects</h1>
+                    <h5 className="hero-text">by Reymond Mesuga</h5>
                    
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
