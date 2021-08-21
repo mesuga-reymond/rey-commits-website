@@ -14,36 +14,13 @@ body {
   }
 }
 
-.hero-home{
+.hero-home, .hero-AI, .hero-app, .hero-library, .hero-about{
   background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./images-src/hero-image.jpeg') black center center scroll;
   height: 400px;
   object-fit: cover;
   width: 100%;
 }
-.hero-AI{
-  background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./images-src/hero-image.jpeg') black center center scroll;
-  height: 400px;
-  object-fit: cover;
-  width: 100%;
-}
-.hero-app{
-  background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./images-src/hero-image.jpeg') black center center scroll;
-  height: 400px;
-  object-fit: cover;
-  width: 100%;
-}
-.hero-library{
-  background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./images-src/hero-image.jpeg') black center center scroll;
-  height: 400px;
-  object-fit: cover;
-  width: 100%;
-}
-.hero-about{
-  background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./images-src/hero-image.jpeg') black center center scroll;
-  height: 400px;
-  object-fit: cover;
-  width: 100%;
-}
+
 .hero-container {
   margin-top: 50px;
   padding-top: 7rem;
