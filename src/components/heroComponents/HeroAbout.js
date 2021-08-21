@@ -18,8 +18,8 @@ function HeroAbout() {
             <Jumbotron fluid className="hero-about">
                 <Container fluid className="hero-container">
                     <div className="about-hero-head">
-                    <h1>About Me & this Website</h1>
-                    <h5>by Reymond Mesuga</h5>
+                    <h1 className="hero-text">About Me & this Website</h1>
+                    <h5 className="hero-text">by Reymond Mesuga</h5>
                     <p>
                         
                     </p>
