@@ -17,8 +17,8 @@ function HeroBookLibrary() {
         <div>
             <Jumbotron fluid className="hero-library">
                 <Container fluid className="hero-container">
-                    <h1>Books & Notes Library</h1>
-                    <h5>by Reymond Mesuga</h5>
+                    <h1 className="hero-text">Books & Notes Library</h1>
+                    <h5 className="hero-text">by Reymond Mesuga</h5>
                     
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
