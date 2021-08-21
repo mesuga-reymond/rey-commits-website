@@ -27,16 +27,12 @@ function HeroAbout() {
                     <Col className="hero-buttons-column">
                     <a onClick={openTabGithub}>
                             <Button className="individual-button" variant="dark"><i class="fab fa-github-square social-icon"></i> GitHub</Button>
-                            <Button className="individual-button-small-device" variant="dark"><i class="fab fa-github-square social-icon"></i> GitHub</Button>
-                            
                         </a>
                         <a onClick={openTabLinkedIn}>
                             <Button className="individual-button" variant="dark"><i class="fab fa-linkedin social-icon"></i> LinkedIn</Button>
-                            <Button className="individual-button-small-device" variant="dark"><i class="fab fa-linkedin social-icon"></i> LinkedIn</Button>
                         </a>
                         <a onClick={openTabFacebook}>
                             <Button className="individual-button" variant="dark"><i class="fab fa-facebook-square social-icon"></i> Facebook</Button>
-                            <Button className="individual-button-small-device" variant="dark"><i class="fab fa-facebook-square social-icon"></i> Facebook</Button>
                         </a>
                     </Col>
                 </Container>
