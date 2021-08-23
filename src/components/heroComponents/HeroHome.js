@@ -19,7 +19,8 @@ function HeroHome() {
                 <div className="hero-container">
                 <div className="hero-text">Welcome to</div>
                     <h1 className="home-hero-title home-hero hero-text">Rey-commits</h1>
-                    <p className="hero-text">This is Reymond's home for creativity and innovation</p>
+                    <h5 className="hero-text">by Reymond Mesuga</h5>
+                    {/* <p className="hero-text">This is Reymond's home for creativity and innovation</p> */}
                     
                     {/* <p>
                         These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
