@@ -1,9 +1,9 @@
 /* eslint-disable array-callback-return */
 import React from 'react'
 import {Col, Container, Figure, Row} from 'react-bootstrap'
-import AIimage from "../comp-images/AI.svg";
-import webdev from "../comp-images/webdev.svg"
-import ML from "../comp-images/ML.svg"
+import AIimage from "../comp-images/AI_green.svg";
+import webdev from "../comp-images/webdev_green.svg"
+import ML from "../comp-images/ML_green.svg"
 import TechsLogoList from './TechsLogoList';
 import AIimage_black from "../comp-images/AI_black.svg";
 import webdev_black from "../comp-images/webdev_black.svg"
