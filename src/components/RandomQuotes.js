@@ -26,7 +26,7 @@ function RandomQuotes() {
     return (
         <div>
             <div className="quote-card">
-                    <Card>
+                    <Card className="quote-card-main">
                         <Card.Header className="quote-header">Quote Machine</Card.Header>
                         <Card.Body className="quote-card-body">
                             <blockquote className="blockquote mb-0">
