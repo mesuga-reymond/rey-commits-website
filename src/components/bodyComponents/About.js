@@ -38,7 +38,6 @@ function About() {
                         </i>
                     </p>
                 </Card.Text>
-            
             </Container>
         </div>
     )
