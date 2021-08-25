@@ -15,7 +15,10 @@ body {
 }
 
 .hero-home, .hero-AI, .hero-app, .hero-library, .hero-about{
-  background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./images-src/hero-image.jpeg') black center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.295)), url('./images-src/waterfall-higher.gif') black center center scroll;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   height: 400px;
   object-fit: cover;
   width: 100%;
@@ -32,11 +35,10 @@ body {
   margin: 0 0.3rem;
   padding: 0.5rem;
   transition: transform 0.35s ease-in-out;
-  
 }
 
 .individual-button:hover{
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.274), 0 4px 8px rgba(0, 0, 0, 0.315);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.281), 0 4px 8px rgba(0, 0, 0, 0.288);
   transform: translate(0, -5px);
   transition: transform 0.35s ease-in-out;
 }
@@ -70,19 +72,19 @@ body {
 } */
 @media only screen and (max-width: 600px){
   .hero-home{
-    background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.295)), url('./components/heroComponents/hero-images/rolling-arms.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.37)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
   }
   .hero-AI{
-    background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.493)), url('./components/heroComponents/hero-images/moving-neuron.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.412)), url('./components/heroComponents/hero-images/moving-neuron.gif') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
   }
   .hero-app{
-    background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.295)), url('./components/heroComponents/hero-images/ring-dribbble.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.5)), url('./components/heroComponents/hero-images/floating-geometry.gif') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
@@ -94,7 +96,7 @@ body {
     width: 100%;
   }
   .hero-about{
-    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.384)), url('./components/heroComponents/hero-images/people-pattern.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.473)), url('./components/heroComponents/hero-images/about-violet.gif') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
@@ -102,6 +104,9 @@ body {
   .hero-text{
     text-shadow: 0px 0px 20px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
   }
+}
+.hero-text{
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.411), 0px 0px 20px rgba(0, 0, 0, 0.39);
 }
 
 @media only screen and (max-width: 400px) {
@@ -275,7 +280,7 @@ body {
 
 /* RandomQuotes */
 .quote-card-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.466)), url("https://i.pinimg.com/originals/bb/9a/68/bb9a6891d329c8a23f8ebcee6f3d7374.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.466)), url("./images-src/yellowish-neuron.gif");
 }
 
 .quote-card {
@@ -284,6 +289,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Raleway', sans-serif;
+}
+
+.quote-card-main{
+  transition: transform 0.35s ease-in-out;
+}
+.quote-card-main:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.171), 0 4px 8px rgba(0, 0, 0, 0.288);
+  transform: translate(0, -5px);
+  transition: transform 0.35s ease-in-out;
 }
 
 .quote-card-text {
@@ -404,9 +418,19 @@ body {
   margin-right: auto;
 } */
 /* Footer Component */
-.hero-footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.474)), url('./images-src/hero-image.jpeg') black center center scroll;
-  height: 100%;
+
+@media only screen and (min-width: 600px){
+  .hero-footer {
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.582)), url('./images-src/waterfall-higher.gif') black center center scroll;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .hero-footer {
+    height: 100%;
+    background-color:black !important;
+  }
 }
 
 .hero-container-footer {
