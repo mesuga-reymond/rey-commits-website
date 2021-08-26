@@ -1,7 +1,7 @@
 /* Custom Font */
 @font-face {
   font-family: Pattaya;
-  src: url(src/fonts/Pattaya-Regular.ttf);
+  src: url(./fonts/Pattaya-Regular.ttf);
 }
 
 /* Hero/Header Component */
@@ -20,6 +20,8 @@ body {
     width: 100%;
   }
 }
+
+
 
 .hero-home, .hero-AI, .hero-app, .hero-library, .hero-about{
   background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.295)), url('./images-src/waterfall-higher.gif') black center center scroll;
@@ -112,6 +114,7 @@ body {
     text-shadow: 0px 0px 20px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
   }
 }
+
 .hero-text{
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.411), 0px 0px 20px rgba(0, 0, 0, 0.39);
 }
@@ -158,7 +161,7 @@ body {
 /* iphone 5 */
 /* Only iPhone 5 (portrait mode) */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
   .hero {
     height: 600px;
   }
@@ -168,7 +171,7 @@ body {
     padding-top: 2rem;
     font-size: small;
   }
-}
+} */
 
 /* @media only screen 
     and (max-width : 320px) 
