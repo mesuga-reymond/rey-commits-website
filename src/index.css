@@ -1,3 +1,9 @@
+/* Custom Font */
+@font-face {
+  font-family: Pattaya;
+  src: url(src/fonts/Pattaya-Regular.ttf);
+}
+
 /* Hero/Header Component */
 body {
   text-align: center;
@@ -6,6 +12,7 @@ body {
 
 .website-title{
   font-family: 'Pattaya', sans-serif;
+  font-family: Pattaya, sans-serif;
 }
 
 @media only screen and (max-width: 400px) {
@@ -245,6 +252,7 @@ body {
 .navbar-brand {
   margin-left: 1rem;
   font-family: 'Pattaya', sans-serif;
+  font-family: Pattaya, sans-serif;
 }
 
 .navlink-item {
@@ -661,6 +669,7 @@ Home Component */
 .home-hero{
   padding: 0rem 0 0 0;
   font-family: 'Pattaya', sans-serif;
+  font-family: Pattaya, sans-serif;
   font-size: 3rem;
 }
 
