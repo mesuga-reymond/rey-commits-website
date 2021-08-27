@@ -28,10 +28,10 @@ function IndividualVideo({title, vlogger, thumbnail, info, source, code}) {
                             {info}
                         </Card.Text>
                         <a className="app-individual-button" onClick={openTabSource}>
-                            <Button variant="secondary">Link</Button>
+                            <Button variant="dark">Link</Button>
                         </a>
                         <a className="app-individual-button" onClick={openTabCode}>
-                            <Button variant="secondary">Code</Button>
+                            <Button variant="dark">Code</Button>
                         </a>
                     </Card.Body>
                 </Card>
