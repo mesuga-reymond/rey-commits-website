@@ -12,7 +12,7 @@ export const studyData = [
     {
       id: 2,
       title: "Electron Invariant Mass Prediction in CERN Electron Collision Data Using Machine Learning Algorithms",
-      img: "https://www.symmetrymagazine.org/sites/default/files/styles/2015_hero/public/images/standard/CMS-s_0.jpg?itok=Iidr3qnO",
+      img: "./studyImages/CMS-s_0.jpg",
       author: "Reymond Mesuga",
       type: "Academic Research",
       code: "https://jovian.ai/mesugareymondrobin/invariant-mass-prediction-in-cern-electron-collision-data-using-machine-learning",
