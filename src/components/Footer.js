@@ -30,7 +30,7 @@ function Footer() {
                                 <i class="fab fa-facebook-square social-icon"></i> Facebook
                         </a>
                     </Col>
-                    <p className="copy-right" ><i class="fas fa-copyright"></i> 2021 Reymond R. Mesuga | All Rights Reserved</p>
+                    <p className="copy-right" >Copyright <i class="far fa-copyright"></i> 2021, Reymond Mesuga. All Rights Reserved.</p>
                 </Container>
             </Jumbotron>
         </div>
