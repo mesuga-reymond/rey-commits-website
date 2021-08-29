@@ -26,12 +26,10 @@ function About() {
                     <p>
                         <i>
                             I'm a programmer and a physics student at PUP Manila. I enjoy doing data
-                            analysis, artificial intelligence and app development on my spare time. I made
-                            this website mainly to showcase the projects that i have done so far including
-                            personal projects and academic research contributions that is related to data
-                            analysis and artificial intelligence where i use Python librarires. When it
-                            comes to app development, i use javascript as my main languange and especially
-                            its framework called React JS.
+                            analysis, artificial intelligence and app development on my spare time. 
+                            I use python and its frameworks as my main programming language for data 
+                            analysis and artificial intelligence. When it comes to app development, 
+                            i use javascript as my main languange and especially its framework called React JS.
                         </i>
                     </p>
                 </Card.Text>
@@ -43,7 +41,11 @@ function About() {
                 <Card.Text className="about-info">
                     <p>
                         <i>
-                            I made this website back in May 2021 with my favorite javascript frame called React JS.
+                            I made this website back in May 2021 with my favorite javascript framework called React JS. 
+                            This website aims to showcase the projects that i have been doing in the course of my learning progress. 
+                            My projects in A.I. focuses on deep learning and machine learning which involve calssification and 
+                            prediction using traditional and state-of-the-art algorithms. On the other hand, my web app projects 
+                            are simple enough to demonstrate my skills in web development and specially on the framework React JS.
                         </i>
                     </p>
                 </Card.Text>
