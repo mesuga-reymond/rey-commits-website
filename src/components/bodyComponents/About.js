@@ -31,10 +31,19 @@ function About() {
                             personal projects and academic research contributions that is related to data
                             analysis and artificial intelligence where i use Python librarires. When it
                             comes to app development, i use javascript as my main languange and especially
-                            its framework called React JS. In fact, i made this website using React JS and
-                            work on it for almost three days before it looks decent and still working on the
-                            improvement at the moment. For more info, follow me on GitHub or connect with me
-                            via LinkedIn.
+                            its framework called React JS.
+                        </i>
+                    </p>
+                </Card.Text>
+                <h1>About This Website</h1>
+                <div className="about-me-line">
+                    <hr></hr>
+                </div>
+
+                <Card.Text className="about-info">
+                    <p>
+                        <i>
+                            I made this website back in May 2021 with my favorite javascript frame called React JS.
                         </i>
                     </p>
                 </Card.Text>
