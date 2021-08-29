@@ -18,7 +18,7 @@ function About() {
                 <Image className="profile-image" src="reymond2.jpg" roundedCircle/>
                 <h3>Reymond R. Mesuga</h3>
                 <a className="app-individual-button" onClick={openTabResume}>
-                    <Button variant="secondary">Download Resume</Button>
+                    <Button variant="dark">Download Resume</Button>
                 </a>
 
                 <Card.Text className="about-info">
