@@ -81,7 +81,7 @@ body {
 } */
 @media only screen and (max-width: 600px){
   .hero-home,.hero-AI,.hero-app,.hero-library,.hero-about {
-    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.295)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.37)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
@@ -447,7 +447,7 @@ body {
   .hero-footer {
     height: 100%;
     /* background-color:black !important; */
-    background: linear-gradient(rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.699)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.384)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
   }
 }
 
