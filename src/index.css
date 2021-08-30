@@ -80,7 +80,7 @@ body {
   }
 } */
 @media only screen and (max-width: 600px){
-  .hero-home{
+  /* .hero-home{
     background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.37)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
     height: 400px;
     object-fit: cover;
@@ -109,7 +109,7 @@ body {
     height: 400px;
     object-fit: cover;
     width: 100%;
-  }
+  } */
   .hero-text{
     text-shadow: 0px 0px 20px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
   }
