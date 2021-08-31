@@ -137,7 +137,7 @@ export const techsData = [
     {
         id: 28,
         image: "./techs-images/Linux.svg",
-        name: "Linux Kernel"
+        name: "Linux OS"
     },
     {
         id: 29,
