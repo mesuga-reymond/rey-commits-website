@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { Button, Col, Jumbotron } from 'react-bootstrap';
+import { Button, Col, Jumbotron, Image } from 'react-bootstrap';
 
 function HeroHome() {
     function openTabGithub() {
@@ -17,14 +17,13 @@ function HeroHome() {
         <div fluid>
             <Jumbotron fluid className="hero-home"> 
                 <div className="hero-container">
-                <div className="hero-text">Welcome to</div>
-                    <h1 className="home-hero-title home-hero hero-text">Rey-commits</h1>
-                    <h5 className="hero-text">by Reymond Mesuga</h5>
-                    {/* <p className="hero-text">This is Reymond's home for creativity and innovation</p> */}
-                    
-                    {/* <p>
-                        These are the collections of projects that i have been doing on my spare time and some research contributions within academics.
-                    </p> */}
+                    <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
+                    <h1 className="home-hero-title home-hero hero-text">Reymond Mesuga</h1>
+                    {/* Uncomment below to retwrieve old home hero */}
+                    {/* <div className="hero-text">Welcome to</div>
+                    <h1 className="home-hero-title home-hero hero-text"><Image className="home-profile-image" src="reymond2.jpg" roundedCircle/> Rey-commits</h1>
+                    <h5 className="hero-text">by Reymond Mesuga</h5> */}
+                   
                     <Col className="hero-buttons-column">
                         <a onClick={openTabGithub}>
                             <Button className="individual-button" variant="dark"><i class="fab fa-github-square social-icon"></i> GitHub</Button>
