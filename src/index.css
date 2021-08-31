@@ -49,10 +49,12 @@ body {
   margin: 0 0.3rem;
   padding: 0.5rem;
   transition: transform 0.35s ease-in-out;
+  font-family: 'Raleway', sans-serif;
 }
 
 .individual-button:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.281), 0 4px 8px rgba(0, 0, 0, 0.288);
+  font-family: 'Raleway', sans-serif;
   transform: translate(0, -5px);
   transition: transform 0.35s ease-in-out;
 }
