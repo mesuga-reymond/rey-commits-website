@@ -12,7 +12,7 @@ function About() {
         <div>
             <Container className="about-container">
                 <h1>About Me</h1>
-                <div className="about-me-line">
+                <div className="line">
                     <hr></hr>
                 </div>
                 <Image className="profile-image" src="reymond2.jpg" roundedCircle/>
@@ -34,7 +34,7 @@ function About() {
                     </p>
                 </Card.Text>
                 <h1>About This Website</h1>
-                <div className="about-me-line">
+                <div className="line">
                     <hr></hr>
                 </div>
 
