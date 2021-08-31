@@ -500,6 +500,14 @@ body {
   font-family: 'Raleway', sans-serif;
 
 }
+.home-profile-image {
+  /* padding: 4rem 0 1.5rem 0; */
+  width: 8rem;
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
 
 .profile-image {
   padding: 4rem 0 1.5rem 0;
@@ -519,7 +527,7 @@ body {
   padding-bottom: 5rem;
 }
 
-.about-me-line {
+.line {
   width: 10rem;
   margin-left: auto;
   margin-right: auto;
@@ -669,21 +677,28 @@ Home Component */
   .home-image-black{
     display: none;
   }
+  /* Home Hero */
+  .home-hero{
+  padding: 0rem 0 0 0;
+  font-family: 'Pattaya', sans-serif;
+  font-family: Pattaya, sans-serif;
+  font-size: 3rem;
+  }
 }
 
 @media only screen and (max-width: 600px){
   .home-image{
     display: none;
   }
-}
-
-/* Home Hero */
-.home-hero{
+  /* Home Hero */
+  .home-hero{
   padding: 0rem 0 0 0;
   font-family: 'Pattaya', sans-serif;
   font-family: Pattaya, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  }
 }
+
 
 .home-info-title{
   font-family: 'Raleway', sans-serif;
