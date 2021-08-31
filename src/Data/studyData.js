@@ -1,13 +1,13 @@
 export const studyData = [ 
-    {
-      id: 1,
-      title: "Pneumonia Image Classification Using CNN with ResNet9 Architecture",
-      img: "./studyImages/pneumonia-xray.jpeg",
+    { id: 1,
+      title: "Exoplanet Prediction Using Kepler Labelled Time Series Data With Machine Learning Algorithms",
+      img: "./studyImages/exoplanet.gif",
+      modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/1_Pneumonia_Image_Classification_Using_CNN/Course_Project_DeepLearning%20(1).ipynb",
+      code: "https://github.com/Rey-commits/AI_DeepLearning_MachineLearning_Projects/tree/master/8_Searching_for_the_Exo_Planets_Using_Machine_Learning_Algorithms",
       info:
-        "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch. The CNN model here was built and trained from the ground that has an accuracy of approximately 85%."
+        "This project is about the prediction of the next possible earth using the light intensity time series data gathered by Kepler space telescope. The models used in this project are Random Forest, XGBoost, and Support Vector Machine Classifier."
     },
     {
       id: 2,
@@ -52,14 +52,13 @@ export const studyData = [
     },
     {
       id: 6,
-      title: "Exoplanet Prediction Using Kepler Labelled Time Series Data With Machine Learning Algorithms",
-      img: "./studyImages/exoplanet.gif",
-      modalImage:"",
+      title: "Pneumonia Image Classification Using CNN with ResNet9 Architecture",
+      img: "./studyImages/pneumonia-xray.jpeg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/Rey-commits/AI_DeepLearning_MachineLearning_Projects/tree/master/8_Searching_for_the_Exo_Planets_Using_Machine_Learning_Algorithms",
+      code: "https://github.com/Rey-commits/Machine_and_Deep_Learning/blob/master/1_Pneumonia_Image_Classification_Using_CNN/Course_Project_DeepLearning%20(1).ipynb",
       info:
-        "This project is about the prediction of the next possible earth using the light intensity time series data gathered by Kepler space telescope. The models used in this project are Random Forest, XGBoost, and Support Vector Machine Classifier."
+        "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch. The CNN model here was built and trained from the ground that has an accuracy of approximately 85%."
     },
   ];
 
