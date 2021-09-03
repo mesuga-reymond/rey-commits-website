@@ -18,7 +18,7 @@ function HeroBookLibrary() {
             <Jumbotron fluid className="hero-library">
                 <Container fluid className="hero-container">
                     <h1 className="hero-text">Books & Notes</h1>
-                    <h1>Library</h1>
+                    <h1 className="hero-text">Library</h1>
                     <h5 className="hero-text">by Reymond Mesuga</h5>
                     
                     <Col className="hero-buttons-column">
