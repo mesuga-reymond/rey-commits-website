@@ -5,9 +5,9 @@ import AIimage from "../comp-images/AI_green.svg";
 import webdev from "../comp-images/webdev_green.svg"
 import ML from "../comp-images/ML_green.svg"
 import TechsLogoList from './TechsLogoList';
-import AIimage_black from "../comp-images/AI_black.svg";
-import webdev_black from "../comp-images/webdev_black.svg"
-import ML_black from "../comp-images/ML_black.svg"
+import AIimage_violet from "../comp-images/AI_violet.svg";
+import webdev_violet from "../comp-images/webdev_violet.svg"
+import ML_violet from "../comp-images/ML_violet.svg"
 // import RandomQuotes from './RandomQuotes';
 
 function Home() {
@@ -23,7 +23,7 @@ function Home() {
                         <Row fluid className="individual-row">
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={ML}/>
-                                <Figure.Image className="home-image-black" alt="171x180" src={ML_black}/>
+                                <Figure.Image className="home-image-black" alt="171x180" src={ML_violet}/>
                                 <h3 className="home-info-title">Data Analysis</h3>
                                 <div className="line">
                                     <hr></hr>
@@ -38,7 +38,7 @@ function Home() {
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={AIimage}/>
-                                <Figure.Image className="home-image-black" alt="171x180" src={AIimage_black}/>
+                                <Figure.Image className="home-image-black" alt="171x180" src={AIimage_violet}/>
                                 <h3 className="home-info-title">Artificial Intelligence</h3>
                                 <div className="line">
                                     <hr></hr>
@@ -54,7 +54,7 @@ function Home() {
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={webdev}/>
-                                <Figure.Image className="home-image-black" alt="171x180" src={webdev_black}/>
+                                <Figure.Image className="home-image-black" alt="171x180" src={webdev_violet}/>
                                 <h3 className="home-info-title">Web App Development</h3>
                                 <div className="line">
                                     <hr></hr>
