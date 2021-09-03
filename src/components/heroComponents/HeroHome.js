@@ -18,7 +18,7 @@ function HeroHome() {
             <Jumbotron fluid className="hero-home"> 
                 <div className="hero-home-container">
                     <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
-                    <h1 className="home-hero-title home-hero hero-text">Reymond Mesuga</h1>
+                    <h1 className="home-hero-title home-hero hero-text">Reymond R. Mesuga</h1> 
                     {/* Uncomment below to retwrieve old home hero */}
                     {/* <div className="hero-text">Welcome to</div>
                     <h1 className="home-hero-title home-hero hero-text"><Image className="home-profile-image" src="reymond2.jpg" roundedCircle/> Rey-commits</h1>
