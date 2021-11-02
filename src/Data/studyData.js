@@ -15,7 +15,7 @@ export const studyData = [
       img: "./studyImages/CMS-s_0.jpg",
       author: "Reymond Mesuga",
       type: "Academic Research",
-      code: "https://jovian.ai/mesugareymondrobin/invariant-mass-prediction-in-cern-electron-collision-data-using-machine-learning",
+      code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/7_Electron_Invariant_Mass_Prediction",
       info:
         "This personal project aims to predict the invariant mass of electron using CERN Electron Collision Data. The machine learning algorithms to be used are Random Forest Regressor and XGBoost Regressor."
     },
