@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Jumbotron, Container, Button, Col} from "react-bootstrap"
+import {Jumbotron, Button, Col, Image} from "react-bootstrap"
 
 
 function HeroBookLibrary() {
@@ -16,7 +16,10 @@ function HeroBookLibrary() {
     return (
         <div>
             <Jumbotron fluid className="hero-library">
-                <Container fluid className="hero-container">
+                <div fluid className="hero-container">
+                <div className="profile-div">
+                <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
+                </div>
                     <h1 className="hero-text">Books & Notes</h1>
                     <h1 className="hero-text">Library</h1>
                     <h5 className="hero-text">by Reymond Mesuga</h5>
@@ -32,7 +35,7 @@ function HeroBookLibrary() {
                             <Button className="individual-button" variant="dark"><i class="fab fa-facebook-square social-icon"></i> Facebook</Button>
                         </a>
                     </Col>
-                </Container>
+                </div>
             </Jumbotron>
         </div>
     )

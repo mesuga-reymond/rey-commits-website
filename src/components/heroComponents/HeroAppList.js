@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Jumbotron, Button, Col} from "react-bootstrap"
+import {Jumbotron, Button, Col, Image} from "react-bootstrap"
 
 
 function HeroAppList() {
@@ -17,6 +17,9 @@ function HeroAppList() {
         <div>
             <Jumbotron fluid className="hero-app"> 
                 <div className="hero-container">
+                <div className="profile-div">
+                <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
+                </div>
                     <h1 className="hero-text">Web App Development</h1>
                     <h1 className="hero-text">Projects</h1>
                     <h5 className="hero-text">by Reymond Mesuga</h5>
