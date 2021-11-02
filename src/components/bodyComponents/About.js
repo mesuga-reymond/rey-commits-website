@@ -5,8 +5,8 @@ import {Button, Card, Container, Image} from 'react-bootstrap'
 
 function About() {
     function openTabResume() {
-        window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bod" +
-                "yComponents/Mesuga_Reymond_Resume.pdf");
+        // window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bod" +
+        //         "yComponents/Mesuga_Reymond_Resume.pdf");
     }
     return (
         <div>
