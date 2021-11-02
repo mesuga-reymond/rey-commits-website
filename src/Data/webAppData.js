@@ -7,7 +7,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "A JavaScript the documentation website that is part of the project in FreeCodeCamp.",
         source: "https://rey-commits.github.io/Documentation-Website/",
-        code: "https://github.com/Rey-commits/Documentation-Website"
+        code: "https://github.com/mesuga-reymond/Documentation-Website"
     },
     {
         id: "2",
@@ -17,7 +17,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This is a Random Quote Machine that is part of the project in FreeCodeCamp. It uses a random quote api and was made using React Js.",
         source: "https://rey-commits.netlify.app/app-projects",
-        code: "https://github.com/Rey-commits/da-ml-portfolio-website/blob/master/src/components/RandomQuotes.js",
+        code: "https://github.com/mesuga-reymond/da-ml-portfolio-website/blob/master/src/components/RandomQuotes.js",
     },
     {
         id: "3",
@@ -27,7 +27,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This is a to-do-list app i learned from Angela Lee from Udemy and it was made using React Js.",
         source: "https://keeper-app-reymond.netlify.app/",
-        code: "https://github.com/Rey-commits/Keeper-App-Finished",
+        code: "https://github.com/mesuga-reymond/Keeper-App-Finished",
     },
     {
         id: "4",
@@ -37,7 +37,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This is my former personal website and online resume made in Bootstrap.",
         source: "https://rey-commits.github.io/Reymond-Portfolio/",
-        code: "https://github.com/Rey-commits/Reymond-Portfolio",
+        code: "https://github.com/mesuga-reymond/Reymond-Portfolio",
     },
     {
         id: "5",
@@ -47,7 +47,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This is a simple JavaScript calculator that is part of the project in FreeCodeCamp and was made using React Js.",
         source: "https://rey-commits.github.io/JavaScript-Calculator/",
-        code: "https://github.com/Rey-commits/JavaScript-Calculator",
+        code: "https://github.com/mesuga-reymond/JavaScript-Calculator",
     },
     {
         id: "6",
@@ -57,7 +57,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This is the personal website that i am currently using. This was made using React JS and also the website that you are scrolling right now.",
         source: "https://rey-commits.netlify.app/",
-        code: "https://github.com/Rey-commits/da-ml-portfolio-website"
+        code: "https://github.com/mesuga-reymond/da-ml-portfolio-website"
     },
     {
         id: "7",
@@ -67,7 +67,7 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This is a color generator web app i learned from John Smilga from Coding Addict. It uses React Js and Values JS to display colors.",
         source: "https://colorgenerator-reycommits.netlify.app/",
-        code: "https://github.com/Rey-commits/color-generator"
+        code: "https://github.com/mesuga-reymond/color-generator"
     },
     {
         id: "8",
@@ -77,6 +77,6 @@ export const webAppData = [
         topics: "Deep Learning",
         info: "This freeCodeCamp dummy website combines the courses and video tutorials of freeCodeCamp from their official website and on youtube.",
         source: "https://fcc-dummy.netlify.app/curriculum",
-        code: "https://github.com/Rey-commits/freecodecamp-dummy-website"
+        code: "https://github.com/mesuga-reymond/freecodecamp-dummy-website"
     },
 ]
