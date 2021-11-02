@@ -75,11 +75,11 @@ export const studyData = [
     },
     {
       id: 8,
-      title: "On the Efficiency of Various Deep Learning Models in Glitch Waveform Detection in Gravitational-Wave Data",
+      title: "On the Performance of Various Deep Transfer Learning CNN Models in Glitch Waveform Identification in Gravitational-Wave Data",
       img: "./studyImages/black-hole-smush_600.gif",
       author: "Reymond Mesuga and Brian James Bayanay",
       type: "Academic Research",
-      code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/tree/master/5_Glitch_Classification/Different_Colored_CM",
+      code: "https://github.com/mesuga-reymond/Gravitational_Wave_Laboratory_Project_2021_Mesuga_Bayanay",
       info:
         "This academic research aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits of LIGO."
     },
