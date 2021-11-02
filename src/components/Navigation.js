@@ -5,7 +5,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 
 function Navigation() {
     function openTabResume() {
-        window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bodyComponents/Mesuga_Reymond_Resume.pdf");
+        // window.open("https://github.com/Rey-commits/rey-commits-website/raw/master/src/components/bodyComponents/Mesuga_Reymond_Resume.pdf");
     }
     return (
         
