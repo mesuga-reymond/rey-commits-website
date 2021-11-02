@@ -25,7 +25,7 @@ export const studyData = [
       img: "./studyImages/covid-19.jpg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/blob/master/4_Covid-19_Image_Classification/Successful_Resnet50_Covid19_(5_17_21).ipynb",
+      // code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/blob/master/4_Covid-19_Image_Classification/Successful_Resnet50_Covid19_(5_17_21).ipynb",
       info:
         "The goal of this project is to compare the accuracy of different state of the art models to predict the possible existence of Covid-19 using chest x-ray images."
     },
@@ -35,7 +35,7 @@ export const studyData = [
       img: "./studyImages/MIRScanGIF.gif",
       author: "Reymond Mesuga",
       type: "Personal Project",
-      code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/tree/master/3_Alzheimers_Detection",
+      code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/3_Alzheimers_Detection",
       info:
         "This project aims to evaluate the performance of different state of the start transfer learning model to detect different stages of Alzheimer's Desease using MRI brain scans."
     },
@@ -46,7 +46,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/blob/master/6_Histopathologic-Cancer-Detection/Histopathologic_Cancer_Detection_Using_InceptionV3_Transfer_Learning.ipynb",
+      code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/6_Histopathologic-Cancer-Detection",
       info:
         "This is a deep transfer learning project that focuses on creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
     },
@@ -56,7 +56,7 @@ export const studyData = [
       img: "./studyImages/pneumonia-xray.jpeg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/blob/master/1_Pneumonia_Image_Classification_Using_CNN/Course_Project_DeepLearning%20(1).ipynb",
+      code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/1_Pneumonia_Image_Classification_Using_CNN",
       info:
         "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch. The CNN model here was built and trained from the ground that has an accuracy of approximately 85%."
     },
@@ -92,7 +92,7 @@ export const studyData = [
       img: "./studyImages/oldHotel.jpg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
-      code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/blob/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier/Hotel_Cancellation_Using_Binary_Classifier.ipynb",
+      code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier",
       info:
         "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
     },
