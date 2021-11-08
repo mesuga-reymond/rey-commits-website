@@ -61,7 +61,7 @@ export const studyData = [
         "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch. The CNN model here was built and trained from the ground that has an accuracy of approximately 85%."
     },
   ];
-
+  
   export const studyDataForLarge = [
     {
       id: 7,
@@ -107,7 +107,7 @@ export const studyData = [
       info:
         "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
     },
-    {
+    { 
       id: 11,
       title: "Water Potability Classification Using Machine Learning Algorithms",
       img: "./studyImages/water_potability.jpg",
