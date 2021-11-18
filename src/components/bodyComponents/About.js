@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Button, Card, Container, Image} from 'react-bootstrap'
+import {Button, Card, Container} from 'react-bootstrap'
 // import {LinkContainer} from 'react-router-bootstrap'
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
                 <div className="line">
                     <hr></hr>
                 </div>
-                <Image className="profile-image" src="reymond2.jpg" roundedCircle/>
+                
                 <h3>Reymond R. Mesuga</h3>
                 <a className="app-individual-button" onClick={openTabResume}>
                     <Button variant="dark">Download Resume</Button>
