@@ -529,22 +529,7 @@ body {
 .profile-div{
   position:relative;
 }
-.home-profile-image {
-  /* padding: 4rem 0 1.5rem 0; */
-  width: 11rem;
-  height: 11rem;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
-  transition: transform 0.35s ease-in-out;
-  border-style: solid;
-  border-color: rgb(53, 53, 53);
-  border-width: 5px;
-  
-  position:absolute;
-  top: 8rem;
-  right: 75%;
-}
+
 /* .home-profile-image:hover{
   width: 12rem;
   height: 12rem;
@@ -555,9 +540,59 @@ body {
   transition: transform 0.35s ease-in-out;
 
 } */
-@media only screen and (max-width: 1000px){
-  .home-profile-image{
+/* @media only screen and (max-width: 1000px){
+  .home-profile-image-large{
     display: none;
+  }
+} */
+@media only screen and (min-width: 1000px){
+  .home-profile-image-large {
+    /* padding: 4rem 0 1.5rem 0; */
+    width: 11rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    transition: transform 0.35s ease-in-out;
+    border-style: solid;
+    border-color: rgb(53, 53, 53); 
+    border-width: 5px;
+    
+    position:absolute;
+    top: 8rem;
+    right: 75%;
+  }
+  .home-profile-image-medium{
+    display: none;
+  }
+ 
+}
+
+@media only screen and (min-width: 601px) and (max-width: 999px) {
+  .home-profile-image-medium {
+    /* padding: 4rem 0 1.5rem 0; */
+    width: 12rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    transition: transform 0.35s ease-in-out;
+    border-style: solid;
+    border-color: rgb(53, 53, 53); 
+    border-width: 5px;
+    
+    position:absolute;
+    top: 13rem;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .home-profile-image-large{
+    display: none;
+  }
+  .navtab-container {
+    margin-top: 9rem;
   }
 }
 
@@ -570,6 +605,12 @@ body {
     margin-right: auto;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
     transition: transform 0.35s ease-in-out;
+  }
+  .home-profile-image-medium{
+    display: none;
+  }
+  .home-profile-image-large{
+    display: none;
   }
 }
 
