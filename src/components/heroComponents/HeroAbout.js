@@ -18,7 +18,8 @@ function HeroAbout() {
             <Jumbotron fluid className="hero-about">
                 <div fluid className="hero-container">
                 <div className="profile-div">
-                <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
+                <Image className="home-profile-image-large" src="reymond2.jpg" roundedCircle/>
+                <Image className="home-profile-image-medium" src="reymond2.jpg" roundedCircle/>
                 </div>
                     <div className="about-hero-head">
                     <h1 className="hero-text">About Me</h1>
