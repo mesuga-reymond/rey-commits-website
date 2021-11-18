@@ -16,7 +16,8 @@ function HeroAI() {
             <Jumbotron fluid className="hero-AI"> 
                 <div className="hero-container">
                 <div className="profile-div">
-                <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
+                <Image className="home-profile-image-large" src="reymond2.jpg" roundedCircle/>
+                <Image className="home-profile-image-medium" src="reymond2.jpg" roundedCircle/>
                 </div>
                     <h1 className="hero-text">Artificial Intelligence</h1>
                     <h1 className="hero-text">Projects</h1>
