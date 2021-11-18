@@ -20,7 +20,8 @@ function HeroHome() {
 
                     <div className="hero-for-big-screen">
                         <div className="profile-div">
-                            <Image className="home-profile-image" src="reymond2.jpg" roundedCircle/>
+                            <Image className="home-profile-image-large" src="reymond2.jpg" roundedCircle/>
+                            <Image className="home-profile-image-medium" src="reymond2.jpg" roundedCircle/>
                         </div>
                         <h1 className="home-hero-title home-hero hero-text">Reymond Mesuga</h1>
                         <h5 className="hero-text">Artificial Intelligence | Physics | React Programming</h5>
