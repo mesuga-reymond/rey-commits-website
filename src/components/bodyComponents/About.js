@@ -15,7 +15,7 @@ function About() {
                 <div className="line">
                     <hr></hr>
                 </div>
-                
+               
                 <h3>Reymond R. Mesuga</h3>
                 <a className="app-individual-button" onClick={openTabResume}>
                     <Button variant="dark">Download Resume</Button>
