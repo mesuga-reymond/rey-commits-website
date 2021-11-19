@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import {Button, Col, Jumbotron, Image} from 'react-bootstrap';
+import HeroClouds from './hero-clouds';
 
 function HeroHome() {
     function openTabGithub() {
@@ -16,8 +17,9 @@ function HeroHome() {
     return (
         <div fluid>
             <Jumbotron fluid className="hero-home">
+            <HeroClouds />
                 <div className="hero-container">
-
+                
                     <div className="hero-for-big-screen">
                         <div className="profile-div">
                             <Image className="home-profile-image-large" src="reymond2.jpg" roundedCircle/>
