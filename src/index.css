@@ -556,11 +556,28 @@ body {
         border-width: 5px;
 
         position: absolute;
-        top: 8rem;
+        top: 11rem;
+     
         right: 75%;
     }
     .home-profile-image-medium {
         display: none;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-buttons-container {
+        position: absolute;
+        top: 17rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -590,6 +607,15 @@ body {
     .navtab-container {
         padding-top: 7rem;
     }
+    .contact-buttons-container {
+      position: absolute;
+      top: 17rem;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    
 }
 @media only screen and (max-width: 600px) {
     .home-profile-image-small {
@@ -606,6 +632,9 @@ body {
     }
     .home-profile-image-large {
         display: none;
+    }
+    .large-screen-name{
+      display: none;
     }
 }
 
@@ -840,7 +869,7 @@ Home Component */
         height: 15%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
         background-size: cover;
-        animation: animate 60s linear infinite;
+        animation: animate 350s linear infinite;
     }
     @keyframes animate {
         0% {
@@ -853,7 +882,7 @@ Home Component */
 }
 @media only screen and (min-width: 1000px) {
     .navtab-container {
-        padding-top: 2rem;
+        padding-top: 3.5rem;
     }
     .clouds {
         position: absolute;
@@ -863,7 +892,7 @@ Home Component */
         height: 60%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
         background-size: cover;
-        animation: animate 60s linear infinite;
+        animation: animate 350s linear infinite;
     }
     @keyframes animate {
         0% {
@@ -883,7 +912,7 @@ Home Component */
         height: 53%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
         background-size: cover;
-        animation: animate 60s linear infinite;
+        animation: animate 350s linear infinite;
     }
     @keyframes animate {
         0% {
