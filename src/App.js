@@ -20,13 +20,18 @@ import Home from './components/bodyComponents/Home';
 import HeroHome from './components/heroComponents/HeroHome' 
 import RandomQuotes from './components/RandomQuotes';
 import HeroClouds from './components/heroComponents/hero-clouds';
+import HeroJet from './components/heroComponents/hero-jet';
+import HeroAirplane from './components/heroComponents/hero-airplane';
 
 function App() {
     return (
         <div className="App"> 
         <Router>
         <Navigation />
+        <HeroAirplane />
+        {/* <HeroJet/> uncomment to add jets */}
         <HeroClouds/>
+        
             <Switch>
                 <Route exact path="/" component={HeroHome} />
                 <Route exact path="/AI" component={HeroAI} />
