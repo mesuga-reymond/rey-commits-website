@@ -14,7 +14,13 @@ function HeroAppList() {
                 <Image className="home-profile-image-large" src="reymond2.jpg" roundedCircle/>
                 <Image className="home-profile-image-medium" src="reymond2.jpg" roundedCircle/>
                 </div>
-                    <WebAppTitle/>
+                <div className="large-screen-name">
+                <WebAppTitle/>
+                </div>
+                <div className="small-screen-name">
+                <WebAppTitle/>
+                </div>
+                    
                     <ContactButtons />
                 </div>
             </Jumbotron>
