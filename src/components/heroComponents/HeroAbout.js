@@ -17,7 +17,13 @@ function HeroAbout() {
                 <Image className="home-profile-image-medium" src="reymond2.jpg" roundedCircle/>
                 </div>
                     <div className="about-hero-head">
+                    <div className="large-screen-name">
                     <AboutTitle/>
+                    </div>
+                    <div className="small-screen-name">
+                    <AboutTitle/>
+                    </div> 
+                    
                     <ContactButtons/>
                     </div>
                     
