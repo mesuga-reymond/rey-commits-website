@@ -7,4 +7,4 @@ function WebAppTitle() {
         </div>
     )
 }
-export default WebAppTitle;
+export default WebAppTitle; 
