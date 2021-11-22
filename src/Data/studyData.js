@@ -109,7 +109,7 @@ export const studyData = [
     },
     { 
       id: 11,
-      title: "Water Potability Classification Using Machine Learning Algorithms",
+      title: "Water Potability Prediction Using Machine Learning Algorithms",
       img: "./studyImages/water_potability.jpg",
       modalImage:"",
       author: "Reymond R. Mesuga",
@@ -120,7 +120,7 @@ export const studyData = [
     },
     {
       id: 12,
-      title: "Pulsar Star Classification Using High Time Resolution Universe Survey Data with Machine Learning Algorithms",
+      title: "Pulsar Star Prediction Using High Time Resolution Universe Survey Data with Machine Learning Algorithms",
       img: "./studyImages/pulsar_magnetosphere_model_web.gif",
       modalImage:"",
       author: "Reymond R. Mesuga",
