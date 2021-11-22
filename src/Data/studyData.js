@@ -67,7 +67,8 @@ export const studyData = [
       id: 7,
       title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
       img: "./studyImages/covid-xray-manipulation.jpg",
-      author: "Reymond Mesuga, Cloyd Raymond Pernes and Luther Villacruz",
+      author: "Reymond Mesuga✞, Cloyd Raymond Pernes and Luther Villacruz",
+      corresponding_author: "✞ rrmesuga@iskolarngbayan.pup.edu.ph",
       type: "Academic Research",
       code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/tree/master/4_Covid-19_Image_Classification",
       info:
@@ -78,6 +79,7 @@ export const studyData = [
       title: "On the Performance of Various Deep Transfer Learning CNN Models in Glitch Waveform Identification in Gravitational-Wave Data",
       img: "./studyImages/black-hole-smush_600.gif",
       author: "Reymond Mesuga and Brian James Bayanay",
+      // corresponding_author: "rrmesuga@iskolarngbayan.pup.edu.ph",
       type: "Academic Research",
       code: "https://github.com/mesuga-reymond/Gravitational_Wave_Laboratory_Project_2021_Mesuga_Bayanay",
       info:
