@@ -557,7 +557,7 @@ body {
 
         position: absolute;
         top: 11rem;
-     
+
         right: 75%;
     }
     .home-profile-image-medium {
@@ -578,6 +578,9 @@ body {
         right: 0;
         margin-left: auto;
         margin-right: auto;
+    }
+    .small-screen-name{
+        display: none;
     }
 
 }
@@ -608,16 +611,58 @@ body {
         padding-top: 7rem;
     }
     .contact-buttons-container {
-      position: absolute;
-      top: 17rem;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-  }
-    
+        position: absolute;
+        top: 17rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small-screen-name{
+        display: none;
+    }
+
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (width: 600px) {
+    .home-profile-image-medium {
+        display: none;
+    }
+    .home-profile-image-large {
+        display: none;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small-screen-name{
+        display: none;
+    }
+    .airplane{
+        display: none;
+    }
+    .contact-buttons-container {
+        position: absolute;
+        top: 19rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+@media only screen and (max-width: 599px) {
     .home-profile-image-small {
         /* padding: 4rem 0 1.5rem 0; */
         width: 8rem;
@@ -633,8 +678,19 @@ body {
     .home-profile-image-large {
         display: none;
     }
-    .large-screen-name{
-      display: none;
+    .large-screen-name {
+        display: none;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .airplane{
+        display: none;
     }
 }
 
@@ -822,6 +878,12 @@ Home Component */
     .home-image {
         display: none;
     }
+    .clouds {
+        display: none;
+    }
+    .jet{
+        display: none;
+    }
     /* Home Hero */
     .home-hero {
         padding: 0;
@@ -902,6 +964,7 @@ Home Component */
             background-position: -5440px;
         }
     }
+   
 }
 @media only screen and (min-width: 601px) and (max-width: 999px) {
     .clouds {
@@ -923,3 +986,527 @@ Home Component */
         }
     }
 }
+
+/* Adjustment of clouds for different heights */
+@media only screen and (max-height: 1400px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+/* uncomment to use jets */
+    /* .jet {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/jet.drawio.png");
+        background-size: cover;
+        animation: animate-jet 15s linear infinite;
+    }
+    @keyframes animate-jet {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    } */
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 20%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 1350px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 33%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 25%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 1300px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 32%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 20%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 1260px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 1150px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 1015px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 23%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 895px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 35%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 800px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 55%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 740px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 680px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 65%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 40%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 630px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 72%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 560px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 450px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 400px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+@media only screen and (max-height: 340px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 270px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+@media only screen and (max-height: 240px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
