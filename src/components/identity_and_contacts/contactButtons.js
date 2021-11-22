@@ -3,7 +3,7 @@ import {Col, Button} from "react-bootstrap";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 function ContactButtons() {
     function openTabGithub() {
-        window.open('https://github.com/Rey-commits');
+        window.open('https://github.com/mesuga-reymond');
     }
     function openTabLinkedIn() {
         window.open('https://www.linkedin.com/in/reymondmesuga-421/');
