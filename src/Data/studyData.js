@@ -7,8 +7,9 @@ export const studyData = [
       type: "Personal Project",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/8_Searching_for_the_Exo_Planets_Using_Machine_Learning_Algorithms",
       info:
-        "This project is about the prediction of the next possible earth using the light intensity time series data gathered by Kepler space telescope. The models used in this project are Random Forest, XGBoost, and Support Vector Machine Classifier."
-    },
+        "This project is about the prediction of the next possible earth using the light intensity time series data gathered by Kepler space telescope. The models used in this project are Random Forest, XGBoost, and Support Vector Machine Classifier.",
+      button_name: "Source Code"
+      },
     {
       id: 2,
       title: "Electron Invariant Mass Prediction in CERN Electron Collision Data Using Machine Learning Algorithms",
@@ -17,7 +18,8 @@ export const studyData = [
       type: "Academic Research",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/7_Electron_Invariant_Mass_Prediction",
       info:
-        "This personal project aims to predict the invariant mass of electron using CERN Electron Collision Data. The machine learning algorithms to be used are Random Forest Regressor and XGBoost Regressor."
+        "This personal project aims to predict the invariant mass of electron using CERN Electron Collision Data. The machine learning algorithms to be used are Random Forest Regressor and XGBoost Regressor.",
+        button_name: "Source Code"
     },
     {
       id: 3,
@@ -27,7 +29,8 @@ export const studyData = [
       type: "Personal Project",
       // code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/blob/master/4_Covid-19_Image_Classification/Successful_Resnet50_Covid19_(5_17_21).ipynb",
       info:
-        "The goal of this project is to compare the accuracy of different state of the art models to predict the possible existence of Covid-19 using chest x-ray images."
+        "The goal of this project is to compare the accuracy of different state of the art models to predict the possible existence of Covid-19 using chest x-ray images.",
+        button_name: "Source Code"
     },
     {
       id: 4,
@@ -37,7 +40,8 @@ export const studyData = [
       type: "Personal Project",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/3_Alzheimers_Detection",
       info:
-        "This project aims to evaluate the performance of different state of the start transfer learning model to detect different stages of Alzheimer's Desease using MRI brain scans."
+        "This project aims to evaluate the performance of different state of the start transfer learning model to detect different stages of Alzheimer's Desease using MRI brain scans.",
+        button_name: "Source Code"
     },
     {
       id: 5,
@@ -48,7 +52,8 @@ export const studyData = [
       type: "Personal Project",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/6_Histopathologic-Cancer-Detection",
       info:
-        "This is a deep transfer learning project that focuses on creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans."
+        "This is a deep transfer learning project that focuses on creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans.",
+        button_name: "Source Code"
     },
     {
       id: 6,
@@ -56,6 +61,7 @@ export const studyData = [
       img: "./studyImages/pneumonia-xray.jpeg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/1_Pneumonia_Image_Classification_Using_CNN",
       info:
         "This is a pneumonia classifier model in CNN with ResNet9 architecture using PyTorch. The CNN model here was built and trained from the ground that has an accuracy of approximately 85%."
@@ -67,9 +73,10 @@ export const studyData = [
       id: 7,
       title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
       img: "./studyImages/covid-xray-manipulation.jpg",
-      author: "Reymond Mesuga✞, Cloyd Raymond Pernes and Luther Villacruz",
-      corresponding_author: "✞ rrmesuga@iskolarngbayan.pup.edu.ph",
+      author: "Reymond Mesuga*, Cloyd Raymond Pernes and Luther Villacruz",
+      // corresponding_author: "✞Corr. Author: rrmesuga@iskolarngbayan.pup.edu.ph",
       type: "Academic Research",
+      button_name: "Read Story",
       code: "https://github.com/mesuga-reymond/Machine_and_Deep_Learning/tree/master/4_Covid-19_Image_Classification",
       info:
         "This academic research aims to investigate the effects of image quality on the accuracy of CNN to predict the possible existence of Covid-19 virus on x-ray images. This will be observed by manipulating images at different image quality distortions. The outcomes of this study may give insights to improve both medical imaging technologies and deep learning algorithms."
@@ -81,6 +88,7 @@ export const studyData = [
       author: "Reymond Mesuga and Brian James Bayanay",
       // corresponding_author: "rrmesuga@iskolarngbayan.pup.edu.ph",
       type: "Academic Research",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/Gravitational_Wave_Laboratory_Project_2021_Mesuga_Bayanay",
       info:
         "This academic research aims to compare different state-of-the-art CNN architectures to classify glitches detected by LIGO. The outcomes of this research may give insights to improve current CNN models for future benefits of LIGO."
@@ -94,6 +102,7 @@ export const studyData = [
       img: "./studyImages/oldHotel.jpg",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier",
       info:
         "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
@@ -105,6 +114,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/Data_Analysis_Projects/tree/master/Covid_19_Data_Analysis",
       info:
         "This project is divided into two parts. First is about ranking analysis of countries in terms of total cases. Second is about relationship between health indicators and total Covid-19 cases."
@@ -116,6 +126,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/blob/master/9_Water_Quality_Potability_Prediction/Water_Potability_Prediction_Using_Machine_Learning_Algorithms.ipynb",
       info:
         "This is a machine learning project aims to predict water potality of the water. Water potality indicates if the water quality is safe for human consumption or not. The models used are Random Forest, XGBoost, and Support Vector Machine."
@@ -127,6 +138,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/11_Pulsar_Star_Prediction",
       info:
         "This is a machine learning binary classification project that aims to classify whether an input indicates a pulsar star or not. The machine learning algorithms to be used are Random Forest, XGBoost and Support Vector Machine."
@@ -138,6 +150,7 @@ export const studyData = [
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
+      button_name: "Source Code",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/10_Ship_Classification_Using_Satellite_Images",
       info:
         "This is a binary classification machine learning project aims to classify whether there is a ship on a satellite image or not. The dataset to be used was gathered from the recorded satellite images of ships in San Francisco. "
