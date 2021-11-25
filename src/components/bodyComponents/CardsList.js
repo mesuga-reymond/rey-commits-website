@@ -24,7 +24,9 @@ function CardsList() {
                                 img={study.img}
                                 type={study.type}
                                 modalImage={study.modalImage} 
-                                code={study.code}/>
+                                code={study.code}
+                                button_name={study.button_name}    
+                                />
                         </div>
                     ))}
                 </Row>
@@ -35,15 +37,18 @@ function CardsList() {
                                 key={study.id}
                                 title={study.title}
                                 author={study.author}
+                                corresponding_author={study.corresponding_author}
                                 info={study.info}
                                 img={study.img}
                                 type={study.type}
                                 modalImage={study.modalImage}
-                                code={study.code}/>
+                                code={study.code}
+                                button_name={study.button_name}    
+                                />
                         </div>
                     ))}
                 </Row>
-                <Row className="cardlist-row" md={2} sm={1} xl={3}>
+                <Row className="cardlist-row" md={2} sm={1} xl={3}> 
                     {studyData1.map(study => (
                         <div id={study.id}>
                             <IndividualCard
@@ -54,7 +59,9 @@ function CardsList() {
                                 img={study.img}
                                 type={study.type}
                                 modalImage={study.modalImage} 
-                                code={study.code}/>
+                                code={study.code}
+                                button_name={study.button_name}
+                                />
                         </div>
                     ))}
                 </Row>
