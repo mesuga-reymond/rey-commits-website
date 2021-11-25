@@ -2,7 +2,7 @@
 import React from 'react'
 import {Card, Button} from "react-bootstrap"
 
-function IndividualCard({title, info, img, author, code}) {
+function IndividualCard({title, info, img, author, code, corresponding_author, button_name}) {
     function openTabCode() {
         window.open(code);
     }
@@ -15,15 +15,17 @@ function IndividualCard({title, info, img, author, code}) {
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <p>
-                        <i>by {author}</i>
+                        <i>by {author}</i><br/>
+                        <i>{corresponding_author}</i>
+                        
                     </p>
                     <Card.Text>
                         {info}
                     </Card.Text>
                     <a className="app-individual-button" onClick={openTabCode}>
-                        <Button variant="dark">Source Code</Button>
+                        <Button variant="dark">{button_name}</Button>
                     </a>
-                </Card.Body>
+                </Card.Body> 
             </Card>
         </div>
     )
