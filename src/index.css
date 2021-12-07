@@ -34,7 +34,6 @@ body {
     width: 100%;
 }
 
-
 .hero-home-container {
     margin-top: 50px;
     padding-top: 5.5rem;
@@ -581,7 +580,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    .small-screen-name{
+    .small-screen-name {
         display: none;
     }
 
@@ -628,7 +627,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    .small-screen-name{
+    .small-screen-name {
         display: none;
     }
 
@@ -648,10 +647,10 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    .small-screen-name{
+    .small-screen-name {
         display: none;
     }
-    .airplane{
+    .airplane {
         display: none;
     }
     .contact-buttons-container {
@@ -662,7 +661,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-   
+
 }
 @media only screen and (max-width: 599px) {
     .home-profile-image-small {
@@ -691,7 +690,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    .airplane{
+    .airplane {
         display: none;
     }
 }
@@ -883,7 +882,7 @@ Home Component */
     .clouds {
         display: none;
     }
-    .jet{
+    .jet {
         display: none;
     }
     /* Home Hero */
@@ -966,7 +965,7 @@ Home Component */
             background-position: -5440px;
         }
     }
-   
+
 }
 @media only screen and (min-width: 601px) and (max-width: 999px) {
     .clouds {
@@ -1009,7 +1008,7 @@ Home Component */
             background-position: 5440px;
         }
     }
-/* uncomment to use jets */
+    /* uncomment to use jets */
     /* .jet {
         position: absolute;
         top: 0;
@@ -1031,7 +1030,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 20%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1069,7 +1068,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 25%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1107,7 +1106,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 20%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1185,7 +1184,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 23%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1223,7 +1222,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 35%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1301,7 +1300,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 40%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1359,7 +1358,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 50%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1397,7 +1396,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 50%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1435,7 +1434,7 @@ Home Component */
     .airplane {
         position: absolute;
         top: 0;
-        left: 0%;
+        left: 0;
         width: 100%;
         height: 50%;
         background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/greenAirplane.drawio.png");
@@ -1511,12 +1510,11 @@ Home Component */
         }
     }
 }
-
-@media only screen and (min-width: 1366px){
-    .home-profile-image-large{
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+    .home-profile-image-large {
         display: none;
     }
-    .home-profile-image-medium{
+    .home-profile-image-medium {
         display: none;
     }
 }
