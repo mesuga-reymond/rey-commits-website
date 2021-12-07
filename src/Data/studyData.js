@@ -71,7 +71,7 @@ export const studyData = [
   export const studyDataForLarge = [
     {
       id: 7,
-      title: "[Ongoing] Investigation on the Effects of Image Quality on the Accuracy of Convolutional Neural Networks to Predict the Possible Existence of Covid-19 Using Chest X-ray Images",
+      title: "[Ongoing] CovidABModel - A Custom Model With Additional Augmentation Techniques Based on the Responses of the Model on Different Radiographic and Digital Image Quality for COVID-19 Prediction in Digital X-ray Images",
       img: "./studyImages/covid-xray-manipulation.jpg",
       author: "Reymond Mesuga*, Cloyd Raymond Pernes and Luther Villacruz",
       // corresponding_author: "✞Corr. Author: rrmesuga@iskolarngbayan.pup.edu.ph",
