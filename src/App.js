@@ -28,7 +28,7 @@ function App() {
         <div className="App"> 
         <Router>
         <Navigation />
-        <HeroAirplane />
+        {/* <HeroAirplane /> */}
         {/* <HeroJet/> uncomment to add jets */}
         <HeroClouds/>
         
