@@ -45,14 +45,14 @@ export const studyData = [
     },
     {
       id: 5,
-      title: "Histopathologic Cancer Detection Using Transfer Learning with InceptionV3 Base Architecture",
+      title: "Histopathologic Cancer Detection Using ConvNet with InceptionV3 Base Architecture",
       img: "./studyImages/histopathologic.jpg",
       modalImage:"",
       author: "Reymond R. Mesuga",
       type: "Personal Project",
       code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/6_Histopathologic-Cancer-Detection",
       info:
-        "This is a deep transfer learning project that focuses on creating an algorithm to detect histopathologic cancer using InceptionV3 base architecture model small image patches taken from larger digital pathology scans.",
+        "This is a personal project that focuses on creating an algorithm to detect histopathologic cancer using ConvNet with InceptionV3 base architecture model in small image patches taken from larger digital pathology scans.",
         button_name: "Source Code"
     },
     {
