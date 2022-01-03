@@ -21,11 +21,21 @@ window
 window
     .customElements
     .define('codersrank-skills-chart', CodersRankSkillsChart);
+
 function Home() {
     return (
         <div>
             <Container fluid>
                 <div fluid className="home-container">
+                <div className="codersrank-activity-div">
+                        <h3 className="home-upper-text">CodersRank Highlights</h3>
+                        <div className="line">
+                            <hr></hr>
+                        </div>
+                        <codersrank-summary username="mesuga-reymond"></codersrank-summary>
+                    </div>
+                
+
                     <div className="codersrank-activity-div">
                         <h3 className="home-upper-text">GitHub Daily Activities</h3>
                         <div className="line">
@@ -49,8 +59,8 @@ function Home() {
                             branding="false"
                             show-other-skills="true"
                             svg-height="150"
-                            max-labels = "5"
-                            legend = "true"
+                            max-labels="5"
+                            legend="true"
                             skills="C, CSS,CoffeeScript, HTML, JSON, JavaScript, Jupyter Notebook, SCSS, TypeScript, Other"
                             username="mesuga-reymond"></codersrank-skills-chart>
                     </div>
