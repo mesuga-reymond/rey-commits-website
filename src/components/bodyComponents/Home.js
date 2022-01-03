@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable array-callback-return */
 import React from 'react'
 import {Col, Container, Figure, Row} from 'react-bootstrap'
@@ -9,6 +10,8 @@ import AIimage_violet from "../comp-images/AI_violet.svg";
 import webdev_violet from "../comp-images/webdev_violet.svg"
 import ML_violet from "../comp-images/ML_violet.svg"
 // import RandomQuotes from './RandomQuotes';
+
+import CodersRankActivity from '@codersrank/activity';
 
 function Home() {
     return (
