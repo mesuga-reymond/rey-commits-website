@@ -32,7 +32,7 @@ function Home() {
                         <div className="line">
                             <hr></hr>
                         </div>
-                        <codersrank-summary username="mesuga-reymond"></codersrank-summary>
+                        <codersrank-summary branding="false" username="mesuga-reymond"></codersrank-summary>
                     </div>
                 
 
