@@ -48,8 +48,10 @@ function Home() {
                             tooltip="true"
                             branding="false"
                             show-other-skills="true"
-                            svg-height="170"
-                            skills=""
+                            svg-height="150"
+                            max-labels = "5"
+                            legend = "true"
+                            skills="C, CSS,CoffeeScript, HTML, JSON, JavaScript, Jupyter Notebook, SCSS, TypeScript, Other"
                             username="mesuga-reymond"></codersrank-skills-chart>
                     </div>
                     <h3 className="home-upper-text">Topics & Services</h3>
