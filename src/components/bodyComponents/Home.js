@@ -49,7 +49,7 @@ function Home() {
                             username="mesuga-reymond"></codersrank-activity>
                     </div>
                     <div className="codersrank-skills-chart-div">
-                        <h3 className="home-upper-text">Skills Graph</h3>
+                        <h3 className="home-upper-text">Programming Language Graph</h3>
                         <div className="line">
                             <hr></hr>
                         </div>
