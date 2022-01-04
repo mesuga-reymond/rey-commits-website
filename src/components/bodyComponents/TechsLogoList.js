@@ -5,7 +5,7 @@ import {techsData} from "../../Data/techsData"
 function TechsLogoList() {
     return (
         <Container className="techslogolist-container">
-            <h3 className="techslogolist-title">Technology Stacks & Skills</h3>
+            <h3 className="techslogolist-title">Technology Services</h3>
             <div className="line">
                 <hr></hr>
             </div>
