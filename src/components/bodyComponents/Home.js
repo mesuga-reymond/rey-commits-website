@@ -28,7 +28,7 @@ function Home() {
             <Container fluid>
                 <div fluid className="home-container">
                 <div className="codersrank-activity-div">
-                        <h3 className="home-upper-text">CodersRank Highlights</h3>
+                        <h3 className="home-upper-text">CodersRank Standing</h3>
                         <div className="line">
                             <hr></hr>
                         </div>
