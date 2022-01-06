@@ -73,16 +73,15 @@ function Home() {
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
                                 <Figure.Image className="home-image" alt="171x180" src={ML}/>
                                 <Figure.Image className="home-image-black" alt="171x180" src={ML_violet}/>
-                                <h3 className="home-info-title">Data Analysis</h3>
+                                <h3 className="home-info-title">Physics & Engineering</h3>
                                 <div className="line">
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    Data analysis is a process of inspecting, cleansing, transforming, and modeling
-                                    data with the goal of discovering useful information, informing conclusions, and
-                                    supporting decision-making. The data analysis tools that i often use are Python
-                                    modules such as numpy, pandas, matplotlib, seaborn and SQL. For scientific
-                                    computations, i also use Octave, Scilab and MatLab.
+                                    I am a Senior Physics student from PUP Manila 
+                                    who already has a solid foundation in physics and other engineering principles. 
+                                    I already conducted a research related to thermodynamics, electromagnetism, electronics, 
+                                    and application of artificial intelligence specifically in the field of medical imaging and astrophysics.
                                 </p>
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
@@ -93,12 +92,11 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    Artificial intelligence (AI) refers to the simulation of human intelligence in
-                                    machines that are programmed to think like humans and mimic their actions. The
-                                    term may also be applied to any machine that exhibits traits associated with a
-                                    human mind such as learning and problem-solving. The Artificial Intelligence
-                                    involve in my projects uses machine learning and deep learning using Python
-                                    libraries such as TensorFlow, PyTorch and Scikit-Learn.
+                                    I am a former Artificial Intelligence (AI) Intern at Philippine Space Agency (PhilSA) 
+                                    where i did work in projects related to the application of AI in earth observation. 
+                                    I also have plenty of projects related to the application deep learning in the 
+                                    field of radiography, cancer research, astrophysics, particle physics especifically 
+                                    on electron mass detection, astrophysics especialy exo-planet and pulsar star prediction and more.
                                 </p>
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
@@ -109,11 +107,10 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    Web development is the building and maintenance of websites; it’s the work that
-                                    happens behind the scenes to make a website look great, work fast and perform
-                                    well with a seamless user experience. I mainly focus on the front-end
-                                    development where i use React JS as my JavaScript framework and other CSS
-                                    frameworks such as React-Bootstrap.
+                                    This personal website is my biggest proejct so far. 
+                                    I have been using JavaScript as my programming language especially its framework 
+                                    called React JS and other CSS frameworks like React-Bootsrap. I have been developing this web application for several months now
+                                    and will continue to improve it's performance and interface.
                                 </p>
                             </Col>
                         </Row>
