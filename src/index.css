@@ -101,7 +101,7 @@ body {
     .hero-app,
     .hero-home,
     .hero-library {
-        background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.37)), url('./components/heroComponents/hero-images/violet-slower.gif') black center center scroll;
+        background: linear-gradient(rgba(0, 0, 0, 0.556), rgba(0, 0, 0, 0.549)), url('./components/heroComponents/hero-images/people-walkig-circle.gif') black center center scroll;
         height: 400px;
         object-fit: cover;
         width: 100%;
