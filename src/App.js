@@ -22,7 +22,7 @@ import RandomQuotes from './components/RandomQuotes';
 import HeroClouds from './components/heroComponents/hero-clouds';
 import HeroJet from './components/heroComponents/hero-jet';
 import HeroAirplane from './components/heroComponents/hero-airplane';
-
+import BGMusic from './components/bodyComponents/BGMusic';
 function App() {
     return (
         <div className="App"> 
@@ -31,7 +31,6 @@ function App() {
         {/* <HeroAirplane /> */}
         {/* <HeroJet/> uncomment to add jets */}
         <HeroClouds/>
-        
             <Switch>
                 <Route exact path="/" component={HeroHome} />
                 <Route exact path="/AI" component={HeroAI} />
@@ -41,7 +40,9 @@ function App() {
             </Switch> 
             {/* <Hero /> */}
             <NavTab />
+            
             <RandomQuotes/>
+            <BGMusic/>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/AI" component={CardsList} />
