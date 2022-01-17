@@ -1538,3 +1538,6 @@ Home Component */
     --tooltip-total-font-size: 10.5rem;   
 }
 
+.bg-music{
+    display: none;
+}
