@@ -27,7 +27,6 @@ function Home() {
         <div>
             <Container fluid>
             
-            <iframe className='bg-music' title="music"  width="560" height="315" src="https://www.youtuberepeater.com/watch?v=7_WWz2DSnT8#gsc.tab=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div fluid className="home-container">
                 <div className="codersrank-activity-div">
                         <h3 className="home-upper-text">CodersRank Standing</h3>
