@@ -23,6 +23,8 @@ import HeroClouds from './components/heroComponents/hero-clouds';
 import HeroJet from './components/heroComponents/hero-jet';
 import HeroAirplane from './components/heroComponents/hero-airplane';
 import BGMusic from './components/bodyComponents/BGMusic';
+import { Alert } from 'react-bootstrap';
+import AlertPop from './components/bodyComponents/AlertPop';
 function App() {
     return (
         <div className="App"> 
@@ -39,10 +41,12 @@ function App() {
                 <Route path="/app-projects" component={HeroAppList} />
             </Switch> 
             {/* <Hero /> */}
+            {/* <AlertPop/> */}
             <NavTab />
             
             <RandomQuotes/>
             <BGMusic/>
+            
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/AI" component={CardsList} />
