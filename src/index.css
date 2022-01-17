@@ -101,25 +101,27 @@ body {
     .hero-app,
     .hero-home,
     .hero-library {
-        background: linear-gradient(rgba(0, 0, 0, 0.556), rgba(0, 0, 0, 0.549)), url('./components/heroComponents/hero-images/people-walkig-circle.gif') black center center scroll;
-        height: 400px;
+        background: linear-gradient(rgba(0, 0, 0, 0.227), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/istockphoto-1171974655-612x612.jpg') black center center scroll;
+        height: 450px;
         object-fit: cover;
         width: 100%;
     }
-    /* .hero-home{
-    background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.37)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
+
+/*     
+    .hero-home{
+    background: linear-gradient(rgba(0, 0, 0, 0.583), rgba(0, 0, 0, 0.645)), url('./components/heroComponents/hero-images/original.jpg') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
   }
   .hero-AI{
-    background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.412)), url('./components/heroComponents/hero-images/moving-neuron.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.576), rgba(0, 0, 0, 0.597)), url('./components/heroComponents/hero-images/istockphoto-1171974655-612x612.jpg') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
   }
   .hero-app{
-    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.5)), url('./components/heroComponents/hero-images/floating-geometry.gif') black center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.5)), url('./components/heroComponents/hero-images/istockphoto-1249562060-612x612.jpg') black center center scroll;
     height: 400px;
     object-fit: cover;
     width: 100%;
@@ -137,10 +139,10 @@ body {
     width: 100%;
   } */
     .hero-text {
-        text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0);
+        text-shadow: 0 0 50px #000000, 0 0 50px rgb(0, 0, 0);
         font-family: 'Asap', sans-serif;
         /* font-family: 'Raleway', sans-serif; */
-        font-weight: 500;
+        font-weight: 600;
         /* font-family: 'Besley', serif; */
         /* font-family: 'Libre Baskerville', serif; */
         /* font-family: 'Roboto Mono', monospace; */
@@ -148,7 +150,7 @@ body {
 }
 
 .hero-text {
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.411), 0 0 20px rgba(0, 0, 0, 0.39);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.46), 0 0 20px rgba(0, 0, 0, 0.487);
     font-family: 'Asap', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
     /* font-family: 'Besley', serif; */
@@ -1540,4 +1542,8 @@ Home Component */
 
 .bg-music{
     display: none;
+}
+
+.small-screen-name{
+    padding-top: 3rem;
 }
