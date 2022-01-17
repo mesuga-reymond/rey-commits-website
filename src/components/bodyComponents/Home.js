@@ -13,6 +13,7 @@ import ML_violet from "../comp-images/ML_violet.svg"
 
 import CodersRankActivity from '@codersrank/activity';
 import CodersRankSkillsChart from '@codersrank/skills-chart';
+import AlertPop from './AlertPop';
 window
     .customElements
     .define('codersrank-activity', CodersRankActivity);
@@ -26,7 +27,6 @@ function Home() {
     return (
         <div>
             <Container fluid>
-            
                 <div fluid className="home-container">
                 <div className="codersrank-activity-div">
                         <h3 className="home-upper-text">CodersRank Standing</h3>
