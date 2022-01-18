@@ -101,7 +101,7 @@ body {
     .hero-app,
     .hero-home,
     .hero-library {
-        background: linear-gradient(rgba(0, 0, 0, 0.227), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/istockphoto-1171974655-612x612.jpg') black center center scroll;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/8e16fc30fed8903bc24a5d0f1f6e6347.jpg') black center center scroll;
         height: 450px;
         object-fit: cover;
         width: 100%;
@@ -109,32 +109,32 @@ body {
 
 /*     
     .hero-home{
-    background: linear-gradient(rgba(0, 0, 0, 0.583), rgba(0, 0, 0, 0.645)), url('./components/heroComponents/hero-images/original.jpg') black center center scroll;
-    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/8e16fc30fed8903bc24a5d0f1f6e6347.jpg') black center center scroll;
+    height: 450px;
     object-fit: cover;
     width: 100%;
   }
   .hero-AI{
-    background: linear-gradient(rgba(0, 0, 0, 0.576), rgba(0, 0, 0, 0.597)), url('./components/heroComponents/hero-images/istockphoto-1171974655-612x612.jpg') black center center scroll;
-    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/photo-1588571590924-433cc2020a12.jpeg') black center center scroll;
+    height: 450px;
     object-fit: cover;
     width: 100%;
   }
   .hero-app{
-    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.5)), url('./components/heroComponents/hero-images/istockphoto-1249562060-612x612.jpg') black center center scroll;
-    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/55d33dabcc43a2f88fc6af0d1e3ba020.jpg') black center center scroll;
+    height: 450px;
     object-fit: cover;
     width: 100%;
   }
   .hero-library{
-    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.315)), url("./components/heroComponents/hero-images/people-walkig-circle.gif") black center center scroll;
-    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url("./components/heroComponents/hero-images/2wlsvmwl-900.jpg") black center center scroll;
+    height: 450px;
     object-fit: cover;
     width: 100%;
   }
   .hero-about{
-    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.473)), url('./components/heroComponents/hero-images/about-violet.gif') black center center scroll;
-    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/about-violet.gif') black center center scroll;
+    height: 450px;
     object-fit: cover;
     width: 100%;
   } */
@@ -1547,3 +1547,8 @@ Home Component */
 .small-screen-name{
     padding-top: 3rem;
 }
+
+.nav-link{
+    padding: 0.5rem !important;
+}
+
