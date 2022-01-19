@@ -28,13 +28,13 @@ function Home() {
         <div>
             <Container fluid>
                 <div fluid className="home-container">
-                <div className="codersrank-activity-div">
+                {/* <div className="codersrank-activity-div">
                         <h3 className="home-upper-text">CodersRank Standing</h3>
                         <div className="line">
                             <hr></hr>
                         </div>
                         <codersrank-summary branding="false" username="mesuga-reymond"></codersrank-summary>
-                    </div>
+                    </div> */}
                 
 
                     <div className="codersrank-activity-div">
