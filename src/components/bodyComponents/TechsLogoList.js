@@ -9,7 +9,7 @@ function TechsLogoList() {
             <div className="line">
                 <hr></hr>
             </div>
-            <Row lg={8} md={6} sm={3} xs={3}>
+            <Row lg={12} md={6} sm={3} xs={3}>
                 {techsData.map(logo => (
                     <Col key={logo.id}>
                         <Image className="individual-logo" src={logo.image} rounded/>
