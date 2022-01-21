@@ -905,7 +905,7 @@ Home Component */
 
 /* TechsLogoList */
 .individual-logo {
-    width: 50%;
+    width: 40%;
     margin: 1rem;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
     transition: transform 0.7s ease-in-out;
