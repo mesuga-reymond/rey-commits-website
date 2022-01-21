@@ -13,7 +13,7 @@ function Navigation() {
                 <LinkContainer to="/">
                     <Navbar.Brand className="navbar-brand">
                     Rey-commits
-                    {/* <span className="navbar-copyright"><i class="fas fa-trademark"></i></span> */}
+                    <span className="navbar-copyright"><i class="fas fa-trademark"></i></span>
                     </Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle className="navbar-toggle" aria-controls="responsive-navbar-nav"/>
