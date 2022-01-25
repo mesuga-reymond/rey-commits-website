@@ -45,7 +45,7 @@ function App() {
             <NavTab />
             
             <RandomQuotes/>
-            <BGMusic/>
+            {/* <BGMusic/> */}
             
             <Switch>
                 <Route exact path="/" component={Home} />
