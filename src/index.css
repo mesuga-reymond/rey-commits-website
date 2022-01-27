@@ -595,10 +595,10 @@ body {
         height: 11rem;
         margin-left: auto;
         margin-right: auto;
-        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+        /* filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); */
         transition: transform 0.35s ease-in-out;
         border-style: solid;
-        border-color: rgb(53, 53, 53);
+        border-color: rgb(255, 255, 255);
         border-width: 5px;
 
         position: absolute;
