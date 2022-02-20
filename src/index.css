@@ -8,6 +8,7 @@
 body {
     text-align: center !important;
     scrollbar-color: blue orange;
+    
 }
 
 .website-title {
@@ -903,6 +904,7 @@ Home Component */
     font-family: 'Raleway', sans-serif;
 }
 
+  
 /* TechsLogoList */
 .individual-logo {
     width: 40%;
