@@ -71,7 +71,7 @@ export const studyData = [
   export const studyDataForLarge = [
     {
       id: 7,
-      title: "[Ongoing] CovidABModel - A Custom Model With Additional Augmentation Techniques Based on the Responses of the Model on Different Radiographic and Digital Image Quality for COVID-19 Prediction in Digital X-ray Images",
+      title: "Investigation on the Effects of Digital Radiographic Image Qualities on the Performance of Convolutional Neural Networks (CNNs) for COVID-19 Likelihood Prediction ",
       img: "./studyImages/covid-xray-manipulation.jpg",
       author: "Reymond Mesuga*, Cloyd Raymond Pernes and Luther Villacruz",
       // corresponding_author: "✞Corr. Author: rrmesuga@iskolarngbayan.pup.edu.ph",
