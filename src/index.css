@@ -1,20 +1,23 @@
 /* Custom Font */
+
 @font-face {
     font-family: Pattaya;
     src: url("./fonts/Pattaya-Regular.ttf");
 }
 
+
 /* Hero/Header Component */
+
 body {
     text-align: center !important;
     scrollbar-color: blue orange;
-    
 }
 
 .website-title {
     font-family: 'Pattaya', sans-serif;
     font-family: Pattaya, sans-serif;
 }
+
 @media only screen and (max-width: 400px) {
     body {
         width: 100%;
@@ -48,6 +51,7 @@ body {
     color: antiquewhite;
     width: 100%;
 }
+
 @media only screen and (max-width: 600px) {
     .hero-container {
         margin-top: 50px;
@@ -56,12 +60,14 @@ body {
         width: 100%;
     }
 }
+
 .individual-button {
     margin: 0 0.3rem;
     padding: 0.5rem;
     transition: transform 0.35s ease-in-out;
     font-family: 'Raleway', sans-serif;
 }
+
 .individual-button:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.281), 0 4px 8px rgba(0, 0, 0, 0.288);
     font-family: 'Raleway', sans-serif;
@@ -87,7 +93,10 @@ body {
     width: 100%;
 }
 
+
 /* small screens */
+
+
 /* @media only screen and (max-width: 700px) {
   .hero-container-AI{
     margin-top: 40px;
@@ -96,6 +105,7 @@ body {
     width: 100%;
   }
 } */
+
 @media only screen and (max-width: 600px) {
     .hero-AI,
     .hero-about,
@@ -107,8 +117,7 @@ body {
         object-fit: cover;
         width: 100%;
     }
-
-/*     
+    /*     
     .hero-home{
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/8e16fc30fed8903bc24a5d0f1f6e6347.jpg') black center center scroll;
     height: 450px;
@@ -158,6 +167,7 @@ body {
     /* font-family: 'Libre Baskerville', serif; */
     /* font-family: 'Roboto Mono', monospace; */
 }
+
 @media only screen and (max-width: 400px) {
     .hero-container-AI {
         padding-top: 10rem;
@@ -165,7 +175,6 @@ body {
         padding-bottom: 5px;
         font-size: 1.2;
     }
-
     .hero-container-applist {
         margin-top: 15px;
         padding-top: 3.5rem;
@@ -173,12 +182,12 @@ body {
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 500px) {
     .hero-container-AI {
         padding-top: 80px;
         padding-right: 0;
     }
-
     .hero-container-applist {
         margin-top: 20px;
         padding-top: 6rem;
@@ -187,7 +196,10 @@ body {
     }
 }
 
+
 /* medium screen/ipad size alike */
+
+
 /* @media only screen and (max-width: 800px) {
   .hero-container-AI{
     margin-top: 50px;
@@ -196,8 +208,13 @@ body {
     width: 100%;
   }
 } */
+
+
 /* iphone 5 */
+
+
 /* Only iPhone 5 (portrait mode) */
+
 
 /* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
   .hero {
@@ -210,6 +227,7 @@ body {
     font-size: small;
   }
 } */
+
 
 /* @media only screen 
     and (max-width : 320px) 
@@ -228,7 +246,11 @@ body {
         
       }
     } */
+
+
 /* iphone 5 */
+
+
 /* @media screen and (device-aspect-ratio: 40/71) {
   .hero{
     height: 380px;
@@ -241,43 +263,51 @@ body {
     
   }
 } */
+
+
 /* iphone X */
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .hero-container {
         padding-top: 4rem;
     }
 }
 
+
 /* iphone 6/7/8 plus */
-@media only screen and (max-width : 414px) and (max-height : 736px) {
+
+@media only screen and (max-width: 414px) and (max-height: 736px) {
     /* .hero-container {
     padding-top: 3.8rem;
   } */
-
     .hero {
         height: 350px;
     }
-
     .individual-button {
         margin: 0.1rem 0.2rem;
     }
 }
 
+
 /* Galaxy note 3 */
-@media only screen and (max-width : 360px) and (max-height : 640px) {
+
+@media only screen and (max-width: 360px) and (max-height: 640px) {
     .hero {
         height: 380px;
     }
-
     .individual-button {
         margin: 0.2rem;
     }
 }
 
+
 /* Navbar Component*/
+
+
 /* .navbar-toggle{
   margin-right: rem;
 } */
+
 .navbar-copyright {
     font-size: 0.5rem;
     position: relative;
@@ -300,6 +330,7 @@ body {
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
+
 @media only screen and (max-width: 700px) {
     .navlink-item {
         margin: 0.2rem 0;
@@ -308,6 +339,7 @@ body {
     margin-left: 2rem; */
     }
 }
+
 @media only screen and (max-width: 800px) {
     .navlink-item {
         margin: 0.2rem 0;
@@ -317,6 +349,7 @@ body {
 
 
 /* NavTab Component */
+
 .navtab-container {
     margin-top: 1.3rem;
 }
@@ -326,7 +359,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+
 /* RandomQuotes */
+
 .quote-card-body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.466)), url("./images-src/yellowish-neuron.gif");
 }
@@ -342,6 +377,7 @@ body {
 .quote-card-main {
     transition: transform 0.35s ease-in-out;
 }
+
 .quote-card-main:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.171), 0 4px 8px rgba(0, 0, 0, 0.288);
     transform: translate(0, -5px);
@@ -355,6 +391,7 @@ body {
 .quote-card-title {
     color: white;
 }
+
 
 /* ContentTable Component */
 
@@ -370,6 +407,7 @@ body {
     font-size: 1.3rem;
     text-decoration: none;
 }
+
 .collapse,
 .content-table,
 .content-toggle,
@@ -385,12 +423,14 @@ body {
     border-bottom: none !important;
     border-top: none !important;
 }
+
 .card-body,
 .quote-card-body {
     border-radius: 0 0 16px 16px !important;
     border-bottom: none !important;
     border-top: none !important;
 }
+
 .content-toggle:hover {
     cursor: pointer;
 }
@@ -399,6 +439,7 @@ body {
     margin-top: 2rem;
     font-family: 'Raleway', sans-serif;
 }
+
 .content-table:hover {
     box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.082), 0 6px 20px 0 rgba(56, 56, 56, 0.097);
 }
@@ -407,6 +448,7 @@ body {
     list-style-type: none;
     margin-right: auto;
 }
+
 .content-item:hover {
     cursor: pointer;
     color: brown;
@@ -416,6 +458,7 @@ body {
     text-decoration: none;
     color: rgb(22, 22, 22);
 }
+
 
 /* CardList Component */
 
@@ -431,25 +474,29 @@ body {
     padding-left: 1.7rem;
 }
 
+
 /* IndividualCard Component */
+
 .card {
     border-radius: 16px !important;
     border-top: none !important;
 }
+
 .card-img-top {
     border-radius: 16px !important;
     border-bottom: none !important;
     border-top: none !important;
-
 }
+
 .individual-card {
     margin: 1.8rem 1.2rem;
     border-radius: 16px !important;
     border-top: none !important;
     transition: transform 0.35s ease-in-out;
 }
+
 .individual-card:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
     transform: translate(0, -13px);
     transition: transform 0.35s ease-in-out;
     border-radius: 16px !important;
@@ -462,10 +509,15 @@ body {
 .card-study-modal {
     font-family: 'Raleway', sans-serif;
 }
+
+
 /* .modal-footer{
   margin-right: auto;
 } */
+
+
 /* Footer Component */
+
 @media only screen and (min-width: 600px) {
     .hero-footer {
         background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.582)), url('./images-src/waterfall-higher.gif') black center center scroll;
@@ -473,6 +525,7 @@ body {
         font-family: 'Raleway', sans-serif;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .hero-footer {
         height: 100%;
@@ -497,6 +550,7 @@ body {
     color: antiquewhite;
     text-decoration: none;
 }
+
 .footer-social-links:hover {
     color: antiquewhite;
     border: 1px solid;
@@ -505,7 +559,9 @@ body {
     cursor: pointer;
 }
 
+
 /* CarouselSlide */
+
 .carousel-body {
     height: 100%;
     padding-bottom: 5rem;
@@ -519,18 +575,23 @@ body {
     padding-bottom: 1rem;
 }
 
+
 /* ABOUT */
+
+
 /* .about-hero-head{
   padding-top: 2rem;
 } */
+
 .about-container {
     padding: 2.4rem 0 4rem;
     font-family: 'Raleway', sans-serif;
-
 }
+
 .profile-div {
     position: relative;
 }
+
 
 /* .home-profile-image:hover{
   width: 12rem;
@@ -542,11 +603,14 @@ body {
   transition: transform 0.35s ease-in-out;
 
 } */
+
+
 /* @media only screen and (max-width: 1000px){
   .home-profile-image-large{
     display: none;
   }
 } */
+
 @media only screen and (min-width: 1000px) {
     .home-profile-image-large {
         /* padding: 4rem 0 1.5rem 0; */
@@ -559,10 +623,8 @@ body {
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-width: 5px;
-
         position: absolute;
         top: 11rem;
-
         right: 75%;
     }
     .home-profile-image-medium {
@@ -587,8 +649,8 @@ body {
     .small-screen-name {
         display: none;
     }
-
 }
+
 @media only screen and (min-width: 601px) and (max-width: 999px) {
     .home-profile-image-medium {
         /* padding: 4rem 0 1.5rem 0; */
@@ -601,7 +663,6 @@ body {
         border-style: solid;
         border-color: rgb(255, 255, 255);
         border-width: 5px;
-
         position: absolute;
         top: 13rem;
         left: 0;
@@ -634,8 +695,8 @@ body {
     .small-screen-name {
         display: none;
     }
-
 }
+
 @media only screen and (width: 600px) {
     .home-profile-image-medium {
         display: none;
@@ -665,8 +726,8 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-
 }
+
 @media only screen and (max-width: 599px) {
     .home-profile-image-small {
         /* padding: 4rem 0 1.5rem 0; */
@@ -723,35 +784,38 @@ body {
     margin-right: auto;
 }
 
+
 /* large screen */
+
 @media only screen and (max-width: 4000px) {
     .profile-image {
         width: 20%;
     }
-
     .about-info {
         margin: 0 12rem;
     }
 }
 
+
 /* medium screens/ipad-pro alike*/
+
 @media only screen and (max-width: 1024px) {
     .profile-image {
         width: 40%;
     }
-
     .about-info {
         margin: 0 10rem;
         font-size: 25px;
     }
 }
 
+
 /* medium screen/ipad size alike */
+
 @media only screen and (max-width: 800px) {
     .profile-image {
         width: 40%;
     }
-
     .about-info {
         margin: 0 5rem;
         font-size: 1.4rem;
@@ -764,19 +828,22 @@ body {
     }
 }
 
+
 /* small screens */
+
 @media only screen and (max-width: 700px) {
     .profile-image {
         width: 50%;
     }
-
     .about-info {
         margin: 0 1rem;
         font-size: inherit;
     }
 }
 
+
 /* BookList */
+
 .booklist-container {
     margin: 2rem auto;
     font-family: 'Raleway', sans-serif;
@@ -798,14 +865,16 @@ body {
     margin: 0 4rem;
 }
 
+
 /* App list */
 
 .individual-app {
     margin: 0 auto;
     transition: transform 0.35s ease-in-out;
 }
+
 .individual-app:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
     transform: translate(0, -10px);
     transition: transform 0.35s ease-in-out;
 }
@@ -818,47 +887,62 @@ body {
     padding: 2rem 0;
 }
 
+
 /* Individual App */
+
 .app-individual-button {
     margin: 0 0.2rem;
 }
+
 .app-individual-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
 }
+
+
 /* 
 Home Component */
+
 .info-text {
     margin: 2rem 1rem;
     font-family: 'Raleway', sans-serif;
 }
+
 .home-container {
     padding: 3rem 0 0;
 }
+
 .home-individual-info {
     padding: 3rem 0 0;
 }
+
 .home-upper-text {
     font-family: 'Raleway', sans-serif;
 }
+
 .individual-row {
     margin: 0 auto;
 }
+
 .home-image {
     width: 80%;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
     transition: transform 0.35s ease-in-out;
 }
+
 .home-image:hover {
     transform: translate(0, -13px);
     transition: transform 0.35s ease-in-out;
 }
+
 .individual-home-card {
     width: 80%;
     margin: 3rem auto;
 }
+
 .topic-collection {
     margin: 0 2rem;
 }
+
 @media only screen and (min-width: 599px) {
     .hero-for-small-screen {
         display: none;
@@ -876,6 +960,7 @@ Home Component */
         font-weight: 10;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .hero-for-big-screen {
         display: none;
@@ -904,14 +989,16 @@ Home Component */
     font-family: 'Raleway', sans-serif;
 }
 
-  
+
 /* TechsLogoList */
+
 .individual-logo {
     width: 40%;
     margin: 1rem;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
     transition: transform 0.7s ease-in-out;
 }
+
 .individual-logo:hover {
     transform: rotate(360deg);
 }
@@ -920,14 +1007,18 @@ Home Component */
     font-family: 'Raleway', sans-serif;
     margin: 0 0 2.5rem;
 }
+
 .techslogolist-container {
     margin: 3rem auto;
 }
+
 .logo-name {
     font-family: 'Raleway', sans-serif;
 }
 
+
 /* Clouds */
+
 @media only screen and (min-width: 1400px) {
     .clouds {
         position: absolute;
@@ -948,6 +1039,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (min-width: 1000px) {
     .navtab-container {
         padding-top: 3.5rem;
@@ -970,8 +1062,8 @@ Home Component */
             background-position: -5440px;
         }
     }
-
 }
+
 @media only screen and (min-width: 601px) and (max-width: 999px) {
     .clouds {
         position: absolute;
@@ -993,7 +1085,9 @@ Home Component */
     }
 }
 
+
 /* Adjustment of clouds for different heights */
+
 @media only screen and (max-height: 1400px) {
     .clouds {
         position: absolute;
@@ -1051,6 +1145,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 1350px) {
     .clouds {
         position: absolute;
@@ -1089,6 +1184,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 1300px) {
     .clouds {
         position: absolute;
@@ -1127,6 +1223,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 1260px) {
     .clouds {
         position: absolute;
@@ -1147,6 +1244,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 1150px) {
     .clouds {
         position: absolute;
@@ -1167,6 +1265,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 1015px) {
     .clouds {
         position: absolute;
@@ -1205,6 +1304,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 895px) {
     .clouds {
         position: absolute;
@@ -1243,6 +1343,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 800px) {
     .clouds {
         position: absolute;
@@ -1263,6 +1364,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 740px) {
     .clouds {
         position: absolute;
@@ -1283,6 +1385,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 680px) {
     .clouds {
         position: absolute;
@@ -1321,6 +1424,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 630px) {
     .clouds {
         position: absolute;
@@ -1341,6 +1445,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 560px) {
     .clouds {
         position: absolute;
@@ -1379,6 +1484,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 450px) {
     .clouds {
         position: absolute;
@@ -1417,6 +1523,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 400px) {
     .clouds {
         position: absolute;
@@ -1455,6 +1562,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 340px) {
     .clouds {
         position: absolute;
@@ -1475,6 +1583,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 270px) {
     .clouds {
         position: absolute;
@@ -1495,6 +1604,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (max-height: 240px) {
     .clouds {
         position: absolute;
@@ -1515,6 +1625,7 @@ Home Component */
         }
     }
 }
+
 @media only screen and (min-width: 1366px) and (min-height: 768px) {
     .home-profile-image-large {
         display: none;
@@ -1524,8 +1635,8 @@ Home Component */
     }
 }
 
-/* CODER RANK WIDGETS */
 
+/* CODER RANK WIDGETS */
 
 .codersrank-activity-div {
     width: 80%;
@@ -1533,25 +1644,26 @@ Home Component */
     margin-right: auto;
     padding-bottom: 2rem;
 }
+
 .codersrank-skills-chart-div {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
 }
-.codersrank-skills-chart{
-    --tooltip-total-font-size: 10.5rem;   
+
+.codersrank-skills-chart {
+    --tooltip-total-font-size: 10.5rem;
 }
 
-.bg-music{
+.bg-music {
     display: none;
 }
 
-.small-screen-name{
+.small-screen-name {
     padding-top: 3rem;
 }
 
-.nav-link{
+.nav-link {
     padding: 0.5rem !important;
 }
-
