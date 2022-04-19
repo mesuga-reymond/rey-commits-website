@@ -11,7 +11,7 @@ export const studyData = [{
     },
     {
         id: 2,
-        title: "Electron Invariant Mass Prediction in CERN Electron Collision Data Using Machine Learning Algorithms",
+        title: "Machine Learning Approach on Electron Invariant Mass Prediction Using CERN Electron Collision Data",
         img: "./studyImages/CMS-s_0.jpg",
         author: "Reymond Mesuga",
         type: "Academic Research",
@@ -142,13 +142,13 @@ export const studyData1 = [{
     },
     {
         id: 14,
-        title: "Incremental Learning Approach on Detecting Exotic Particles in Particle Physics",
+        title: "Incremental Learning Approach on Higgs Bosson Signal Detection",
         img: "https://i.cbc.ca/1.1558449.1379047730!/httpImage/image.jpg_gen/derivatives/16x9_780/hi-particle-852-cp-02904495-8col.jpg",
         modalImage: "",
         author: "Reymond R. Mesuga",
         type: "Personal Project",
-        button_name: "Source Code",
-        code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/10_Ship_Classification_Using_Satellite_Images",
+        button_name: "Ongoing",
+        code: "",
         info: "This study demonstrates the use of incrementally learned artificial intelligence algorithms on detecting exotic particles in high-energy physics. Incremental learning is said to be beneficial on handling very large data comparable to the data being produced by LHC."
     },
 ]
