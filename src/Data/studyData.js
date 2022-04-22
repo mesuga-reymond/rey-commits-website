@@ -151,4 +151,15 @@ export const studyData1 = [{
         code: "",
         info: "This study demonstrates the use of incrementally learned artificial intelligence algorithms on detecting exotic particles in high-energy physics. Incremental learning is said to be beneficial on handling very large data comparable to the data being produced by LHC."
     },
+    {
+        id: 15,
+        title: "CoVision19: An Artificial Intelligence-Based Software for COVID-19 Likelihood Prediction Using the Combination of X-ray and Symptoms Data",
+        img: "https://i.cbc.ca/1.1558449.1379047730!/httpImage/image.jpg_gen/derivatives/16x9_780/hi-particle-852-cp-02904495-8col.jpg",
+        modalImage: "",
+        author: "R. Mesuga*, C.R. Pernes, L. Villacruz, and M.A. Burgonio, MSc.",
+        type: "Personal Project",
+        button_name: "Ongoing",
+        code: "",
+        info: "CoVision19 is a desktop software that combines the x-ray and symtoms data to predict COVID-19. This software has build-in deep learning and machine learning models responsible for prediction."
+    },
 ]
