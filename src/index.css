@@ -112,7 +112,7 @@ body {
     .hero-app,
     .hero-home,
     .hero-library {
-        background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/8e16fc30fed8903bc24a5d0f1f6e6347.jpg') black center center scroll;
+        background: linear-gradient(rgba(0, 0, 0, 0.332), rgba(0, 0, 0, 0.322)), url('./components/heroComponents/hero-images/giphy.gif') black center center scroll;
         height: 450px;
         object-fit: cover;
         width: 100%;
