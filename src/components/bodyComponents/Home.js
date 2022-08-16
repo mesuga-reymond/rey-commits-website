@@ -37,7 +37,7 @@ function Home() {
                     </div> */}
                 
 
-                    <div className="codersrank-activity-div">
+                    {/* <div className="codersrank-activity-div">
                         <h3 className="home-upper-text">GitHub Daily Activities</h3>
                         <div className="line">
                             <hr></hr>
@@ -64,7 +64,7 @@ function Home() {
                             legend="true"
                             skills="C, CSS,CoffeeScript, HTML, JSON, JavaScript, Jupyter Notebook, SCSS, TypeScript, Other"
                             username="mesuga-reymond"></codersrank-skills-chart>
-                    </div>
+                    </div> */}
                     <h3 className="home-upper-text">Domain Services</h3>
                     <div className="line">
                         <hr></hr>
@@ -93,10 +93,10 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    I am a former Artificial Intelligence (AI) Intern at Philippine Space Agency (PhilSA) 
-                                    where i did work in projects related to the application of AI in earth observation. 
-                                    I also have plenty of projects related to the application deep learning in the 
-                                    field of radiography, cancer research, astrophysics, particle physics especifically 
+                                    I am a former Student Intern focusing on A.I. at Philippine Space Agency (PhilSA) 
+                                    where i worked in projects related to the application of AI in earth observation. 
+                                    Aside from studying physics, I also worked on plenty of projects related to the application deep learning in the 
+                                    field of radiography, astrophysics, particle physics especifically 
                                     on electron mass detection, astrophysics especialy exo-planet and pulsar star prediction and more.
                                 </p>
                             </Col>
@@ -108,10 +108,10 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    This personal website is my biggest proejct so far. 
+                                    This personal website is my biggest web application project so far which I built during my free time as a college student since 2021
+                                    and will continue to improve it's performance and interface. 
                                     I have been using JavaScript as my programming language especially its framework 
-                                    called React JS and other CSS frameworks like React-Bootsrap. I have been developing this web application for several months now
-                                    and will continue to improve it's performance and interface.
+                                    called React JS and other CSS frameworks like React-Bootsrap.
                                 </p>
                             </Col>
                         </Row>
