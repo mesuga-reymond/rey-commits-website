@@ -36,8 +36,8 @@ export const webAppData = [
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
         info: "This is my former personal website and online resume made in Bootstrap.",
-        source: "https://rey-commits.github.io/Reymond-Portfolio/",
-        code: "https://mesuga-reymond.github.io/Reymond-Portfolio/",
+        source: "https://mesuga-reymond.github.io/Reymond-Portfolio/",
+        code: "https://github.com/mesuga-reymond/Reymond-Portfolio",
     },
     {
         id: "5",
