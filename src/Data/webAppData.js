@@ -6,7 +6,7 @@ export const webAppData = [
         vlogger: "Reymond R. Mesuga",
         topics: "Deep Learning",
         info: "A JavaScript the documentation website that is part of the project in FreeCodeCamp.",
-        source: "https://rey-commits.github.io/Documentation-Website/",
+        source: "https://mesuga-reymond.github.io/Documentation-Website/",
         code: "https://github.com/mesuga-reymond/Documentation-Website"
     },
     {
