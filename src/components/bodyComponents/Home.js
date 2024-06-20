@@ -79,10 +79,7 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    I am a Senior Physics student from PUP Manila 
-                                    who already has a solid foundation in physics and other engineering principles. 
-                                    I already conducted a research related to thermodynamics, electromagnetism, electronics, 
-                                    and application of artificial intelligence specifically in the field of medical imaging and astrophysics.
+                                I am a senior Physics student at PUP Manila with a strong background in physics and engineering principles. I have conducted research in areas such as thermodynamics, electromagnetism, electronics, and the application of artificial intelligence, particularly in medical imaging and astrophysics.
                                 </p>
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
@@ -93,11 +90,7 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    I am a former Student Intern focusing on A.I. at Philippine Space Agency (PhilSA) 
-                                    where i worked in projects related to the application of AI in earth observation. 
-                                    Aside from studying physics, I also worked on plenty of projects related to the application deep learning in the 
-                                    field of radiography, astrophysics, particle physics especifically 
-                                    on electron mass detection, astrophysics especialy exo-planet and pulsar star prediction and more.
+                                I previously interned at the Philippine Space Agency (PhilSA), focusing on artificial intelligence and its applications in earth observation. In addition to my physics studies, I have worked on numerous projects involving deep learning, particularly in radiography, astrophysics, particle physics (specifically electron mass detection), and predicting exoplanets and pulsar stars.
                                 </p>
                             </Col>
                             <Col fluid lg={4} md={4} sm={12} className="home-individual-info">
@@ -108,10 +101,7 @@ function Home() {
                                     <hr></hr>
                                 </div>
                                 <p className="info-text">
-                                    This personal website is my biggest web application project so far which I built during my free time as a college student since 2021
-                                    and will continue to improve it's performance and interface. 
-                                    I have been using JavaScript as my programming language especially its framework 
-                                    called React JS and other CSS frameworks like React-Bootsrap.
+                                This personal website is my largest web application project to date, which I started in 2021 and have continued to develop in my free time as a college student. I aim to keep enhancing its performance and interface. For this project, I have primarily used JavaScript, particularly the React JS framework, along with CSS frameworks like React-Bootstrap.
                                 </p>
                             </Col>
                         </Row>
