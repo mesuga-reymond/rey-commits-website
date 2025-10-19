@@ -24,18 +24,38 @@ body {
     }
 }
 
+/* 🌞 Default (light mode) */
 .hero-AI,
 .hero-about,
 .hero-app,
 .hero-home,
 .hero-library {
-    background: linear-gradient(rgba(58, 58, 58, 0.486), rgba(41, 40, 40, 0.384)), url('./images-src/satellite-img.jpg') black center center scroll;
+    background: linear-gradient(rgba(128, 127, 127, 0.486),
+            rgba(91, 91, 91, 0.384)),
+    url('./images-src/satellite-img.jpg') center center scroll;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 350px;
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
+}
+
+/* 🌙 Dark Mode */
+@media (prefers-color-scheme: dark) {
+
+    .hero-AI,
+    .hero-about,
+    .hero-app,
+    .hero-home,
+    .hero-library {
+        background: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)),
+            url('./images-src/satellite-img.jpg') center center scroll;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 .hero-home-container {
@@ -1057,8 +1077,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 15%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1081,8 +1101,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 60%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1102,8 +1122,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 53%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1126,8 +1146,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 30%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1184,8 +1204,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 33%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1223,8 +1243,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 32%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1262,8 +1282,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 35%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1283,8 +1303,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 40%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1304,8 +1324,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 45%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1343,8 +1363,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 50%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1382,8 +1402,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 54%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1403,8 +1423,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 60%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1424,8 +1444,9 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 65%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1463,8 +1484,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 72%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1484,8 +1505,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 90%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1523,8 +1544,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1562,8 +1583,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 120%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1581,7 +1602,7 @@ Home Component */
         left: 0;
         width: 100%;
         height: 50%;
-        background: url("./images-src/cloud.png");
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate-airplane 75s linear infinite;
     }
@@ -1601,8 +1622,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 150%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1622,8 +1643,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 170%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1643,8 +1664,8 @@ Home Component */
         top: 0;
         left: 0;
         width: 100%;
-        height: 200%;
-        background: url("./images-src/cloud.png");
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
         background-size: cover;
         animation: animate 350s linear infinite;
     }
@@ -1847,3 +1868,141 @@ Home Component */
         font-size: 0.95rem;
     }
 }
+
+/* ----------------------------
+   Default (Light Mode)
+---------------------------- */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* ----------------------------
+   Dark Mode (GitHub-like)
+---------------------------- */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #f0f6fc;
+}
+
+/* Texts and Links */
+body.dark-mode a,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode span {
+    color: #f0f6fc !important;
+}
+
+/* Optional: Darken cards and navbars */
+body.dark-mode .navbar {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d;
+}
+
+body.dark-mode .btn-outline-light {
+    border-color: #f0f6fc;
+    color: #f0f6fc;
+}
+
+body.dark-mode .btn-outline-light:hover {
+    background-color: #f0f6fc;
+    color: #0d1117;
+}
+
+/* Optional: Make cards or containers consistent */
+body.dark-mode .blog-card,
+body.dark-mode .container,
+body.dark-mode .navtab-container {
+    background-color: #161b22 !important;
+    color: #f0f6fc;
+}
+
+/* ======================================================
+   1. GLOBAL DARK MODE OVERRIDES FOR REACT-BOOTSTRAP
+   ====================================================== */
+body.dark-mode {
+    background-color: #0d1117 !important;
+    /* GitHub dark */
+    color: #f0f6fc !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d !important;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+    color: #f0f6fc !important;
+}
+
+/* Buttons */
+body.dark-mode .btn-outline-dark {
+    border-color: #f0f6fc !important;
+    color: #f0f6fc !important;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+    background-color: #f0f6fc !important;
+    color: #0d1117 !important;
+}
+
+/* Cards */
+body.dark-mode .card,
+body.dark-mode .blog-card {
+    background-color: #161b22 !important;
+    color: #f0f6fc !important;
+    border: 1px solid #30363d !important;
+}
+
+/* Form elements (if you have them) */
+body.dark-mode .form-control {
+    background-color: #161b22 !important;
+    color: #f0f6fc !important;
+    border: 1px solid #30363d !important;
+}
+
+/* Navs and Tabs */
+body.dark-mode .nav-tabs,
+body.dark-mode .nav-pills {
+    background-color: #0d1117 !important;
+}
+
+body.dark-mode .nav-link.active {
+    background-color: #223b26 !important;
+    /* GitHub green */
+    color: #fff !important;
+}
+
+/* ===========================================
+   Dark Mode Support for React-Bootstrap Containers
+   =========================================== */
+body.dark-mode .container-fluid,
+body.dark-mode .container {
+    background-color: #0d1117 !important;
+    /* GitHub Dark BG */
+    color: #f0f6fc !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Optional: Make your inner section match as well */
+body.dark-mode .blog-feed-section {
+    background-color: #0d1117 !important;
+    color: #f0f6fc !important;
+}
+
+/* Cards and text */
+body.dark-mode .blog-card {
+    background-color: #161b22 !important;
+    color: #f0f6fc !important;
+    border: 1px solid #30363d !important;
+}
+

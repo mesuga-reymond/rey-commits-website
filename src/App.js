@@ -29,10 +29,10 @@ function App() {
     return (
         <div className="App"> 
         <Router>
-        <Navigation />
-        {/* <HeroAirplane /> */}
-        <HeroJet/>
-        <HeroClouds/>
+            <Navigation />
+            {/* <HeroAirplane /> */}
+            <HeroJet/>
+            <HeroClouds/>
             <Switch>
                 <Route exact path="/" component={HeroHome} />
                 <Route exact path="/AI" component={HeroAI} />

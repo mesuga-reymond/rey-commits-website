@@ -12,7 +12,7 @@ function Home() {
       title: "Anomaly Detection in Raw Survey Data: An Interpretable Approach Using K-Means Clustering on World Values Survey Wave 7",
       author: "by R. Mesuga",
       date: "Oct 2025",
-      image: "https://lh6.googleusercontent.com/proxy/ihZSAHtUkT-no4nNa8OezJ6AHO8Doc55CVztJ-NSCdscH6PAK_VKTceW1Vkca-cPYAN04bzlwiGGtib0hILnbYVoQc3OW8Fd_AbyVzwqzq4kioQQcQqOQ6MHG9kg2w",
+      image: "https://miro.medium.com/v2/resize:fit:1024/1*UzVD9d_88lwGSY6UVUkylQ.jpeg",
       text: "This study, presented at the 16th National Convention on Statistics, explores how K-Means clustering can be used to detect anomalies in large-scale survey data. It addresses the limitations of traditional rule-based methods by offering a more data-driven and scalable approach to identify unusual response patterns. The findings show that K-Means can enhance survey data quality checks by uncovering hidden irregularities linked to specific attitudes and demographics in an objective and interpretable way.",
       link: "#",
     },
