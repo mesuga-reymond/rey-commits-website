@@ -27,11 +27,11 @@ function NavTab() {
                         <Nav.Link eventKey="4"><span className="nav-tab-link"><Button variant="outline-dark">Books & Notes Library</Button></span></Nav.Link> 
                     </LinkContainer>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                     <LinkContainer to="/about">
                         <Nav.Link eventKey="5"><span className="nav-tab-link"><Button variant="outline-dark">About</Button></span></Nav.Link>
                     </LinkContainer>
-                </Nav.Item>
+                </Nav.Item> */}
             </Nav>
         </Container>
         </div>

@@ -75,7 +75,7 @@ export const studyDataForLarge = [{
     },
     {
         id: 8,
-        title: "On the Performance of Various Deep Transfer Learning CNN Models in Glitch Waveform Identification in Gravitational-Wave Data",
+        title: "A Deep Transfer Learning Approach on Identifying Glitch Wave-form in Gravitational Wave Data",
         img: "./studyImages/black-hole-smush_600.gif",
         author: "Reymond Mesuga and Brian James Bayanay",
         // corresponding_author: "rrmesuga@iskolarngbayan.pup.edu.ph",
@@ -86,16 +86,7 @@ export const studyDataForLarge = [{
     },
 ]
 
-export const studyData1 = [{
-        id: 9,
-        title: "Hotel Cancellation Prediction Using Simple Deep Learning Model in Keras",
-        img: "./studyImages/oldHotel.jpg",
-        author: "Reymond R. Mesuga",
-        type: "Personal Project",
-        button_name: "Source Code",
-        code: "https://github.com/mesuga-reymond/AI_DeepLearning_MachineLearning_Projects/tree/master/2_Hotel_Cancellation_Prediction_Using_Binary_Classifier",
-        info: "This project is a simple deep learning model aim to predict hotel cancellations. The techniques used in this project can be applied as well to make predictions using different datasets."
-    },
+export const studyData1 = [
     {
         id: 10,
         title: "Covid-19 Exploratory Data Analysis Using Python",
