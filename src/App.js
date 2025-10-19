@@ -31,7 +31,7 @@ function App() {
         <Router>
         <Navigation />
         {/* <HeroAirplane /> */}
-        {/* <HeroJet/> uncomment to add jets */}
+        <HeroJet/>
         <HeroClouds/>
             <Switch>
                 <Route exact path="/" component={HeroHome} />
@@ -44,8 +44,8 @@ function App() {
             {/* <AlertPop/> */}
             <NavTab />
             
-            <RandomQuotes/>
-            {/* <BGMusic/> */}
+            {/* <RandomQuotes/> */}
+            <BGMusic/>
             
             <Switch>
                 <Route exact path="/" component={Home} />

@@ -14,14 +14,14 @@ function NavTab() {
                 </Nav.Item>
                 <Nav.Item>
                     <LinkContainer to="/AI">
-                        <Nav.Link eventKey="2"><span className="nav-tab-link"><Button variant="outline-dark">A.I. Projects</Button></span></Nav.Link>
+                        <Nav.Link eventKey="2"><span className="nav-tab-link"><Button variant="outline-dark">Projects</Button></span></Nav.Link>
                     </LinkContainer>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                     <LinkContainer to="/app-projects">
                         <Nav.Link eventKey="3"><span className="nav-tab-link"><Button variant="outline-dark">Web Apps</Button></span></Nav.Link>
                     </LinkContainer>
-                </Nav.Item>
+                </Nav.Item> */}
                 <Nav.Item>
                     <LinkContainer to="/books">
                         <Nav.Link eventKey="4"><span className="nav-tab-link"><Button variant="outline-dark">Books & Notes Library</Button></span></Nav.Link> 

@@ -23,11 +23,11 @@ function Navigation() {
                             <Nav.Link className="navlink-item">Home</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/AI">
-                            <Nav.Link className="navlink-item">A.I. Projects</Nav.Link>
+                            <Nav.Link className="navlink-item">Projects</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/app-projects">
+                        {/* <LinkContainer to="/app-projects">
                             <Nav.Link className="navlink-item">Web Apps</Nav.Link> 
-                        </LinkContainer>
+                        </LinkContainer> */}
                         <LinkContainer to="/books">
                             <Nav.Link className="navlink-item">Library</Nav.Link> 
                         </LinkContainer>

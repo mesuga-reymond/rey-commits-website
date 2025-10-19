@@ -26,7 +26,6 @@ function HeroHome() {
                     <div className="hero-for-small-screen">
 
                         <Image className="home-profile-image-small" src="reymond2.jpg" roundedCircle/>
-
                         <h1 className="home-hero-title home-hero hero-text">Reymond Mesuga</h1>
                     </div>
 
