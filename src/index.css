@@ -1,0 +1,2008 @@
+/* Custom Font */
+
+@font-face {
+    font-family: Pattaya;
+    src: url("./fonts/Pattaya-Regular.ttf");
+}
+
+
+/* Hero/Header Component */
+
+body {
+    text-align: center !important;
+    scrollbar-color: blue orange;
+}
+
+.website-title {
+    font-family: 'Pattaya', sans-serif;
+    font-family: Pattaya, sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 100%;
+    }
+}
+
+/* 🌞 Default (light mode) */
+.hero-AI,
+.hero-about,
+.hero-app,
+.hero-home,
+.hero-library {
+    background: linear-gradient(rgba(128, 127, 127, 0.486),
+            rgba(91, 91, 91, 0.384)),
+    url('./images-src/satellite-img.jpg') center center scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 🌙 Dark Mode */
+@media (prefers-color-scheme: dark) {
+
+    .hero-AI,
+    .hero-about,
+    .hero-app,
+    .hero-home,
+    .hero-library {
+        background: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)),
+            url('./images-src/satellite-img.jpg') center center scroll;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.hero-home-container {
+    margin-top: 50px;
+    padding-top: 5.5rem;
+    color: antiquewhite;
+    width: 100%;
+}
+
+.hero-container {
+    margin-top: 50px;
+    padding-top: 5rem;
+    color: antiquewhite;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-container {
+        margin-top: 50px;
+        padding-top: 7rem;
+        color: antiquewhite;
+        width: 100%;
+    }
+}
+
+.individual-button {
+    margin: 0 0.3rem;
+    padding: 0.5rem;
+    transition: transform 0.35s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+
+.individual-button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.281), 0 4px 8px rgba(0, 0, 0, 0.288);
+    font-family: 'Raleway', sans-serif;
+    transform: translate(0, -5px);
+    transition: transform 0.35s ease-in-out;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+}
+
+.hero-container-AI {
+    margin-top: 50px;
+    padding-top: 7rem;
+    color: antiquewhite;
+    width: 100%;
+}
+
+.hero-container-applist {
+    margin-top: 50px;
+    padding-top: 7rem;
+    color: antiquewhite;
+    width: 100%;
+}
+
+
+/* small screens */
+
+
+/* @media only screen and (max-width: 700px) {
+  .hero-container-AI{
+    margin-top: 40px;
+    padding-top: 2rem;
+    color: antiquewhite;
+    width: 100%;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+    .hero-AI,
+    .hero-about,
+    .hero-app,
+    .hero-home,
+    .hero-library {
+        background: linear-gradient(rgba(0, 0, 0, 0.682), rgba(0, 0, 0, 0.657)), url('./components/heroComponents/hero-images/people-walkig-circle.gif') black center center scroll;
+        height: 450px;
+        object-fit: cover;
+        width: 100%;
+    }
+    /*     
+    .hero-home{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/8e16fc30fed8903bc24a5d0f1f6e6347.jpg') black center center scroll;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .hero-AI{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/photo-1588571590924-433cc2020a12.jpeg') black center center scroll;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .hero-app{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/55d33dabcc43a2f88fc6af0d1e3ba020.jpg') black center center scroll;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .hero-library{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url("./components/heroComponents/hero-images/2wlsvmwl-900.jpg") black center center scroll;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .hero-about{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255)), url('./components/heroComponents/hero-images/about-violet.gif') black center center scroll;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+  } */
+    .hero-text {
+        text-shadow: 0 0 50px #000000, 0 0 50px rgb(0, 0, 0);
+        font-family: 'Asap', sans-serif;
+        /* font-family: 'Raleway', sans-serif; */
+        font-weight: 600;
+        /* font-family: 'Besley', serif; */
+        /* font-family: 'Libre Baskerville', serif; */
+        /* font-family: 'Roboto Mono', monospace; */
+    }
+}
+
+.hero-text {
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.46), 0 0 20px rgba(0, 0, 0, 0.487);
+    font-family: 'Asap', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Besley', serif; */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-container-AI {
+        padding-top: 10rem;
+        padding-right: 0;
+        padding-bottom: 5px;
+        font-size: 1.2;
+    }
+    .hero-container-applist {
+        margin-top: 15px;
+        padding-top: 3.5rem;
+        color: antiquewhite;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-container-AI {
+        padding-top: 80px;
+        padding-right: 0;
+    }
+    .hero-container-applist {
+        margin-top: 20px;
+        padding-top: 6rem;
+        color: antiquewhite;
+        width: 100%;
+    }
+}
+
+
+/* medium screen/ipad size alike */
+
+
+/* @media only screen and (max-width: 800px) {
+  .hero-container-AI{
+    margin-top: 50px;
+    padding-top: 4rem;
+    color: antiquewhite;
+    width: 100%;
+  }
+} */
+
+
+/* iphone 5 */
+
+
+/* Only iPhone 5 (portrait mode) */
+
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  .hero {
+    height: 600px;
+  }
+
+  .hero-container {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-size: small;
+  }
+} */
+
+
+/* @media only screen 
+    and (max-width : 320px) 
+    and (max-height : 568px){
+      .hero{
+        height: 650px;
+        padding-top: 0rem;
+      }
+      .hero-container{
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      
+      .individual-button{
+        margin: 0.2rem 0.2rem;
+        
+      }
+    } */
+
+
+/* iphone 5 */
+
+
+/* @media screen and (device-aspect-ratio: 40/71) {
+  .hero{
+    height: 380px;
+  }
+  .hero-container{
+    padding-top: 2rem;
+  }
+  .individual-button{
+    margin: 0.2rem 0.2rem;
+    
+  }
+} */
+
+
+/* iphone X */
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .hero-container {
+        padding-top: 4rem;
+    }
+}
+
+
+/* iphone 6/7/8 plus */
+
+@media only screen and (max-width: 414px) and (max-height: 736px) {
+    /* .hero-container {
+    padding-top: 3.8rem;
+  } */
+    .hero {
+        height: 350px;
+    }
+    .individual-button {
+        margin: 0.1rem 0.2rem;
+    }
+}
+
+
+/* Galaxy note 3 */
+
+@media only screen and (max-width: 360px) and (max-height: 640px) {
+    .hero {
+        height: 380px;
+    }
+    .individual-button {
+        margin: 0.2rem;
+    }
+}
+
+
+/* Navbar Component*/
+
+
+/* .navbar-toggle{
+  margin-right: rem;
+} */
+
+.navbar-copyright {
+    font-size: 0.5rem;
+    position: relative;
+    bottom: 0.6rem;
+}
+
+.navlinks {
+    margin-left: auto;
+    margin-right: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+    font-family: 'Pattaya', sans-serif;
+    font-family: Pattaya, sans-serif;
+}
+
+.navlink-item {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .navlink-item {
+        margin: 0.2rem 0;
+        font-size: 1.2rem;
+        /* margin-right: auto;
+    margin-left: 2rem; */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navlink-item {
+        margin: 0.2rem 0;
+        font-size: 1.2rem;
+    }
+}
+
+
+/* NavTab Component */
+
+.navtab-container {
+    margin-top: 1.3rem;
+}
+
+.nav-tab-link {
+    color: rgba(0, 0, 0, 0.782);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* RandomQuotes */
+
+.quote-card-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.466)), url("./images-src/yellowish-neuron.gif");
+}
+
+.quote-card {
+    padding-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.quote-card-main {
+    transition: transform 0.35s ease-in-out;
+}
+
+.quote-card-main:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.171), 0 4px 8px rgba(0, 0, 0, 0.288);
+    transform: translate(0, -5px);
+    transition: transform 0.35s ease-in-out;
+}
+
+.quote-card-text {
+    color: white;
+}
+
+.quote-card-title {
+    color: white;
+}
+
+
+/* ContentTable Component */
+
+.click-sign {
+    font-size: 0.7rem;
+}
+
+.quote-header {
+    font-size: 1.3rem;
+}
+
+.content-header {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.collapse,
+.content-table,
+.content-toggle,
+.content-toggle:hover {
+    border-radius: 16px !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.card-header,
+.quote-header {
+    border-radius: 16px 16px 0 0 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.card-body,
+.quote-card-body {
+    border-radius: 0 0 16px 16px !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.content-toggle:hover {
+    cursor: pointer;
+}
+
+.content-table {
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-table:hover {
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.082), 0 6px 20px 0 rgba(56, 56, 56, 0.097);
+}
+
+.content-item {
+    list-style-type: none;
+    margin-right: auto;
+}
+
+.content-item:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.content-table-Link-tag {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+
+/* CardList Component */
+
+.cardlist-container {
+    padding: 0 0 2.3rem;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cardlist-row {
+    width: 100%;
+    padding-left: 1.7rem;
+}
+
+
+/* IndividualCard Component */
+
+.card {
+    border-radius: 16px !important;
+    border-top: none !important;
+}
+
+.card-img-top {
+    border-radius: 16px !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.individual-card {
+    margin: 1.8rem 1.2rem;
+    border-radius: 16px !important;
+    border-top: none !important;
+    transition: transform 0.35s ease-in-out;
+}
+
+.individual-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    transform: translate(0, -13px);
+    transition: transform 0.35s ease-in-out;
+    border-radius: 16px !important;
+}
+
+.book-under-line {
+    padding: 0 3rem;
+}
+
+.card-study-modal {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* .modal-footer{
+  margin-right: auto;
+} */
+
+
+/* Footer Component */
+
+@media only screen and (min-width: 600px) {
+    .hero-footer {
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.582)), url('./images-src/waterfall-higher.gif') black center center scroll;
+        height: 100%;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-footer {
+        height: 100%;
+        font-family: 'Raleway', sans-serif;
+        /* background-color:black !important; */
+        background: linear-gradient(rgba(0, 0, 0, 0.974), rgba(0, 0, 0, 0.384)), url('./components/heroComponents/hero-images/violet.gif') black center center scroll;
+    }
+}
+
+.hero-container-footer {
+    padding: 3rem 0;
+    color: antiquewhite;
+    height: 100%;
+}
+
+.copy-right {
+    padding-top: 1rem;
+}
+
+.footer-social-links {
+    padding: 0 0.5rem;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer-social-links:hover {
+    color: antiquewhite;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+
+/* CarouselSlide */
+
+.carousel-body {
+    height: 100%;
+    padding-bottom: 5rem;
+}
+
+.carousel-image {
+    filter: brightness(50%);
+}
+
+.header-text {
+    padding-bottom: 1rem;
+}
+
+
+/* ABOUT */
+
+
+/* .about-hero-head{
+  padding-top: 2rem;
+} */
+
+.about-container {
+    padding: 2.4rem 0 4rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile-div {
+    position: relative;
+}
+
+
+/* .home-profile-image:hover{
+  width: 12rem;
+  height: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  transform: scale(1.06,1.06);
+  transition: transform 0.35s ease-in-out;
+
+} */
+
+
+/* @media only screen and (max-width: 1000px){
+  .home-profile-image-large{
+    display: none;
+  }
+} */
+
+@media only screen and (min-width: 1000px) {
+    .home-profile-image-large {
+        /* padding: 4rem 0 1.5rem 0; */
+        width: 11rem;
+        height: 11rem;
+        margin-left: auto;
+        margin-right: auto;
+        /* filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); */
+        transition: transform 0.35s ease-in-out;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 5px;
+        position: absolute;
+        top: 11rem;
+        right: 75%;
+    }
+    .home-profile-image-medium {
+        display: none;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-buttons-container {
+        position: absolute;
+        top: 17rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small-screen-name {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 999px) {
+    .home-profile-image-medium {
+        /* padding: 4rem 0 1.5rem 0; */
+        width: 11rem;
+        height: 11rem;
+        margin-left: auto;
+        margin-right: auto;
+        /* filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); */
+        transition: transform 0.35s ease-in-out;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 5px;
+        position: absolute;
+        top: 13rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-profile-image-large {
+        display: none;
+    }
+    .navtab-container {
+        padding-top: 7rem;
+    }
+    .contact-buttons-container {
+        position: absolute;
+        top: 17rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small-screen-name {
+        display: none;
+    }
+}
+
+@media only screen and (width: 600px) {
+    .home-profile-image-medium {
+        display: none;
+    }
+    .home-profile-image-large {
+        display: none;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small-screen-name {
+        display: none;
+    }
+    .airplane {
+        display: none;
+    }
+    .contact-buttons-container {
+        position: absolute;
+        top: 19rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .home-profile-image-small {
+        /* padding: 4rem 0 1.5rem 0; */
+        width: 8rem;
+        height: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+        transition: transform 0.35s ease-in-out;
+    }
+    .home-profile-image-medium {
+        display: none;
+    }
+    .home-profile-image-large {
+        display: none;
+    }
+    .large-screen-name {
+        display: none;
+    }
+    .large-screen-name {
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .airplane {
+        display: none;
+    }
+}
+
+.profile-image {
+    padding: 4rem 0 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.profile-info {
+    margin: 0 1.8rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.about-info {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.line {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* large screen */
+
+@media only screen and (max-width: 4000px) {
+    .profile-image {
+        width: 20%;
+    }
+    .about-info {
+        margin: 0 12rem;
+    }
+}
+
+
+/* medium screens/ipad-pro alike*/
+
+@media only screen and (max-width: 1024px) {
+    .profile-image {
+        width: 40%;
+    }
+    .about-info {
+        margin: 0 10rem;
+        font-size: 25px;
+    }
+}
+
+
+/* medium screen/ipad size alike */
+
+@media only screen and (max-width: 800px) {
+    .profile-image {
+        width: 40%;
+    }
+    .about-info {
+        margin: 0 5rem;
+        font-size: 1.4rem;
+    }
+    .navlinks {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 2rem;
+    }
+}
+
+
+/* small screens */
+
+@media only screen and (max-width: 700px) {
+    .profile-image {
+        width: 50%;
+    }
+    .about-info {
+        margin: 0 1rem;
+        font-size: inherit;
+    }
+}
+
+
+/* BookList */
+
+.booklist-container {
+    margin: 2rem auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.media-books {
+    padding: 2rem 0 0;
+}
+
+.book-button {
+    margin: 1rem 0;
+}
+
+.booklist-intro {
+    padding: 2rem 0;
+}
+
+.booklist-underline {
+    margin: 0 4rem;
+}
+
+
+/* App list */
+
+.individual-app {
+    margin: 0 auto;
+    transition: transform 0.35s ease-in-out;
+}
+
+.individual-app:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    transform: translate(0, -10px);
+    transition: transform 0.35s ease-in-out;
+}
+
+.app-list-container {
+    padding: 2rem;
+}
+
+.individual-app-div {
+    padding: 2rem 0;
+}
+
+
+/* Individual App */
+
+.app-individual-button {
+    margin: 0 0.2rem;
+}
+
+.app-individual-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/* 
+Home Component */
+
+.info-text {
+    margin: 2rem 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-container {
+    padding: 3rem 0 0;
+}
+
+.home-individual-info {
+    padding: 3rem 0 0;
+}
+
+.home-upper-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+.individual-row {
+    margin: 0 auto;
+}
+
+.home-image {
+    width: 80%;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    transition: transform 0.35s ease-in-out;
+}
+
+.home-image:hover {
+    transform: translate(0, -13px);
+    transition: transform 0.35s ease-in-out;
+}
+
+.individual-home-card {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.topic-collection {
+    margin: 0 2rem;
+}
+
+.home-deck-title {
+    padding: 0;
+    font-family: 'Pattaya', sans-serif;
+    font-family: Pattaya, sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 3.3rem;
+    font-weight: 10;
+    color: rgb(11, 77, 11);
+}
+
+.money-border {
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin: 1rem auto;
+    background: repeating-linear-gradient(45deg,
+            #d8d3b0,
+            #d8d3b0 2px,
+            #e4ddba 2px,
+            #e4ddba 4px);
+    border: 8px double #1c4d2d;
+    border-radius: 12px;
+    box-shadow:
+        inset 0 0 10px rgba(0, 0, 0, 0.2),
+        0 0 0 6px #9c9c72,
+        0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #1c4d2d;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #fff;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 599px) {
+    .hero-for-small-screen {
+        display: none;
+    }
+    .home-image-black {
+        display: none;
+    }
+    /* Home Hero */
+    .home-hero {
+        padding: 2rem 0 0;
+        font-family: 'Pattaya', sans-serif;
+        font-family: Pattaya, sans-serif;
+        /* font-family: 'Raleway', sans-serif; */
+        font-size: 3.5rem;
+        font-weight: 10;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-for-big-screen {
+        display: none;
+    }
+    .home-image {
+        display: none;
+    }
+    .clouds {
+        display: none;
+    }
+    .jet {
+        display: none;
+    }
+    /* Home Hero */
+    .home-hero {
+        padding: 0;
+        font-family: 'Pattaya', sans-serif;
+        font-family: Pattaya, sans-serif;
+        /* font-family: 'Raleway', sans-serif; */
+        font-size: 2.3rem;
+        font-weight: 10;
+    }
+}
+
+.home-info-title {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* TechsLogoList */
+
+.individual-logo {
+    width: 40%;
+    margin: 1rem;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    transition: transform 0.7s ease-in-out;
+}
+
+.individual-logo:hover {
+    transform: rotate(360deg);
+}
+
+.techslogolist-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 2.5rem;
+}
+
+.techslogolist-container {
+    margin: 3rem auto;
+}
+
+.logo-name {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Clouds */
+
+@media only screen and (min-width: 1400px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .navtab-container {
+        padding-top: 3.5rem;
+    }
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 999px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+
+/* Adjustment of clouds for different heights */
+
+@media only screen and (max-height: 1400px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+    /* uncomment to use jets */
+    /* .jet {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background: url("/home/reymond/Documents/2.Portfolio_projects/data-analysis-ai-portfolio/src/images-src/jet.drawio.png");
+        background-size: cover;
+        animation: animate-jet 15s linear infinite;
+    }
+    @keyframes animate-jet {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    } */
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 1350px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 1300px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 1260px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 1150px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 1015px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 23%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 895px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 740px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 680px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 630px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 560px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: url("./images-src/greenAirplane.drawio.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+    .airplane {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate-airplane 75s linear infinite;
+    }
+    @keyframes animate-airplane {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: 5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 340px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 270px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (max-height: 240px) {
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(29, 29, 29, 0.312), rgba(0, 0, 0, 0.196)), url("./images-src/cloud.png");
+        background-size: cover;
+        animation: animate 350s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+        }
+        100% {
+            background-position: -5440px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+    .home-profile-image-large {
+        display: none;
+    }
+    .home-profile-image-medium {
+        display: none;
+    }
+}
+
+
+/* CODER RANK WIDGETS */
+
+.codersrank-activity-div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}
+
+.codersrank-skills-chart-div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}
+
+.codersrank-skills-chart {
+    --tooltip-total-font-size: 10.5rem;
+}
+
+.bg-music {
+    display: none;
+}
+
+.small-screen-name {
+    padding-top: 3rem;
+}
+
+.nav-link {
+    padding: 0.5rem !important;
+}
+
+
+/* Blogsss / Feed */
+/* Overall Section Styling */
+.blog-feed-section {
+    min-height: 100vh;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+}
+
+/* Title */
+.blog-feed-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1f2d2b;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.blog-feed-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #3a7a63;
+    margin: 0.6rem auto 0;
+    border-radius: 10px;
+}
+
+/* Centered Grid Layout */
+.blog-feed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 360px));
+    justify-content: center;
+    /* Centers the cards horizontally */
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Blog Cards */
+.blog-card {
+    background: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 360px;
+    /* Keeps all cards uniform */
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.blog-image-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-card-img {
+    transform: scale(1.05);
+}
+
+/* Text Content */
+.blog-card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.blog-card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #1a3c2e;
+    margin-bottom: 0.4rem;
+}
+
+.blog-card-date {
+    font-size: 0.9rem;
+    color: #6f7c76;
+    margin-bottom: 0.8rem;
+}
+
+.blog-card-text {
+    flex: 1;
+    font-size: 1rem;
+    color: #3e3e3e;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Read More Button */
+.blog-read-more {
+    font-weight: 600;
+    color: #3a7a63;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.blog-read-more:hover {
+    color: #285545;
+    text-decoration: underline;
+}
+
+.blog-card-author {
+    font-size: 0.95rem;
+    color: #3a7a63;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .blog-feed-section {
+        padding: 3rem 1rem;
+    }
+
+    .blog-feed-title {
+        font-size: 1.6rem;
+    }
+
+    .blog-card-text {
+        font-size: 0.95rem;
+    }
+}
+
+/* ----------------------------
+   Default (Light Mode)
+---------------------------- */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* ----------------------------
+   Dark Mode (GitHub-like)
+---------------------------- */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #f0f6fc;
+}
+
+/* Texts and Links */
+body.dark-mode a,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode span {
+    color: #f0f6fc !important;
+}
+
+/* Optional: Darken cards and navbars */
+body.dark-mode .navbar {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d;
+}
+
+body.dark-mode .btn-outline-light {
+    border-color: #f0f6fc;
+    color: #f0f6fc;
+}
+
+body.dark-mode .btn-outline-light:hover {
+    background-color: #f0f6fc;
+    color: #0d1117;
+}
+
+/* Optional: Make cards or containers consistent */
+body.dark-mode .blog-card,
+body.dark-mode .container,
+body.dark-mode .navtab-container {
+    background-color: #161b22 !important;
+    color: #f0f6fc;
+}
+
+/* ======================================================
+   1. GLOBAL DARK MODE OVERRIDES FOR REACT-BOOTSTRAP
+   ====================================================== */
+body.dark-mode {
+    background-color: #0d1117 !important;
+    /* GitHub dark */
+    color: #f0f6fc !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d !important;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+    color: #f0f6fc !important;
+}
+
+/* Buttons */
+body.dark-mode .btn-outline-dark {
+    border-color: #f0f6fc !important;
+    color: #f0f6fc !important;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+    background-color: #f0f6fc !important;
+    color: #0d1117 !important;
+}
+
+/* Cards */
+body.dark-mode .card,
+body.dark-mode .blog-card {
+    background-color: #161b22 !important;
+    color: #f0f6fc !important;
+    border: 1px solid #30363d !important;
+}
+
+/* Form elements (if you have them) */
+body.dark-mode .form-control {
+    background-color: #161b22 !important;
+    color: #f0f6fc !important;
+    border: 1px solid #30363d !important;
+}
+
+/* Navs and Tabs */
+body.dark-mode .nav-tabs,
+body.dark-mode .nav-pills {
+    background-color: #0d1117 !important;
+}
+
+body.dark-mode .nav-link.active {
+    background-color: #223b26 !important;
+    /* GitHub green */
+    color: #fff !important;
+}
+
+/* ===========================================
+   Dark Mode Support for React-Bootstrap Containers
+   =========================================== */
+body.dark-mode .container-fluid,
+body.dark-mode .container {
+    background-color: #0d1117 !important;
+    /* GitHub Dark BG */
+    color: #f0f6fc !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Optional: Make your inner section match as well */
+body.dark-mode .blog-feed-section {
+    background-color: #0d1117 !important;
+    color: #f0f6fc !important;
+}
+
+/* Cards and text */
+body.dark-mode .blog-card {
+    background-color: #161b22 !important;
+    color: #f0f6fc !important;
+    border: 1px solid #30363d !important;
+}
+
